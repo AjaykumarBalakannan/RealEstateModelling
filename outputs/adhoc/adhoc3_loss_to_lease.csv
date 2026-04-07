@@ -1,0 +1,41 @@
+property,city,unit_type,unit_count,avg_market_rent,avg_actual_rent,avg_loss_to_lease,total_monthly_gap,annual_revenue_gap,loss_pct
+Fieldside Grande Ph1,Pikesville,2BR/2BA,80,2259.0,2123.0,136.0,10867.0,130404.0,6.0
+Townes at Heritage Hills,Glen Burnie,3BR/2BA,61,2726.0,2552.0,174.0,10600.0,127200.0,6.4
+Cedar Ridge Commons,Ellicott City,2BR/2BA,65,2227.0,2075.0,152.0,9912.0,118944.0,6.8
+Duvall Westside,Laurel,2BR/2BA,77,2238.0,2114.0,124.0,9551.0,114612.0,5.5
+Mills Crossing,Owings Mills,2BR/2BA,70,2248.0,2112.0,136.0,9505.0,114060.0,6.0
+Mills Crossing,Owings Mills,3BR/2BA,50,2744.0,2575.0,170.0,8492.0,101904.0,6.2
+Cedar Ridge Commons,Ellicott City,1BR/1BA,67,1749.0,1637.0,113.0,7568.0,90816.0,6.5
+Duvall Westside,Laurel,1BR/1BA,63,1759.0,1648.0,111.0,6990.0,83880.0,6.3
+Overlook at Bulle Rock,Havre de Grace,2BR/2BA,48,2257.0,2111.0,145.0,6980.0,83760.0,6.4
+Riverfront Flats,Frederick,2BR/2BA,51,2255.0,2120.0,135.0,6876.0,82512.0,6.0
+Riverfront Flats,Frederick,1BR/1BA,65,1734.0,1631.0,103.0,6671.0,80052.0,5.9
+Cedar Ridge Commons,Ellicott City,2BR/1BA,45,2009.0,1885.0,124.0,5583.0,66996.0,6.2
+Fieldside Grande Ph1,Pikesville,1BR/1BA,62,1748.0,1658.0,90.0,5575.0,66900.0,5.1
+Avenue Grand,Baltimore,2BR/2BA,41,2243.0,2111.0,132.0,5412.0,64944.0,5.9
+Avenue Grand,Baltimore,1BR/1BA,51,1778.0,1675.0,102.0,5218.0,62616.0,5.8
+Mills Crossing,Owings Mills,1BR/1BA,43,1747.0,1626.0,121.0,5191.0,62292.0,6.9
+Townes at Heritage Hills,Glen Burnie,2BR/2BA,35,2246.0,2100.0,146.0,5095.0,61140.0,6.5
+Mills Crossing,Owings Mills,2BR/1BA,33,2025.0,1890.0,135.0,4449.0,53388.0,6.7
+Overlook at Bulle Rock,Havre de Grace,3BR/2BA,27,2717.0,2564.0,153.0,4124.0,49488.0,5.6
+Duvall Westside,Laurel,3BR/2BA,23,2808.0,2642.0,166.0,3813.0,45756.0,5.9
+Cedar Ridge Commons,Ellicott City,3BR/2BA,19,2729.0,2536.0,192.0,3656.0,43872.0,7.1
+Riverfront Flats,Frederick,3BR/2BA,20,2857.0,2682.0,175.0,3498.0,41976.0,6.1
+Fieldside Grande Ph1,Pikesville,3BR/2BA,23,2752.0,2621.0,131.0,3015.0,36180.0,4.8
+Avenue Grand,Baltimore,3BR/2BA,15,2720.0,2523.0,196.0,2947.0,35364.0,7.2
+Riverfront Flats,Frederick,Studio,27,1517.0,1412.0,105.0,2837.0,34044.0,6.9
+Fieldside Grande Ph1,Pikesville,2BR/1BA,21,1985.0,1859.0,126.0,2650.0,31800.0,6.4
+Avenue Grand,Baltimore,2BR/1BA,18,1996.0,1853.0,143.0,2578.0,30936.0,7.2
+Avenue Grand,Baltimore,Studio,21,1519.0,1415.0,103.0,2169.0,26028.0,6.8
+Overlook at Bulle Rock,Havre de Grace,1BR/1BA,18,1717.0,1598.0,119.0,2143.0,25716.0,6.9
+Riverfront Flats,Frederick,2BR/1BA,16,2029.0,1905.0,124.0,1976.0,23712.0,6.1
+Duvall Westside,Laurel,Studio,20,1474.0,1384.0,89.0,1787.0,21444.0,6.1
+Overlook at Bulle Rock,Havre de Grace,2BR/1BA,16,2005.0,1895.0,111.0,1769.0,21228.0,5.5
+Townes at Heritage Hills,Glen Burnie,2BR/1BA,11,1960.0,1807.0,153.0,1682.0,20184.0,7.8
+Fieldside Grande Ph1,Pikesville,Studio,24,1507.0,1438.0,70.0,1674.0,20088.0,4.6
+Cedar Ridge Commons,Ellicott City,Studio,19,1503.0,1422.0,80.0,1529.0,18348.0,5.4
+Duvall Westside,Laurel,2BR/1BA,15,2011.0,1921.0,90.0,1353.0,16236.0,4.5
+Townes at Heritage Hills,Glen Burnie,1BR/1BA,11,1734.0,1620.0,114.0,1254.0,15048.0,6.6
+Mills Crossing,Owings Mills,Studio,11,1563.0,1492.0,71.0,778.0,9336.0,4.5
+Overlook at Bulle Rock,Havre de Grace,Studio,7,1506.0,1408.0,98.0,686.0,8232.0,6.5
+Townes at Heritage Hills,Glen Burnie,Studio,1,1598.0,1575.0,23.0,23.0,276.0,1.4

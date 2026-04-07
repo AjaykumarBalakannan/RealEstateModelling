@@ -1,0 +1,225 @@
+property,city,category,priority,total_tickets,open_tickets,avg_resolution_days,total_cost,avg_cost_per_ticket
+Riverfront Flats,Frederick,Flooring,Medium,25,2,19.0,34509.0,1380.0
+Cedar Ridge Commons,Ellicott City,Plumbing,Medium,30,4,21.6,32208.0,1074.0
+Riverfront Flats,Frederick,Plumbing,Medium,33,10,23.6,32083.0,972.0
+Mills Crossing,Owings Mills,Appliance,Medium,25,3,24.1,31539.0,1262.0
+Fieldside Grande Ph1,Pikesville,HVAC,Medium,25,2,25.3,31203.0,1248.0
+Cedar Ridge Commons,Ellicott City,HVAC,Medium,29,6,19.7,30038.0,1036.0
+Mills Crossing,Owings Mills,Flooring,Medium,24,3,22.8,29872.0,1245.0
+Duvall Westside,Laurel,Flooring,Medium,27,6,22.8,29545.0,1094.0
+Mills Crossing,Owings Mills,General,Medium,26,7,25.5,29505.0,1135.0
+Townes at Heritage Hills,Glen Burnie,Flooring,Medium,23,4,22.3,28706.0,1248.0
+Duvall Westside,Laurel,Pest Control,Medium,22,3,24.8,27353.0,1243.0
+Mills Crossing,Owings Mills,Pest Control,Medium,26,1,23.0,26994.0,1038.0
+Cedar Ridge Commons,Ellicott City,Electrical,Medium,33,5,21.3,26661.0,808.0
+Riverfront Flats,Frederick,General,Medium,18,1,19.6,25880.0,1438.0
+Fieldside Grande Ph1,Pikesville,Pest Control,Medium,25,2,29.6,25522.0,1021.0
+Duvall Westside,Laurel,Electrical,Medium,24,6,27.4,25346.0,1056.0
+Fieldside Grande Ph1,Pikesville,General,Medium,26,4,24.4,25311.0,973.0
+Cedar Ridge Commons,Ellicott City,Pest Control,Medium,26,8,21.2,24712.0,950.0
+Mills Crossing,Owings Mills,General,Emergency,15,1,17.7,24154.0,1610.0
+Mills Crossing,Owings Mills,HVAC,Medium,24,6,26.4,23947.0,998.0
+Mills Crossing,Owings Mills,Plumbing,Medium,20,5,24.5,22796.0,1140.0
+Fieldside Grande Ph1,Pikesville,Plumbing,Medium,19,2,18.8,21779.0,1146.0
+Duvall Westside,Laurel,Plumbing,Medium,24,8,17.7,21631.0,901.0
+Riverfront Flats,Frederick,Flooring,Low,14,1,22.8,21308.0,1522.0
+Duvall Westside,Laurel,General,Medium,20,5,26.5,20967.0,1048.0
+Riverfront Flats,Frederick,Plumbing,Emergency,19,5,19.9,20777.0,1094.0
+Duvall Westside,Laurel,Pest Control,Low,14,2,23.1,20751.0,1482.0
+Riverfront Flats,Frederick,Pest Control,Medium,22,6,20.3,20738.0,943.0
+Cedar Ridge Commons,Ellicott City,Electrical,High,17,3,25.1,19949.0,1173.0
+Duvall Westside,Laurel,Appliance,Medium,17,2,20.6,19744.0,1161.0
+Cedar Ridge Commons,Ellicott City,Electrical,Low,13,1,23.1,19188.0,1476.0
+Townes at Heritage Hills,Glen Burnie,Electrical,Medium,15,2,20.0,19133.0,1276.0
+Cedar Ridge Commons,Ellicott City,General,Medium,19,2,24.4,18865.0,993.0
+Fieldside Grande Ph1,Pikesville,Electrical,Low,12,1,23.5,18832.0,1569.0
+Cedar Ridge Commons,Ellicott City,Flooring,Emergency,17,3,24.1,18736.0,1102.0
+Townes at Heritage Hills,Glen Burnie,Appliance,Medium,15,0,18.0,18314.0,1221.0
+Cedar Ridge Commons,Ellicott City,Appliance,Low,13,1,23.6,18096.0,1392.0
+Duvall Westside,Laurel,HVAC,Medium,20,3,18.8,17853.0,893.0
+Riverfront Flats,Frederick,Electrical,Emergency,15,2,28.5,17801.0,1187.0
+Townes at Heritage Hills,Glen Burnie,HVAC,Medium,20,5,22.5,17190.0,859.0
+Cedar Ridge Commons,Ellicott City,Appliance,Emergency,15,2,24.3,17054.0,1137.0
+Riverfront Flats,Frederick,HVAC,Medium,25,6,19.7,16900.0,676.0
+Overlook at Bulle Rock,Havre de Grace,Plumbing,Medium,11,2,19.8,16431.0,1494.0
+Avenue Grand,Baltimore,Electrical,Medium,11,1,20.6,15903.0,1446.0
+Townes at Heritage Hills,Glen Burnie,Pest Control,Medium,13,2,24.3,15688.0,1207.0
+Mills Crossing,Owings Mills,Flooring,Emergency,18,5,28.8,15624.0,868.0
+Cedar Ridge Commons,Ellicott City,Plumbing,Emergency,15,3,26.7,15609.0,1041.0
+Mills Crossing,Owings Mills,Electrical,Medium,19,8,18.8,15566.0,819.0
+Riverfront Flats,Frederick,Electrical,High,15,4,26.2,15501.0,1033.0
+Avenue Grand,Baltimore,Pest Control,Medium,13,2,31.5,15290.0,1176.0
+Townes at Heritage Hills,Glen Burnie,Plumbing,Medium,13,3,19.3,14865.0,1143.0
+Mills Crossing,Owings Mills,Flooring,High,13,4,30.6,14844.0,1142.0
+Mills Crossing,Owings Mills,HVAC,Emergency,14,4,25.7,14511.0,1037.0
+Cedar Ridge Commons,Ellicott City,General,Low,11,0,24.5,14320.0,1302.0
+Duvall Westside,Laurel,General,Emergency,13,2,24.6,14175.0,1090.0
+Fieldside Grande Ph1,Pikesville,Appliance,High,14,3,24.6,14147.0,1011.0
+Cedar Ridge Commons,Ellicott City,HVAC,Emergency,13,5,26.4,14146.0,1088.0
+Fieldside Grande Ph1,Pikesville,Appliance,Low,15,2,18.5,13992.0,933.0
+Overlook at Bulle Rock,Havre de Grace,HVAC,High,13,0,26.6,13975.0,1075.0
+Overlook at Bulle Rock,Havre de Grace,Electrical,Low,11,0,27.6,13940.0,1267.0
+Fieldside Grande Ph1,Pikesville,Appliance,Medium,17,3,17.9,13698.0,806.0
+Overlook at Bulle Rock,Havre de Grace,Plumbing,Emergency,10,1,28.2,13486.0,1349.0
+Mills Crossing,Owings Mills,Electrical,Low,15,5,23.1,13304.0,887.0
+Overlook at Bulle Rock,Havre de Grace,HVAC,Medium,9,1,20.4,13186.0,1465.0
+Fieldside Grande Ph1,Pikesville,Flooring,Medium,10,1,25.3,13123.0,1312.0
+Cedar Ridge Commons,Ellicott City,Flooring,Medium,17,4,26.4,13039.0,767.0
+Duvall Westside,Laurel,Appliance,High,12,3,27.2,13028.0,1086.0
+Overlook at Bulle Rock,Havre de Grace,Appliance,Medium,11,2,26.2,12943.0,1177.0
+Townes at Heritage Hills,Glen Burnie,General,High,12,3,20.1,12757.0,1063.0
+Overlook at Bulle Rock,Havre de Grace,Flooring,Medium,13,4,20.1,12555.0,966.0
+Riverfront Flats,Frederick,Appliance,Medium,14,4,27.1,12466.0,890.0
+Overlook at Bulle Rock,Havre de Grace,Flooring,Low,8,0,26.6,12449.0,1556.0
+Duvall Westside,Laurel,Flooring,Low,9,1,22.5,12404.0,1378.0
+Townes at Heritage Hills,Glen Burnie,Appliance,Emergency,8,0,28.3,12397.0,1550.0
+Riverfront Flats,Frederick,HVAC,High,9,2,27.0,12274.0,1364.0
+Riverfront Flats,Frederick,Electrical,Medium,12,5,11.0,12241.0,1020.0
+Duvall Westside,Laurel,Electrical,Low,12,5,25.7,12227.0,1019.0
+Cedar Ridge Commons,Ellicott City,Pest Control,Emergency,11,3,24.6,12106.0,1101.0
+Fieldside Grande Ph1,Pikesville,Pest Control,High,12,4,21.6,12102.0,1008.0
+Avenue Grand,Baltimore,Flooring,Medium,15,3,19.4,12008.0,801.0
+Mills Crossing,Owings Mills,Appliance,High,13,3,16.8,11541.0,888.0
+Duvall Westside,Laurel,Pest Control,High,11,2,26.7,11436.0,1040.0
+Townes at Heritage Hills,Glen Burnie,HVAC,Emergency,8,0,17.5,11376.0,1422.0
+Duvall Westside,Laurel,General,Low,12,3,23.7,11089.0,924.0
+Riverfront Flats,Frederick,Pest Control,High,12,3,29.3,11048.0,921.0
+Mills Crossing,Owings Mills,Pest Control,Emergency,11,2,26.9,11029.0,1003.0
+Mills Crossing,Owings Mills,Plumbing,Low,14,3,24.7,10976.0,784.0
+Cedar Ridge Commons,Ellicott City,General,High,12,3,26.6,10933.0,911.0
+Townes at Heritage Hills,Glen Burnie,Pest Control,High,10,1,19.1,10812.0,1081.0
+Riverfront Flats,Frederick,Plumbing,Low,10,1,16.3,10763.0,1076.0
+Overlook at Bulle Rock,Havre de Grace,Appliance,High,8,1,30.9,10672.0,1334.0
+Townes at Heritage Hills,Glen Burnie,Appliance,Low,11,2,18.6,10638.0,967.0
+Duvall Westside,Laurel,Electrical,High,10,1,24.8,10580.0,1058.0
+Overlook at Bulle Rock,Havre de Grace,Electrical,Medium,13,5,22.1,10528.0,810.0
+Fieldside Grande Ph1,Pikesville,Plumbing,High,11,3,13.6,10522.0,957.0
+Cedar Ridge Commons,Ellicott City,Plumbing,High,9,2,32.7,10461.0,1162.0
+Duvall Westside,Laurel,Electrical,Emergency,11,1,16.5,10414.0,947.0
+Riverfront Flats,Frederick,Appliance,Low,10,1,19.3,10375.0,1038.0
+Duvall Westside,Laurel,Plumbing,Low,10,2,23.9,10365.0,1037.0
+Fieldside Grande Ph1,Pikesville,General,Emergency,10,3,33.7,10290.0,1029.0
+Overlook at Bulle Rock,Havre de Grace,General,Medium,13,4,23.3,10251.0,789.0
+Mills Crossing,Owings Mills,Appliance,Low,12,1,23.2,10240.0,853.0
+Overlook at Bulle Rock,Havre de Grace,Flooring,High,9,1,24.3,10200.0,1133.0
+Fieldside Grande Ph1,Pikesville,Electrical,Medium,12,3,26.8,9998.0,833.0
+Mills Crossing,Owings Mills,Pest Control,High,8,2,30.3,9963.0,1245.0
+Fieldside Grande Ph1,Pikesville,Pest Control,Low,9,2,19.4,9814.0,1090.0
+Riverfront Flats,Frederick,Appliance,Emergency,7,1,18.8,9755.0,1394.0
+Fieldside Grande Ph1,Pikesville,Plumbing,Emergency,10,0,27.3,9740.0,974.0
+Duvall Westside,Laurel,HVAC,Low,9,3,27.8,9708.0,1079.0
+Riverfront Flats,Frederick,Flooring,Emergency,14,2,16.8,9704.0,693.0
+Duvall Westside,Laurel,Flooring,High,11,3,27.8,9665.0,879.0
+Townes at Heritage Hills,Glen Burnie,General,Low,10,2,20.5,9664.0,966.0
+Cedar Ridge Commons,Ellicott City,Plumbing,Low,8,0,21.5,9663.0,1208.0
+Townes at Heritage Hills,Glen Burnie,Flooring,Low,8,1,19.3,9662.0,1208.0
+Cedar Ridge Commons,Ellicott City,Flooring,High,9,2,17.9,9660.0,1073.0
+Cedar Ridge Commons,Ellicott City,HVAC,High,10,0,24.2,9641.0,964.0
+Duvall Westside,Laurel,Appliance,Emergency,9,3,19.0,9621.0,1069.0
+Avenue Grand,Baltimore,Appliance,High,10,4,12.8,9594.0,959.0
+Townes at Heritage Hills,Glen Burnie,Flooring,Emergency,6,1,22.0,9415.0,1569.0
+Duvall Westside,Laurel,Plumbing,High,6,1,24.2,9362.0,1560.0
+Cedar Ridge Commons,Ellicott City,General,Emergency,7,1,20.2,9212.0,1316.0
+Townes at Heritage Hills,Glen Burnie,Pest Control,Emergency,12,5,16.4,9066.0,756.0
+Avenue Grand,Baltimore,HVAC,Emergency,7,1,16.5,9034.0,1291.0
+Fieldside Grande Ph1,Pikesville,Plumbing,Low,10,1,22.9,8995.0,900.0
+Fieldside Grande Ph1,Pikesville,Electrical,Emergency,9,2,28.6,8938.0,993.0
+Avenue Grand,Baltimore,Appliance,Low,8,2,28.8,8918.0,1115.0
+Cedar Ridge Commons,Ellicott City,Electrical,Emergency,11,2,27.2,8901.0,809.0
+Mills Crossing,Owings Mills,Electrical,Emergency,14,5,28.8,8862.0,633.0
+Mills Crossing,Owings Mills,Appliance,Emergency,10,3,25.7,8834.0,883.0
+Townes at Heritage Hills,Glen Burnie,Pest Control,Low,8,1,15.6,8710.0,1089.0
+Townes at Heritage Hills,Glen Burnie,General,Emergency,13,6,20.7,8462.0,651.0
+Avenue Grand,Baltimore,HVAC,Medium,12,4,19.3,8445.0,704.0
+Overlook at Bulle Rock,Havre de Grace,Pest Control,High,7,1,21.8,8390.0,1199.0
+Cedar Ridge Commons,Ellicott City,Appliance,Medium,8,0,20.6,8386.0,1048.0
+Overlook at Bulle Rock,Havre de Grace,General,High,8,1,35.7,8383.0,1048.0
+Duvall Westside,Laurel,Plumbing,Emergency,8,2,21.3,8364.0,1046.0
+Fieldside Grande Ph1,Pikesville,General,Low,9,3,17.5,8277.0,920.0
+Fieldside Grande Ph1,Pikesville,Flooring,High,9,1,16.0,8118.0,902.0
+Overlook at Bulle Rock,Havre de Grace,General,Low,6,0,30.3,8102.0,1350.0
+Duvall Westside,Laurel,Flooring,Emergency,7,0,15.4,8094.0,1156.0
+Townes at Heritage Hills,Glen Burnie,Electrical,Emergency,7,1,16.8,8090.0,1156.0
+Avenue Grand,Baltimore,Plumbing,Medium,7,0,22.7,8017.0,1145.0
+Mills Crossing,Owings Mills,Electrical,High,10,4,18.7,8002.0,800.0
+Avenue Grand,Baltimore,Electrical,High,6,1,13.6,7897.0,1316.0
+Overlook at Bulle Rock,Havre de Grace,Plumbing,Low,5,0,24.8,7818.0,1564.0
+Townes at Heritage Hills,Glen Burnie,General,Medium,7,2,25.4,7754.0,1108.0
+Townes at Heritage Hills,Glen Burnie,HVAC,Low,9,3,29.2,7567.0,841.0
+Duvall Westside,Laurel,Pest Control,Emergency,12,3,20.4,7556.0,630.0
+Townes at Heritage Hills,Glen Burnie,Electrical,Low,7,3,21.3,7506.0,1072.0
+Duvall Westside,Laurel,Appliance,Low,9,2,32.3,7491.0,832.0
+Mills Crossing,Owings Mills,General,High,10,5,23.0,7479.0,748.0
+Overlook at Bulle Rock,Havre de Grace,Appliance,Low,9,1,19.3,7477.0,831.0
+Avenue Grand,Baltimore,General,Medium,11,2,24.0,7465.0,679.0
+Overlook at Bulle Rock,Havre de Grace,Electrical,High,7,1,25.0,7455.0,1065.0
+Riverfront Flats,Frederick,General,Low,9,1,26.1,7447.0,827.0
+Riverfront Flats,Frederick,HVAC,Low,7,2,20.4,7447.0,1064.0
+Cedar Ridge Commons,Ellicott City,Flooring,Low,11,4,18.0,7357.0,669.0
+Riverfront Flats,Frederick,Appliance,High,13,5,24.9,7351.0,565.0
+Mills Crossing,Owings Mills,Plumbing,Emergency,11,4,27.4,7295.0,663.0
+Townes at Heritage Hills,Glen Burnie,HVAC,High,8,2,25.0,7185.0,898.0
+Overlook at Bulle Rock,Havre de Grace,Pest Control,Medium,6,1,31.6,7051.0,1175.0
+Mills Crossing,Owings Mills,HVAC,High,4,1,26.0,7041.0,1760.0
+Cedar Ridge Commons,Ellicott City,HVAC,Low,10,5,23.8,6966.0,697.0
+Fieldside Grande Ph1,Pikesville,Flooring,Emergency,6,0,22.0,6957.0,1159.0
+Townes at Heritage Hills,Glen Burnie,Plumbing,Low,9,3,25.7,6901.0,767.0
+Avenue Grand,Baltimore,Flooring,High,4,0,25.0,6748.0,1687.0
+Duvall Westside,Laurel,General,High,11,3,23.3,6725.0,611.0
+Mills Crossing,Owings Mills,Pest Control,Low,12,6,20.2,6580.0,548.0
+Overlook at Bulle Rock,Havre de Grace,Electrical,Emergency,5,2,16.0,6518.0,1304.0
+Mills Crossing,Owings Mills,Flooring,Low,6,1,23.4,6510.0,1085.0
+Overlook at Bulle Rock,Havre de Grace,Plumbing,High,6,1,15.0,6232.0,1039.0
+Riverfront Flats,Frederick,Pest Control,Emergency,6,2,36.5,6131.0,1022.0
+Avenue Grand,Baltimore,Plumbing,Low,7,3,18.8,5931.0,847.0
+Fieldside Grande Ph1,Pikesville,Electrical,High,9,3,24.5,5902.0,656.0
+Townes at Heritage Hills,Glen Burnie,Electrical,High,9,4,22.2,5893.0,655.0
+Fieldside Grande Ph1,Pikesville,Appliance,Emergency,8,3,25.0,5836.0,729.0
+Riverfront Flats,Frederick,Electrical,Low,9,4,22.2,5833.0,648.0
+Avenue Grand,Baltimore,Pest Control,Emergency,5,1,25.8,5819.0,1164.0
+Overlook at Bulle Rock,Havre de Grace,General,Emergency,10,6,24.5,5805.0,580.0
+Overlook at Bulle Rock,Havre de Grace,Appliance,Emergency,6,1,27.6,5786.0,964.0
+Duvall Westside,Laurel,HVAC,High,10,4,20.3,5750.0,575.0
+Mills Crossing,Owings Mills,Plumbing,High,8,3,25.2,5671.0,709.0
+Cedar Ridge Commons,Ellicott City,Appliance,High,7,1,22.3,5545.0,792.0
+Fieldside Grande Ph1,Pikesville,HVAC,Low,7,4,19.7,5489.0,784.0
+Avenue Grand,Baltimore,Plumbing,Emergency,5,0,25.8,5488.0,1098.0
+Avenue Grand,Baltimore,HVAC,Low,6,0,34.3,5480.0,913.0
+Riverfront Flats,Frederick,Flooring,High,8,3,17.8,5471.0,684.0
+Avenue Grand,Baltimore,Electrical,Emergency,4,1,28.7,5466.0,1367.0
+Fieldside Grande Ph1,Pikesville,General,High,6,1,20.4,5408.0,901.0
+Avenue Grand,Baltimore,Appliance,Medium,5,0,23.4,5108.0,1022.0
+Avenue Grand,Baltimore,Pest Control,High,6,1,22.2,5065.0,844.0
+Riverfront Flats,Frederick,General,High,7,2,16.6,5058.0,723.0
+Avenue Grand,Baltimore,Electrical,Low,7,4,17.3,4868.0,695.0
+Duvall Westside,Laurel,HVAC,Emergency,7,3,29.5,4867.0,695.0
+Avenue Grand,Baltimore,HVAC,High,5,1,33.0,4858.0,972.0
+Townes at Heritage Hills,Glen Burnie,Plumbing,High,7,2,30.0,4626.0,661.0
+Riverfront Flats,Frederick,General,Emergency,12,4,22.8,4576.0,381.0
+Riverfront Flats,Frederick,Pest Control,Low,7,3,20.0,4563.0,652.0
+Mills Crossing,Owings Mills,HVAC,Low,10,5,14.8,4543.0,454.0
+Fieldside Grande Ph1,Pikesville,Flooring,Low,6,2,20.8,4538.0,756.0
+Townes at Heritage Hills,Glen Burnie,Flooring,High,3,1,23.0,4505.0,1502.0
+Overlook at Bulle Rock,Havre de Grace,Pest Control,Emergency,4,1,17.0,4493.0,1123.0
+Overlook at Bulle Rock,Havre de Grace,HVAC,Emergency,5,0,26.2,4449.0,890.0
+Townes at Heritage Hills,Glen Burnie,Plumbing,Emergency,4,0,31.0,4076.0,1019.0
+Avenue Grand,Baltimore,Plumbing,High,4,0,18.8,4066.0,1016.0
+Fieldside Grande Ph1,Pikesville,HVAC,High,4,2,27.0,4039.0,1010.0
+Fieldside Grande Ph1,Pikesville,Pest Control,Emergency,5,2,24.7,3862.0,772.0
+Avenue Grand,Baltimore,General,Low,5,0,27.2,3764.0,753.0
+Cedar Ridge Commons,Ellicott City,Pest Control,High,6,1,20.0,3763.0,627.0
+Avenue Grand,Baltimore,General,Emergency,4,2,12.0,3687.0,922.0
+Riverfront Flats,Frederick,Plumbing,High,5,2,19.0,3266.0,653.0
+Cedar Ridge Commons,Ellicott City,Pest Control,Low,5,2,36.0,3147.0,629.0
+Mills Crossing,Owings Mills,General,Low,4,1,30.0,3052.0,763.0
+Avenue Grand,Baltimore,Flooring,Low,2,0,32.5,2870.0,1435.0
+Avenue Grand,Baltimore,Pest Control,Low,6,3,15.7,2834.0,472.0
+Avenue Grand,Baltimore,General,High,4,1,11.3,2648.0,662.0
+Townes at Heritage Hills,Glen Burnie,Appliance,High,1,0,17.0,2482.0,2482.0
+Overlook at Bulle Rock,Havre de Grace,Pest Control,Low,3,0,37.3,2347.0,782.0
+Riverfront Flats,Frederick,HVAC,Emergency,7,4,23.7,2203.0,315.0
+Avenue Grand,Baltimore,Flooring,Emergency,1,0,3.0,2093.0,2093.0
+Fieldside Grande Ph1,Pikesville,HVAC,Emergency,3,1,40.0,1686.0,562.0
+Overlook at Bulle Rock,Havre de Grace,Flooring,Emergency,1,0,15.0,1647.0,1647.0
+Overlook at Bulle Rock,Havre de Grace,HVAC,Low,2,1,13.0,1006.0,503.0
+Avenue Grand,Baltimore,Appliance,Emergency,2,1,45.0,236.0,118.0

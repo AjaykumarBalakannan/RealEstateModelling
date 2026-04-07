@@ -1,0 +1,19 @@
+property,city,tenant,unit_number,unit_type,period_month,amount_due,amount_paid,balance_owed,payment_status,lease_end
+Townes at Heritage Hills,Glen Burnie,Stephanie Bolton,142,3BR/2BA,2025-02,2744.0,0.0,2744.0,Delinquent,2025-10-22
+Mills Crossing,Owings Mills,Tracy Blackwell,255,3BR/2BA,2025-02,2435.0,0.0,2435.0,Delinquent,2025-03-28
+Avenue Grand,Baltimore,Michelle Barrett,177,2BR/2BA,2025-02,2074.0,0.0,2074.0,Delinquent,2025-04-26
+Mills Crossing,Owings Mills,Jennifer Chen,109,2BR/1BA,2025-02,2010.0,0.0,2010.0,Delinquent,2025-05-29
+Cedar Ridge Commons,Ellicott City,Donald Mays,122,1BR/1BA,2025-02,1804.0,0.0,1804.0,Delinquent,2025-03-08
+Avenue Grand,Baltimore,Michael Neal,108,1BR/1BA,2025-02,1733.0,0.0,1733.0,Delinquent,2025-07-19
+Mills Crossing,Owings Mills,Steven Huang,068,1BR/1BA,2025-02,1557.0,0.0,1557.0,Delinquent,2025-12-29
+Riverfront Flats,Frederick,Robert Serrano,114,1BR/1BA,2025-02,1553.0,0.0,1553.0,Delinquent,2025-09-14
+Overlook at Bulle Rock,Havre de Grace,Emily Potter,070,2BR/2BA,2025-02,2226.0,1195.0,1031.0,Partial,2026-03-21
+Avenue Grand,Baltimore,Patricia Smith,149,2BR/2BA,2025-02,2139.0,1156.0,983.0,Partial,2026-05-31
+Cedar Ridge Commons,Ellicott City,Robert Kim,003,Studio,2025-02,1380.0,831.0,549.0,Partial,2025-03-30
+Duvall Westside,Laurel,Mary Jackson,252,2BR/2BA,2025-02,1941.0,1510.0,431.0,Partial,2025-12-28
+Mills Crossing,Owings Mills,Billy Fuentes,154,2BR/2BA,2025-02,2308.0,1974.0,334.0,Partial,2025-09-12
+Cedar Ridge Commons,Ellicott City,Jacob Hoover,222,2BR/2BA,2025-02,2063.0,1768.0,295.0,Partial,2025-08-28
+Mills Crossing,Owings Mills,Steven Sandoval,060,1BR/1BA,2025-02,1484.0,1333.0,151.0,Partial,2025-05-17
+Fieldside Grande Ph1,Pikesville,Ronald Park,086,1BR/1BA,2025-02,1542.0,1469.0,73.0,Partial,2025-11-28
+Avenue Grand,Baltimore,Carolyn Walker,015,Studio,2025-02,1396.0,1335.0,61.0,Partial,2025-05-29
+Duvall Westside,Laurel,Brian Cox DVM,011,Studio,2025-02,1264.0,1218.0,46.0,Partial,2025-05-28

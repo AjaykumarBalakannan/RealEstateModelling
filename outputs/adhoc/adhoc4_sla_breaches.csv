@@ -1,0 +1,33 @@
+name,priority,sla_breach_count
+Avenue Grand,Emergency,6
+Avenue Grand,High,8
+Avenue Grand,Low,12
+Avenue Grand,Medium,12
+Cedar Ridge Commons,Emergency,19
+Cedar Ridge Commons,High,12
+Cedar Ridge Commons,Low,13
+Cedar Ridge Commons,Medium,27
+Duvall Westside,Emergency,14
+Duvall Westside,High,17
+Duvall Westside,Low,18
+Duvall Westside,Medium,33
+Fieldside Grande Ph1,Emergency,11
+Fieldside Grande Ph1,High,17
+Fieldside Grande Ph1,Low,15
+Fieldside Grande Ph1,Medium,17
+Mills Crossing,Emergency,24
+Mills Crossing,High,22
+Mills Crossing,Low,21
+Mills Crossing,Medium,32
+Overlook at Bulle Rock,Emergency,11
+Overlook at Bulle Rock,High,6
+Overlook at Bulle Rock,Low,2
+Overlook at Bulle Rock,Medium,17
+Riverfront Flats,Emergency,20
+Riverfront Flats,High,21
+Riverfront Flats,Low,13
+Riverfront Flats,Medium,34
+Townes at Heritage Hills,Emergency,13
+Townes at Heritage Hills,High,13
+Townes at Heritage Hills,Low,15
+Townes at Heritage Hills,Medium,18

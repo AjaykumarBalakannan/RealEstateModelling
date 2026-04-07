@@ -1,0 +1,1391 @@
+property,city,tenant,unit_number,unit_type,monthly_rent,lease_end,days_to_expiry,expiry_bucket,tenant_status
+Fieldside Grande Ph1,Pikesville,James Henry,098,1BR/1BA,1569.0,2022-01-01,-1557,Expired,Active
+Cedar Ridge Commons,Ellicott City,Dr. Diana Jones,270,2BR/2BA,1888.0,2022-01-02,-1556,Expired,Active
+Fieldside Grande Ph1,Pikesville,Gregory Wallace,020,Studio,1297.0,2022-01-04,-1554,Expired,Active
+Avenue Grand,Baltimore,Anthony Murray,078,1BR/1BA,1701.0,2022-01-06,-1552,Expired,Active
+Cedar Ridge Commons,Ellicott City,Todd Bentley,213,2BR/2BA,1941.0,2022-01-07,-1551,Expired,Active
+Mills Crossing,Owings Mills,Ronald Brown,178,2BR/2BA,2096.0,2022-01-08,-1550,Expired,Active
+Mills Crossing,Owings Mills,Miss Sarah Duncan,081,2BR/1BA,2112.0,2022-01-09,-1549,Expired,Active
+Riverfront Flats,Frederick,Kyle Shannon,228,2BR/2BA,2380.0,2022-01-12,-1546,Expired,Active
+Riverfront Flats,Frederick,Amy Wolfe,253,3BR/2BA,2812.0,2022-01-12,-1546,Expired,Active
+Mills Crossing,Owings Mills,Melissa Rodriguez,182,2BR/2BA,1851.0,2022-01-14,-1544,Expired,Active
+Duvall Westside,Laurel,Mary Duran,153,2BR/2BA,2144.0,2022-01-17,-1541,Expired,Active
+Riverfront Flats,Frederick,Robin Pugh,131,2BR/1BA,1640.0,2022-01-17,-1541,Expired,Active
+Mills Crossing,Owings Mills,Peter Stephenson,243,3BR/2BA,2397.0,2022-01-18,-1540,Expired,Active
+Avenue Grand,Baltimore,Tony Price,025,Studio,1497.0,2022-01-20,-1538,Expired,Active
+Cedar Ridge Commons,Ellicott City,Michael Norris,081,1BR/1BA,1605.0,2022-01-21,-1537,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Carolyn Potts,014,1BR/1BA,1573.0,2022-01-22,-1536,Expired,Active
+Cedar Ridge Commons,Ellicott City,Kenneth Short,152,2BR/1BA,1925.0,2022-01-22,-1536,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Cynthia Gregory,026,2BR/1BA,1630.0,2022-01-23,-1535,Expired,Active
+Cedar Ridge Commons,Ellicott City,Cynthia Thomas,121,1BR/1BA,1678.0,2022-01-23,-1535,Expired,Active
+Cedar Ridge Commons,Ellicott City,Jeanne Robinson,175,2BR/1BA,1952.0,2022-01-27,-1531,Expired,Active
+Avenue Grand,Baltimore,Kenneth Snyder,021,Studio,1384.0,2022-01-28,-1530,Expired,Active
+Avenue Grand,Baltimore,Megan Martin,103,1BR/1BA,1577.0,2022-01-28,-1530,Expired,Active
+Riverfront Flats,Frederick,Emily Bailey,186,2BR/2BA,2339.0,2022-01-28,-1530,Expired,Active
+Avenue Grand,Baltimore,Anthony Ashley,160,2BR/2BA,2377.0,2022-01-31,-1527,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Adrian Howell,129,2BR/2BA,2077.0,2022-01-31,-1527,Expired,Active
+Riverfront Flats,Frederick,Samuel Livingston,071,1BR/1BA,1707.0,2022-02-01,-1526,Expired,Active
+Duvall Westside,Laurel,Sharon Barnes,117,2BR/1BA,1932.0,2022-02-03,-1524,Expired,Active
+Cedar Ridge Commons,Ellicott City,Michael Johnson,142,2BR/1BA,1883.0,2022-02-03,-1524,Expired,Active
+Avenue Grand,Baltimore,Angela Wallace,079,1BR/1BA,1569.0,2022-02-05,-1522,Expired,Active
+Mills Crossing,Owings Mills,Eddie Adams,022,1BR/1BA,1638.0,2022-02-08,-1519,Expired,Active
+Duvall Westside,Laurel,Jeffrey Colon,165,2BR/2BA,1844.0,2022-02-12,-1515,Expired,Active
+Cedar Ridge Commons,Ellicott City,James Mcmillan,137,2BR/1BA,1668.0,2022-02-13,-1514,Expired,Active
+Mills Crossing,Owings Mills,Karen Smith,026,1BR/1BA,1533.0,2022-02-17,-1510,Expired,Active
+Riverfront Flats,Frederick,Cynthia Morse,204,2BR/2BA,2096.0,2022-02-17,-1510,Expired,Active
+Mills Crossing,Owings Mills,Christopher Johnson,226,2BR/2BA,2283.0,2022-02-20,-1507,Expired,Active
+Cedar Ridge Commons,Ellicott City,Elizabeth Fernandez,064,1BR/1BA,1705.0,2022-02-21,-1506,Expired,Active
+Riverfront Flats,Frederick,Teresa Kerr,113,1BR/1BA,1595.0,2022-02-22,-1505,Expired,Active
+Duvall Westside,Laurel,Raymond Quinn,278,3BR/2BA,2263.0,2022-02-27,-1500,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Teresa Ramirez,039,2BR/1BA,1684.0,2022-02-27,-1500,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Jerry Anderson,133,3BR/2BA,2388.0,2022-02-27,-1500,Expired,Active
+Fieldside Grande Ph1,Pikesville,Frank Elliott,004,Studio,1382.0,2022-03-01,-1498,Expired,Active
+Mills Crossing,Owings Mills,Nicholas Green,186,2BR/2BA,1864.0,2022-03-02,-1497,Expired,Active
+Avenue Grand,Baltimore,Kurt Martinez,127,2BR/1BA,1761.0,2022-03-08,-1491,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Vicki Stokes,132,3BR/2BA,2494.0,2022-03-12,-1487,Expired,Active
+Fieldside Grande Ph1,Pikesville,Robin Wallace,095,1BR/1BA,1655.0,2022-03-13,-1486,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Annette Simpson,107,2BR/2BA,2287.0,2022-03-14,-1485,Expired,Active
+Avenue Grand,Baltimore,Darren Morse,143,2BR/2BA,2227.0,2022-03-18,-1481,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Kristina Coffey,124,3BR/2BA,2313.0,2022-03-21,-1478,Expired,Active
+Mills Crossing,Owings Mills,Rebecca Bailey,301,3BR/2BA,2463.0,2022-03-22,-1477,Expired,Active
+Fieldside Grande Ph1,Pikesville,Drew Werner,272,3BR/2BA,2499.0,2022-03-22,-1477,Expired,Active
+Fieldside Grande Ph1,Pikesville,Anthony Moore,193,2BR/2BA,2051.0,2022-03-24,-1475,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Robert Gross,167,3BR/2BA,2237.0,2022-03-27,-1472,Expired,Active
+Riverfront Flats,Frederick,Corey David,098,1BR/1BA,1688.0,2022-03-27,-1472,Expired,Active
+Cedar Ridge Commons,Ellicott City,Vincent Adams,158,2BR/1BA,1900.0,2022-03-30,-1469,Expired,Active
+Mills Crossing,Owings Mills,Joseph Campbell,310,3BR/2BA,2833.0,2022-03-31,-1468,Expired,Active
+Fieldside Grande Ph1,Pikesville,Katherine Gay,250,2BR/2BA,1922.0,2022-03-31,-1468,Expired,Active
+Avenue Grand,Baltimore,Diana Huffman,035,1BR/1BA,1788.0,2022-04-02,-1466,Expired,Active
+Riverfront Flats,Frederick,Allison Clark,166,2BR/2BA,2161.0,2022-04-04,-1464,Expired,Active
+Fieldside Grande Ph1,Pikesville,Jessica Williams,230,2BR/2BA,2173.0,2022-04-08,-1460,Expired,Active
+Duvall Westside,Laurel,Michael Tucker,082,1BR/1BA,1767.0,2022-04-10,-1458,Expired,Active
+Cedar Ridge Commons,Ellicott City,Juan Adams,202,2BR/2BA,2075.0,2022-04-13,-1455,Expired,Active
+Fieldside Grande Ph1,Pikesville,Tim Welch,227,2BR/2BA,2217.0,2022-04-16,-1452,Expired,Active
+Fieldside Grande Ph1,Pikesville,Donald Morgan,275,3BR/2BA,3093.0,2022-04-16,-1452,Expired,Active
+Cedar Ridge Commons,Ellicott City,Tyler Patel,068,1BR/1BA,1439.0,2022-04-16,-1452,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Danielle Gonzalez,091,2BR/2BA,2390.0,2022-04-17,-1451,Expired,Active
+Fieldside Grande Ph1,Pikesville,Alexander Mitchell,231,2BR/2BA,2173.0,2022-04-17,-1451,Expired,Active
+Fieldside Grande Ph1,Pikesville,Philip Chambers,043,1BR/1BA,1731.0,2022-04-18,-1450,Expired,Active
+Cedar Ridge Commons,Ellicott City,Nicole Sanchez,157,2BR/1BA,1881.0,2022-04-18,-1450,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Cassidy Paul,006,Studio,1488.0,2022-04-19,-1449,Expired,Active
+Mills Crossing,Owings Mills,Robert Jensen,204,2BR/2BA,2106.0,2022-04-20,-1448,Expired,Active
+Duvall Westside,Laurel,Kimberly Gutierrez,055,1BR/1BA,1432.0,2022-04-22,-1446,Expired,Active
+Mills Crossing,Owings Mills,Danielle Murphy,129,2BR/2BA,2042.0,2022-04-22,-1446,Expired,Active
+Duvall Westside,Laurel,Casey James,085,1BR/1BA,1718.0,2022-04-24,-1444,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Andrew Patton,116,2BR/2BA,2362.0,2022-04-24,-1444,Expired,Active
+Avenue Grand,Baltimore,Marilyn Lozano,115,2BR/1BA,1930.0,2022-04-25,-1443,Expired,Active
+Avenue Grand,Baltimore,Michael Le,179,2BR/2BA,2004.0,2022-04-27,-1441,Expired,Active
+Mills Crossing,Owings Mills,Alan Barr,284,3BR/2BA,2458.0,2022-04-28,-1440,Expired,Active
+Fieldside Grande Ph1,Pikesville,Holly Cruz,281,3BR/2BA,2803.0,2022-04-28,-1440,Expired,Active
+Mills Crossing,Owings Mills,John Dillon,037,1BR/1BA,1728.0,2022-04-30,-1438,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Crystal Mclean,104,2BR/2BA,2224.0,2022-05-02,-1436,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Anthony Jacobson,070,2BR/2BA,2041.0,2022-05-03,-1435,Expired,Active
+Avenue Grand,Baltimore,William Davis,104,1BR/1BA,1813.0,2022-05-03,-1435,Expired,Active
+Mills Crossing,Owings Mills,David Jones,156,2BR/2BA,2065.0,2022-05-04,-1434,Expired,Active
+Mills Crossing,Owings Mills,Nancy Goodwin,135,2BR/2BA,1859.0,2022-05-05,-1433,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Amanda Landry,163,3BR/2BA,2510.0,2022-05-12,-1426,Expired,Active
+Cedar Ridge Commons,Ellicott City,James Anderson,265,2BR/2BA,2032.0,2022-05-13,-1425,Expired,Active
+Mills Crossing,Owings Mills,Dr. Linda Underwood,100,2BR/1BA,1739.0,2022-05-14,-1424,Expired,Active
+Mills Crossing,Owings Mills,Meghan Patel,136,2BR/2BA,1927.0,2022-05-14,-1424,Expired,Active
+Avenue Grand,Baltimore,Luis Richardson,123,2BR/1BA,1848.0,2022-05-14,-1424,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Marie Hill,003,1BR/1BA,1722.0,2022-05-17,-1421,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Charles Sanchez,055,2BR/2BA,1921.0,2022-05-18,-1420,Expired,Active
+Cedar Ridge Commons,Ellicott City,Kelli Lee,216,2BR/2BA,2210.0,2022-05-23,-1415,Expired,Active
+Mills Crossing,Owings Mills,Bryce Taylor,237,3BR/2BA,2621.0,2022-05-27,-1411,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Jeanne Butler,114,3BR/2BA,2202.0,2022-05-28,-1410,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Tracy Baxter,082,2BR/2BA,1821.0,2022-05-28,-1410,Expired,Active
+Cedar Ridge Commons,Ellicott City,Mary Hill,117,1BR/1BA,1678.0,2022-05-29,-1409,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Beth Byrd,130,2BR/2BA,1857.0,2022-06-06,-1401,Expired,Active
+Riverfront Flats,Frederick,Michael Smith,195,2BR/2BA,2059.0,2022-06-06,-1401,Expired,Active
+Fieldside Grande Ph1,Pikesville,Stephanie Turner,149,2BR/2BA,2139.0,2022-06-07,-1400,Expired,Active
+Avenue Grand,Baltimore,Kirsten Collins,092,1BR/1BA,1537.0,2022-06-07,-1400,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Joshua Sanders,136,3BR/2BA,2545.0,2022-06-07,-1400,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Brian Lopez,145,3BR/2BA,2721.0,2022-06-10,-1397,Expired,Active
+Riverfront Flats,Frederick,Carmen Herrera,045,1BR/1BA,1898.0,2022-06-10,-1397,Expired,Active
+Cedar Ridge Commons,Ellicott City,Randall Jackson,278,2BR/2BA,2006.0,2022-06-15,-1392,Expired,Active
+Riverfront Flats,Frederick,Daniel Pierce,234,2BR/2BA,1964.0,2022-06-16,-1391,Expired,Active
+Mills Crossing,Owings Mills,Fernando Tran,232,2BR/2BA,2367.0,2022-06-18,-1389,Expired,Active
+Avenue Grand,Baltimore,Calvin Ramirez,022,Studio,1399.0,2022-06-21,-1386,Expired,Active
+Riverfront Flats,Frederick,Carl Adams,222,2BR/2BA,2277.0,2022-06-21,-1386,Expired,Active
+Cedar Ridge Commons,Ellicott City,Leslie Mcdaniel,193,2BR/2BA,1957.0,2022-06-22,-1385,Expired,Active
+Avenue Grand,Baltimore,Jeremy Summers,050,1BR/1BA,1607.0,2022-06-23,-1384,Expired,Active
+Cedar Ridge Commons,Ellicott City,Veronica Decker,307,3BR/2BA,2383.0,2022-06-23,-1384,Expired,Active
+Cedar Ridge Commons,Ellicott City,Lisa Pitts,276,2BR/2BA,2212.0,2022-06-26,-1381,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Mckenzie Brown,196,3BR/2BA,2743.0,2022-06-28,-1379,Expired,Active
+Fieldside Grande Ph1,Pikesville,Emily Robinson,146,2BR/2BA,2303.0,2022-06-28,-1379,Expired,Active
+Cedar Ridge Commons,Ellicott City,Raymond Strong,155,2BR/1BA,2172.0,2022-06-30,-1377,Expired,Active
+Duvall Westside,Laurel,Tanya Campos,013,Studio,1371.0,2022-07-02,-1375,Expired,Active
+Fieldside Grande Ph1,Pikesville,Sharon Smith,121,2BR/1BA,1869.0,2022-07-02,-1375,Expired,Active
+Cedar Ridge Commons,Ellicott City,Colton Roth,247,2BR/2BA,2199.0,2022-07-02,-1375,Expired,Active
+Mills Crossing,Owings Mills,Sharon Robinson,033,1BR/1BA,1752.0,2022-07-03,-1374,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Daniel Russell,177,3BR/2BA,2801.0,2022-07-09,-1368,Expired,Active
+Avenue Grand,Baltimore,Jacqueline Bass,130,2BR/1BA,1797.0,2022-07-10,-1367,Expired,Active
+Cedar Ridge Commons,Ellicott City,Amanda Brooks,075,1BR/1BA,1469.0,2022-07-10,-1367,Expired,Active
+Avenue Grand,Baltimore,Melissa Thomas,145,2BR/2BA,2007.0,2022-07-11,-1366,Expired,Active
+Avenue Grand,Baltimore,Kristin Flores,185,2BR/2BA,1940.0,2022-07-11,-1366,Expired,Active
+Mills Crossing,Owings Mills,Ashley Crawford,115,2BR/1BA,1809.0,2022-07-13,-1364,Expired,Active
+Duvall Westside,Laurel,Amanda Huff,129,2BR/1BA,1934.0,2022-07-14,-1363,Expired,Active
+Duvall Westside,Laurel,Nathan Montes,096,1BR/1BA,1515.0,2022-07-16,-1361,Expired,Active
+Fieldside Grande Ph1,Pikesville,Mary Davis,064,1BR/1BA,1934.0,2022-07-16,-1361,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Brian Perez,009,Studio,1381.0,2022-07-16,-1361,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Kari Sandoval,168,3BR/2BA,2503.0,2022-07-17,-1360,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Megan Allison,077,2BR/2BA,2048.0,2022-07-17,-1360,Expired,Active
+Mills Crossing,Owings Mills,Anthony Medina,122,2BR/1BA,1961.0,2022-07-18,-1359,Expired,Active
+Fieldside Grande Ph1,Pikesville,Bailey Young,209,2BR/2BA,2034.0,2022-07-19,-1358,Expired,Active
+Avenue Grand,Baltimore,Brandy Williams,135,2BR/2BA,2108.0,2022-07-19,-1358,Expired,Active
+Cedar Ridge Commons,Ellicott City,Dylan Cantu,260,2BR/2BA,2071.0,2022-07-20,-1357,Expired,Active
+Cedar Ridge Commons,Ellicott City,Michael Berry,283,3BR/2BA,2673.0,2022-07-20,-1357,Expired,Active
+Fieldside Grande Ph1,Pikesville,Marcus Zamora,246,2BR/2BA,2157.0,2022-07-22,-1355,Expired,Active
+Cedar Ridge Commons,Ellicott City,Clayton Torres,023,Studio,1383.0,2022-07-23,-1354,Expired,Active
+Fieldside Grande Ph1,Pikesville,Kimberly Brooks,153,2BR/2BA,2195.0,2022-07-24,-1353,Expired,Active
+Cedar Ridge Commons,Ellicott City,Laura Daniel,230,2BR/2BA,2249.0,2022-07-24,-1353,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Sandra Phillips,165,3BR/2BA,2498.0,2022-07-26,-1351,Expired,Active
+Mills Crossing,Owings Mills,Julie Johnson,149,2BR/2BA,1968.0,2022-07-30,-1347,Expired,Active
+Cedar Ridge Commons,Ellicott City,Amanda Sanders,151,2BR/1BA,1819.0,2022-07-30,-1347,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Tiffany Gomez,112,2BR/2BA,2089.0,2022-08-02,-1344,Expired,Active
+Duvall Westside,Laurel,Chris Velazquez,196,2BR/2BA,2079.0,2022-08-04,-1342,Expired,Active
+Fieldside Grande Ph1,Pikesville,Arthur Cooper,126,2BR/1BA,1751.0,2022-08-04,-1342,Expired,Active
+Avenue Grand,Baltimore,Jacqueline James,181,2BR/2BA,2163.0,2022-08-04,-1342,Expired,Active
+Duvall Westside,Laurel,Alexis Baker,074,1BR/1BA,1436.0,2022-08-06,-1340,Expired,Active
+Fieldside Grande Ph1,Pikesville,Mathew Cole,242,2BR/2BA,2104.0,2022-08-06,-1340,Expired,Active
+Cedar Ridge Commons,Ellicott City,Jonathan Rivera,188,2BR/2BA,2238.0,2022-08-08,-1338,Expired,Active
+Fieldside Grande Ph1,Pikesville,Sonya Simmons,205,2BR/2BA,1867.0,2022-08-09,-1337,Expired,Active
+Riverfront Flats,Frederick,Benjamin Boyer,082,1BR/1BA,1430.0,2022-08-09,-1337,Expired,Active
+Avenue Grand,Baltimore,Marie Davidson,120,2BR/1BA,1630.0,2022-08-11,-1335,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Thomas Dodson,161,3BR/2BA,2244.0,2022-08-12,-1334,Expired,Active
+Fieldside Grande Ph1,Pikesville,Mary Hill,084,1BR/1BA,1786.0,2022-08-12,-1334,Expired,Active
+Riverfront Flats,Frederick,Eric Colon,219,2BR/2BA,1892.0,2022-08-12,-1334,Expired,Active
+Duvall Westside,Laurel,Paul Berger,274,3BR/2BA,2326.0,2022-08-14,-1332,Expired,Active
+Duvall Westside,Laurel,Angel Fry,241,2BR/2BA,2086.0,2022-08-15,-1331,Expired,Active
+Mills Crossing,Owings Mills,Beth Thompson,288,3BR/2BA,2859.0,2022-08-15,-1331,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Melissa Miller,151,3BR/2BA,2520.0,2022-08-15,-1331,Expired,Active
+Riverfront Flats,Frederick,Sarah Brown,174,2BR/2BA,2206.0,2022-08-15,-1331,Expired,Active
+Duvall Westside,Laurel,Michael Miles,192,2BR/2BA,2333.0,2022-08-16,-1330,Expired,Active
+Mills Crossing,Owings Mills,Tammy Fields,194,2BR/2BA,2207.0,2022-08-16,-1330,Expired,Active
+Fieldside Grande Ph1,Pikesville,Eileen Taylor,237,2BR/2BA,2206.0,2022-08-17,-1329,Expired,Active
+Avenue Grand,Baltimore,Amy Lara,204,3BR/2BA,2451.0,2022-08-18,-1328,Expired,Active
+Riverfront Flats,Frederick,Kelly Doyle,150,2BR/1BA,1805.0,2022-08-19,-1327,Expired,Active
+Riverfront Flats,Frederick,Kelly Smith,238,3BR/2BA,2660.0,2022-08-21,-1325,Expired,Active
+Riverfront Flats,Frederick,Samuel Williams,217,2BR/2BA,2074.0,2022-08-22,-1324,Expired,Active
+Cedar Ridge Commons,Ellicott City,Ronald Bates,114,1BR/1BA,1823.0,2022-08-23,-1323,Expired,Active
+Mills Crossing,Owings Mills,Kelly Holder,045,1BR/1BA,1639.0,2022-08-24,-1322,Expired,Active
+Cedar Ridge Commons,Ellicott City,Jessica Bonilla,060,1BR/1BA,1592.0,2022-08-24,-1322,Expired,Active
+Cedar Ridge Commons,Ellicott City,Carlos Ortiz,091,1BR/1BA,1598.0,2022-08-24,-1322,Expired,Active
+Avenue Grand,Baltimore,Roy Davis,087,1BR/1BA,1453.0,2022-08-25,-1321,Expired,Active
+Riverfront Flats,Frederick,Christopher White,056,1BR/1BA,1618.0,2022-08-25,-1321,Expired,Active
+Cedar Ridge Commons,Ellicott City,Elizabeth Norton,297,3BR/2BA,2528.0,2022-08-26,-1320,Expired,Active
+Fieldside Grande Ph1,Pikesville,Miss Linda Cox DVM,076,1BR/1BA,1675.0,2022-08-27,-1319,Expired,Active
+Riverfront Flats,Frederick,Tonya Holland,123,1BR/1BA,1892.0,2022-08-27,-1319,Expired,Active
+Avenue Grand,Baltimore,Beth Shaw,086,1BR/1BA,1789.0,2022-08-29,-1317,Expired,Active
+Duvall Westside,Laurel,Tina Jackson,276,3BR/2BA,2440.0,2022-08-30,-1316,Expired,Active
+Fieldside Grande Ph1,Pikesville,Karen Arellano,167,2BR/2BA,2283.0,2022-08-30,-1316,Expired,Active
+Fieldside Grande Ph1,Pikesville,Jim Rodriguez,070,1BR/1BA,1613.0,2022-09-01,-1314,Expired,Active
+Riverfront Flats,Frederick,James Andrews,080,1BR/1BA,1687.0,2022-09-01,-1314,Expired,Active
+Mills Crossing,Owings Mills,Patrick Zamora,041,1BR/1BA,1492.0,2022-09-05,-1310,Expired,Active
+Cedar Ridge Commons,Ellicott City,Jason Ellis,150,2BR/1BA,2120.0,2022-09-06,-1309,Expired,Active
+Riverfront Flats,Frederick,Joseph Merritt,237,3BR/2BA,2406.0,2022-09-06,-1309,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Allison Glover,017,1BR/1BA,1581.0,2022-09-07,-1308,Expired,Active
+Cedar Ridge Commons,Ellicott City,Catherine Martin DVM,119,1BR/1BA,1480.0,2022-09-08,-1307,Expired,Active
+Duvall Westside,Laurel,Jason Herrera,202,2BR/2BA,2033.0,2022-09-09,-1306,Expired,Active
+Fieldside Grande Ph1,Pikesville,Aaron Hernandez,007,Studio,1491.0,2022-09-10,-1305,Expired,Active
+Fieldside Grande Ph1,Pikesville,Adam Diaz,033,1BR/1BA,1726.0,2022-09-10,-1305,Expired,Active
+Riverfront Flats,Frederick,Olivia Hayes,074,1BR/1BA,1608.0,2022-09-10,-1305,Expired,Active
+Fieldside Grande Ph1,Pikesville,Kathleen Graham,087,1BR/1BA,1926.0,2022-09-12,-1303,Expired,Active
+Fieldside Grande Ph1,Pikesville,Scott Washington,082,1BR/1BA,1717.0,2022-09-14,-1301,Expired,Active
+Avenue Grand,Baltimore,Tina Green,113,2BR/1BA,1751.0,2022-09-14,-1301,Expired,Active
+Cedar Ridge Commons,Ellicott City,Raymond Garcia,164,2BR/1BA,2016.0,2022-09-16,-1299,Expired,Active
+Fieldside Grande Ph1,Pikesville,Sheila Mendoza,201,2BR/2BA,2408.0,2022-09-18,-1297,Expired,Active
+Duvall Westside,Laurel,Donald Horne,108,1BR/1BA,1860.0,2022-09-19,-1296,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Kim Stewart,111,2BR/2BA,2133.0,2022-09-23,-1292,Expired,Active
+Mills Crossing,Owings Mills,Elizabeth Tucker PhD,222,2BR/2BA,2244.0,2022-09-25,-1290,Expired,Active
+Fieldside Grande Ph1,Pikesville,Gene Jones,053,1BR/1BA,1655.0,2022-09-26,-1289,Expired,Active
+Riverfront Flats,Frederick,Aaron Williamson,194,2BR/2BA,2309.0,2022-09-26,-1289,Expired,Active
+Mills Crossing,Owings Mills,Victor Harmon,177,2BR/2BA,2076.0,2022-09-27,-1288,Expired,Active
+Duvall Westside,Laurel,Kristen Lee,028,Studio,1533.0,2022-09-30,-1285,Expired,Active
+Mills Crossing,Owings Mills,Kimberly Rogers,079,2BR/1BA,1861.0,2022-10-01,-1284,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Alisha Martin,042,2BR/2BA,2137.0,2022-10-01,-1284,Expired,Active
+Avenue Grand,Baltimore,Jocelyn Beard,080,1BR/1BA,1464.0,2022-10-01,-1284,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Nicholas Henderson,009,1BR/1BA,1410.0,2022-10-02,-1283,Expired,Active
+Mills Crossing,Owings Mills,Michael Powell,219,2BR/2BA,1888.0,2022-10-03,-1282,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Nicholas Villegas,015,1BR/1BA,1841.0,2022-10-07,-1278,Expired,Active
+Riverfront Flats,Frederick,Rachel Koch,121,1BR/1BA,1686.0,2022-10-08,-1277,Expired,Active
+Avenue Grand,Baltimore,Mark Romero,019,Studio,1338.0,2022-10-09,-1276,Expired,Active
+Cedar Ridge Commons,Ellicott City,Brian Andrews,092,1BR/1BA,1446.0,2022-10-11,-1274,Expired,Active
+Mills Crossing,Owings Mills,Bethany Harding,266,3BR/2BA,2668.0,2022-10-12,-1273,Expired,Active
+Avenue Grand,Baltimore,Amber Williams,083,1BR/1BA,1727.0,2022-10-13,-1272,Expired,Active
+Cedar Ridge Commons,Ellicott City,Mark Contreras,288,3BR/2BA,2199.0,2022-10-13,-1272,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Megan House,048,2BR/1BA,2023.0,2022-10-14,-1271,Expired,Active
+Fieldside Grande Ph1,Pikesville,Kyle Simmons,164,2BR/2BA,2028.0,2022-10-15,-1270,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Sheila Harris,080,2BR/2BA,2111.0,2022-10-15,-1270,Expired,Active
+Avenue Grand,Baltimore,Erik Leon,146,2BR/2BA,2223.0,2022-10-16,-1269,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Kelly Allen,120,2BR/2BA,2164.0,2022-10-17,-1268,Expired,Active
+Riverfront Flats,Frederick,Nicholas Craig,245,3BR/2BA,2863.0,2022-10-17,-1268,Expired,Active
+Fieldside Grande Ph1,Pikesville,Trevor Weeks,106,1BR/1BA,1817.0,2022-10-18,-1267,Expired,Active
+Cedar Ridge Commons,Ellicott City,Keith Brown,241,2BR/2BA,2267.0,2022-10-18,-1267,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Michael Brooks,149,3BR/2BA,2556.0,2022-10-18,-1267,Expired,Active
+Mills Crossing,Owings Mills,Matthew Alvarado,058,1BR/1BA,1636.0,2022-10-19,-1266,Expired,Active
+Mills Crossing,Owings Mills,Denise Miller,184,2BR/2BA,2087.0,2022-10-19,-1266,Expired,Active
+Cedar Ridge Commons,Ellicott City,Antonio Taylor,071,1BR/1BA,1863.0,2022-10-22,-1263,Expired,Active
+Mills Crossing,Owings Mills,Anthony Jones,163,2BR/2BA,2093.0,2022-10-24,-1261,Expired,Active
+Duvall Westside,Laurel,Julie Ball,143,2BR/2BA,2070.0,2022-10-25,-1260,Expired,Active
+Fieldside Grande Ph1,Pikesville,Angela Nolan,029,1BR/1BA,1770.0,2022-10-26,-1259,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Timothy Valencia,022,1BR/1BA,1674.0,2022-10-27,-1258,Expired,Active
+Fieldside Grande Ph1,Pikesville,Raymond Costa,218,2BR/2BA,1801.0,2022-11-01,-1253,Expired,Active
+Avenue Grand,Baltimore,Mary Gibson,058,1BR/1BA,1640.0,2022-11-01,-1253,Expired,Active
+Avenue Grand,Baltimore,Gregory Wiggins,053,1BR/1BA,1764.0,2022-11-04,-1250,Expired,Active
+Duvall Westside,Laurel,Roger Lee,259,3BR/2BA,2749.0,2022-11-07,-1247,Expired,Active
+Cedar Ridge Commons,Ellicott City,Christopher Pruitt,090,1BR/1BA,1826.0,2022-11-09,-1245,Expired,Active
+Cedar Ridge Commons,Ellicott City,Scott Cooley,042,1BR/1BA,1685.0,2022-11-11,-1243,Expired,Active
+Cedar Ridge Commons,Ellicott City,Nichole Thompson,110,1BR/1BA,1486.0,2022-11-11,-1243,Expired,Active
+Duvall Westside,Laurel,Maria Jones,092,1BR/1BA,1541.0,2022-11-12,-1242,Expired,Active
+Avenue Grand,Baltimore,Deborah Bradford,031,Studio,1312.0,2022-11-13,-1241,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Chad Johnson,008,Studio,1347.0,2022-11-13,-1241,Expired,Active
+Fieldside Grande Ph1,Pikesville,Carl Blanchard,139,2BR/1BA,1985.0,2022-11-15,-1239,Expired,Active
+Fieldside Grande Ph1,Pikesville,Jessica Carr,254,2BR/2BA,2133.0,2022-11-18,-1236,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Charles Robinson,001,Studio,1575.0,2022-11-20,-1234,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Victoria James,097,2BR/2BA,1895.0,2022-11-20,-1234,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Mark Hess,041,1BR/1BA,1666.0,2022-11-21,-1233,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Joshua Hammond,057,2BR/1BA,1732.0,2022-11-22,-1232,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Hunter Brennan,136,3BR/2BA,2657.0,2022-11-27,-1227,Expired,Active
+Avenue Grand,Baltimore,James Bryant,016,Studio,1461.0,2022-11-27,-1227,Expired,Active
+Riverfront Flats,Frederick,Lance Murray,183,2BR/2BA,2123.0,2022-11-27,-1227,Expired,Active
+Avenue Grand,Baltimore,Allison Floyd,014,Studio,1426.0,2022-11-30,-1224,Expired,Active
+Cedar Ridge Commons,Ellicott City,Loretta Bradley,263,2BR/2BA,2169.0,2022-11-30,-1224,Expired,Active
+Avenue Grand,Baltimore,Gabriel Murphy,029,Studio,1441.0,2022-12-01,-1223,Expired,Active
+Cedar Ridge Commons,Ellicott City,Russell Davis,173,2BR/1BA,1948.0,2022-12-03,-1221,Expired,Active
+Duvall Westside,Laurel,Ricky Larson,051,1BR/1BA,1527.0,2022-12-04,-1220,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Kelly Andersen,008,1BR/1BA,1549.0,2022-12-04,-1220,Expired,Active
+Mills Crossing,Owings Mills,Brandon Nunez,013,Studio,1541.0,2022-12-06,-1218,Expired,Active
+Riverfront Flats,Frederick,Angelica Stein DDS,235,3BR/2BA,2757.0,2022-12-08,-1216,Expired,Active
+Cedar Ridge Commons,Ellicott City,Darrell Stein,228,2BR/2BA,2038.0,2022-12-09,-1215,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Michelle Shah,094,2BR/2BA,2265.0,2022-12-10,-1214,Expired,Active
+Mills Crossing,Owings Mills,Thomas Torres,059,1BR/1BA,1777.0,2022-12-11,-1213,Expired,Active
+Riverfront Flats,Frederick,Robert Lin,109,1BR/1BA,1550.0,2022-12-12,-1212,Expired,Active
+Duvall Westside,Laurel,Susan Hopkins,075,1BR/1BA,1752.0,2022-12-16,-1208,Expired,Active
+Fieldside Grande Ph1,Pikesville,Robert Hogan,003,Studio,1437.0,2022-12-16,-1208,Expired,Active
+Fieldside Grande Ph1,Pikesville,Renee Shields,133,2BR/1BA,2054.0,2022-12-16,-1208,Expired,Active
+Fieldside Grande Ph1,Pikesville,Tiffany Wilson,165,2BR/2BA,2077.0,2022-12-16,-1208,Expired,Active
+Cedar Ridge Commons,Ellicott City,Donald Smith,221,2BR/2BA,2228.0,2022-12-16,-1208,Expired,Active
+Duvall Westside,Laurel,Kenneth Underwood,205,2BR/2BA,2220.0,2022-12-17,-1207,Expired,Active
+Cedar Ridge Commons,Ellicott City,Jose Andrews,211,2BR/2BA,1997.0,2022-12-17,-1207,Expired,Active
+Mills Crossing,Owings Mills,Lisa Brown,285,3BR/2BA,2834.0,2022-12-18,-1206,Expired,Active
+Mills Crossing,Owings Mills,Samuel Williams,187,2BR/2BA,2339.0,2022-12-23,-1201,Expired,Active
+Mills Crossing,Owings Mills,Johnny Anderson,188,2BR/2BA,2207.0,2022-12-23,-1201,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Kerry Anderson,046,2BR/1BA,1924.0,2022-12-24,-1200,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Jordan Chapman,162,3BR/2BA,2415.0,2022-12-25,-1199,Expired,Active
+Duvall Westside,Laurel,David Wilson,175,2BR/2BA,2147.0,2022-12-26,-1198,Expired,Active
+Mills Crossing,Owings Mills,Jonathan James,191,2BR/2BA,2138.0,2022-12-27,-1197,Expired,Active
+Avenue Grand,Baltimore,Carolyn Lopez,012,Studio,1562.0,2022-12-27,-1197,Expired,Active
+Avenue Grand,Baltimore,Keith Gibson,206,3BR/2BA,2389.0,2022-12-27,-1197,Expired,Active
+Avenue Grand,Baltimore,Thomas Floyd,162,2BR/2BA,1945.0,2022-12-28,-1196,Expired,Active
+Mills Crossing,Owings Mills,Steven Scott,088,2BR/1BA,1770.0,2022-12-29,-1195,Expired,Active
+Riverfront Flats,Frederick,Hannah Campbell,140,2BR/1BA,1899.0,2022-12-31,-1193,Expired,Active
+Mills Crossing,Owings Mills,Christopher Rogers,072,1BR/1BA,1754.0,2023-01-02,-1191,Expired,Active
+Fieldside Grande Ph1,Pikesville,David Blair,065,1BR/1BA,1549.0,2023-01-03,-1190,Expired,Active
+Riverfront Flats,Frederick,Sophia Blake,251,3BR/2BA,2788.0,2023-01-03,-1190,Expired,Active
+Fieldside Grande Ph1,Pikesville,Patricia Jones,091,1BR/1BA,1709.0,2023-01-04,-1189,Expired,Active
+Riverfront Flats,Frederick,Anthony Peterson,144,2BR/1BA,1953.0,2023-01-04,-1189,Expired,Active
+Duvall Westside,Laurel,Megan Moore,063,1BR/1BA,1880.0,2023-01-05,-1188,Expired,Active
+Avenue Grand,Baltimore,Melissa Kim,013,Studio,1205.0,2023-01-05,-1188,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Marie Brown,131,2BR/2BA,2064.0,2023-01-05,-1188,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Victoria Delgado,138,3BR/2BA,2343.0,2023-01-08,-1185,Expired,Active
+Duvall Westside,Laurel,Roger Olson,066,1BR/1BA,1867.0,2023-01-09,-1184,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Jonathan Hernandez,159,3BR/2BA,2728.0,2023-01-10,-1183,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Desiree Mccoy,166,3BR/2BA,2480.0,2023-01-15,-1178,Expired,Active
+Riverfront Flats,Frederick,Brandon Myers,089,1BR/1BA,1850.0,2023-01-16,-1177,Expired,Active
+Fieldside Grande Ph1,Pikesville,David Hudson,025,Studio,1531.0,2023-01-19,-1174,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Joseph Harris,184,3BR/2BA,2454.0,2023-01-20,-1173,Expired,Active
+Duvall Westside,Laurel,Janet Kane DVM,142,2BR/1BA,1946.0,2023-01-21,-1172,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Anthony Carlson,034,1BR/1BA,1567.0,2023-01-23,-1170,Expired,Active
+Duvall Westside,Laurel,Danny Roberts,177,2BR/2BA,2238.0,2023-01-25,-1168,Expired,Active
+Fieldside Grande Ph1,Pikesville,Rebecca Kelley,156,2BR/2BA,1937.0,2023-01-25,-1168,Expired,Active
+Duvall Westside,Laurel,Aaron Robinson,141,2BR/1BA,1875.0,2023-01-26,-1167,Expired,Active
+Fieldside Grande Ph1,Pikesville,William Fuller,179,2BR/2BA,2298.0,2023-01-26,-1167,Expired,Active
+Fieldside Grande Ph1,Pikesville,April Benjamin,244,2BR/2BA,2366.0,2023-01-26,-1167,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Michael Vega,032,2BR/1BA,2049.0,2023-01-29,-1164,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Jennifer Carr,040,2BR/2BA,2084.0,2023-01-29,-1164,Expired,Active
+Fieldside Grande Ph1,Pikesville,Joseph Williams,220,2BR/2BA,2190.0,2023-01-29,-1164,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Justin Randall,076,2BR/2BA,2124.0,2023-01-29,-1164,Expired,Active
+Riverfront Flats,Frederick,Michelle Martinez,112,1BR/1BA,1712.0,2023-02-04,-1158,Expired,Active
+Duvall Westside,Laurel,Gary Kennedy,128,2BR/1BA,1739.0,2023-02-05,-1157,Expired,Active
+Mills Crossing,Owings Mills,James Gallagher,168,2BR/2BA,2257.0,2023-02-05,-1157,Expired,Active
+Fieldside Grande Ph1,Pikesville,Mrs. Maria Price DDS,060,1BR/1BA,1720.0,2023-02-05,-1157,Expired,Active
+Cedar Ridge Commons,Ellicott City,Mr. Vincent Hansen,226,2BR/2BA,1938.0,2023-02-05,-1157,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Elizabeth Deleon,058,2BR/1BA,1980.0,2023-02-05,-1157,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Charlotte Gomez,023,2BR/1BA,1708.0,2023-02-06,-1156,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Patricia Hughes,064,2BR/2BA,2278.0,2023-02-06,-1156,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Shawn Patton,028,1BR/1BA,1610.0,2023-02-07,-1155,Expired,Active
+Riverfront Flats,Frederick,David Joseph,216,2BR/2BA,2000.0,2023-02-09,-1153,Expired,Active
+Fieldside Grande Ph1,Pikesville,David Perez,188,2BR/2BA,2146.0,2023-02-10,-1152,Expired,Active
+Riverfront Flats,Frederick,Tracy Hall,070,1BR/1BA,1658.0,2023-02-10,-1152,Expired,Active
+Duvall Westside,Laurel,Allison Hill,001,Studio,1263.0,2023-02-11,-1151,Expired,Active
+Duvall Westside,Laurel,Zachary Hicks,009,Studio,1329.0,2023-02-11,-1151,Expired,Active
+Fieldside Grande Ph1,Pikesville,Debra Logan,192,2BR/2BA,2244.0,2023-02-11,-1151,Expired,Active
+Riverfront Flats,Frederick,Robert Huang,137,2BR/1BA,2015.0,2023-02-11,-1151,Expired,Active
+Riverfront Flats,Frederick,James Little,178,2BR/2BA,2172.0,2023-02-11,-1151,Expired,Active
+Mills Crossing,Owings Mills,Anne Conley,280,3BR/2BA,2739.0,2023-02-12,-1150,Expired,Active
+Duvall Westside,Laurel,Ryan Harvey,176,2BR/2BA,2159.0,2023-02-13,-1149,Expired,Active
+Fieldside Grande Ph1,Pikesville,Cindy Stanley MD,221,2BR/2BA,2216.0,2023-02-13,-1149,Expired,Active
+Cedar Ridge Commons,Ellicott City,Kristin Davis,095,1BR/1BA,1547.0,2023-02-13,-1149,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Aaron Armstrong,038,2BR/1BA,1959.0,2023-02-14,-1148,Expired,Active
+Mills Crossing,Owings Mills,Adam Thompson,238,3BR/2BA,2455.0,2023-02-15,-1147,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Jonathan Evans,010,1BR/1BA,1430.0,2023-02-16,-1146,Expired,Active
+Duvall Westside,Laurel,Holly Wood,007,Studio,1511.0,2023-02-17,-1145,Expired,Active
+Mills Crossing,Owings Mills,Sandra Smith,104,2BR/1BA,2106.0,2023-02-17,-1145,Expired,Active
+Mills Crossing,Owings Mills,Heather Levine,170,2BR/2BA,1929.0,2023-02-17,-1145,Expired,Active
+Mills Crossing,Owings Mills,Crystal Cummings,265,3BR/2BA,2562.0,2023-02-17,-1145,Expired,Active
+Cedar Ridge Commons,Ellicott City,Kimberly Haney,089,1BR/1BA,1558.0,2023-02-17,-1145,Expired,Active
+Mills Crossing,Owings Mills,Brent Rojas,124,2BR/2BA,2249.0,2023-02-19,-1143,Expired,Active
+Riverfront Flats,Frederick,Jessica White,205,2BR/2BA,2189.0,2023-02-20,-1142,Expired,Active
+Duvall Westside,Laurel,Stephanie Martin,017,Studio,1448.0,2023-02-21,-1141,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Nathan Mcneil,073,2BR/2BA,1906.0,2023-02-23,-1139,Expired,Active
+Duvall Westside,Laurel,Jose Williams,197,2BR/2BA,1911.0,2023-02-25,-1137,Expired,Active
+Mills Crossing,Owings Mills,Eric Campbell,290,3BR/2BA,3000.0,2023-02-27,-1135,Expired,Active
+Mills Crossing,Owings Mills,Randy Robbins,213,2BR/2BA,2226.0,2023-03-01,-1133,Expired,Active
+Duvall Westside,Laurel,Andrew Wood,090,1BR/1BA,1617.0,2023-03-03,-1131,Expired,Active
+Riverfront Flats,Frederick,Jennifer Gomez,119,1BR/1BA,1746.0,2023-03-05,-1129,Expired,Active
+Fieldside Grande Ph1,Pikesville,Emily Lee,058,1BR/1BA,1518.0,2023-03-06,-1128,Expired,Active
+Fieldside Grande Ph1,Pikesville,Jennifer Blackwell,104,1BR/1BA,1506.0,2023-03-06,-1128,Expired,Active
+Duvall Westside,Laurel,Rachel Harris DVM,073,1BR/1BA,1458.0,2023-03-09,-1125,Expired,Active
+Cedar Ridge Commons,Ellicott City,Nicholas Arellano,111,1BR/1BA,1734.0,2023-03-11,-1123,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Harold Wagner,158,3BR/2BA,2212.0,2023-03-12,-1122,Expired,Active
+Riverfront Flats,Frederick,Kristin Dixon MD,193,2BR/2BA,2164.0,2023-03-13,-1121,Expired,Active
+Avenue Grand,Baltimore,William Adams,203,3BR/2BA,2750.0,2023-03-14,-1120,Expired,Active
+Cedar Ridge Commons,Ellicott City,James Flores,014,Studio,1527.0,2023-03-15,-1119,Expired,Active
+Cedar Ridge Commons,Ellicott City,Mrs. Jaclyn Crosby MD,204,2BR/2BA,2255.0,2023-03-15,-1119,Expired,Active
+Riverfront Flats,Frederick,Lori Guerrero MD,138,2BR/1BA,1998.0,2023-03-15,-1119,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Seth Daniel,121,2BR/2BA,2364.0,2023-03-16,-1118,Expired,Active
+Fieldside Grande Ph1,Pikesville,David Rice,107,1BR/1BA,1515.0,2023-03-17,-1117,Expired,Active
+Cedar Ridge Commons,Ellicott City,Alan Rivera,001,Studio,1294.0,2023-03-17,-1117,Expired,Active
+Duvall Westside,Laurel,Elizabeth Ward,047,1BR/1BA,1881.0,2023-03-21,-1113,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Kathy Shaffer,077,2BR/2BA,2032.0,2023-03-23,-1111,Expired,Active
+Riverfront Flats,Frederick,Andrew Rodriguez,111,1BR/1BA,1794.0,2023-03-23,-1111,Expired,Active
+Avenue Grand,Baltimore,Latoya Cooper,173,2BR/2BA,2023.0,2023-03-24,-1110,Expired,Active
+Cedar Ridge Commons,Ellicott City,Donald Morris,183,2BR/1BA,1833.0,2023-03-25,-1109,Expired,Active
+Avenue Grand,Baltimore,Christopher Morris,077,1BR/1BA,1701.0,2023-03-26,-1108,Expired,Active
+Cedar Ridge Commons,Ellicott City,Angela Holloway,254,2BR/2BA,2003.0,2023-03-26,-1108,Expired,Active
+Cedar Ridge Commons,Ellicott City,Cameron Smith,208,2BR/2BA,2286.0,2023-03-27,-1107,Expired,Active
+Fieldside Grande Ph1,Pikesville,Derrick Ray,006,Studio,1404.0,2023-03-28,-1106,Expired,Active
+Fieldside Grande Ph1,Pikesville,Christine Hubbard,268,3BR/2BA,2918.0,2023-03-28,-1106,Expired,Active
+Avenue Grand,Baltimore,Cynthia Miller,178,2BR/2BA,2316.0,2023-03-29,-1105,Expired,Active
+Mills Crossing,Owings Mills,Michael Reynolds,090,2BR/1BA,1859.0,2023-03-30,-1104,Expired,Active
+Cedar Ridge Commons,Ellicott City,Lisa Stark,066,1BR/1BA,1467.0,2023-03-31,-1103,Expired,Active
+Riverfront Flats,Frederick,Cynthia Nguyen,124,1BR/1BA,1699.0,2023-04-01,-1102,Expired,Active
+Duvall Westside,Laurel,Maria Cole,112,1BR/1BA,1597.0,2023-04-03,-1100,Expired,Active
+Fieldside Grande Ph1,Pikesville,Cody Hoover,270,3BR/2BA,2621.0,2023-04-04,-1099,Expired,Active
+Avenue Grand,Baltimore,Jessica Baker,085,1BR/1BA,1761.0,2023-04-05,-1098,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,William Jackson,158,3BR/2BA,2310.0,2023-04-05,-1098,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Larry Green,114,2BR/2BA,1890.0,2023-04-07,-1096,Expired,Active
+Duvall Westside,Laurel,Allison Spencer,111,1BR/1BA,1585.0,2023-04-08,-1095,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Michelle Wright,030,2BR/1BA,2004.0,2023-04-08,-1095,Expired,Active
+Fieldside Grande Ph1,Pikesville,Angelica King,154,2BR/2BA,2230.0,2023-04-08,-1095,Expired,Active
+Duvall Westside,Laurel,Ruth Mcneil,185,2BR/2BA,2184.0,2023-04-10,-1093,Expired,Active
+Duvall Westside,Laurel,Kyle Smith,209,2BR/2BA,1894.0,2023-04-11,-1092,Expired,Active
+Duvall Westside,Laurel,Renee Morales,008,Studio,1429.0,2023-04-14,-1089,Expired,Active
+Fieldside Grande Ph1,Pikesville,Jeremy Faulkner,145,2BR/2BA,2379.0,2023-04-14,-1089,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Jenna Jensen,080,2BR/2BA,2229.0,2023-04-15,-1088,Expired,Active
+Cedar Ridge Commons,Ellicott City,Erika Davis,050,1BR/1BA,1653.0,2023-04-16,-1087,Expired,Active
+Fieldside Grande Ph1,Pikesville,Dr. Sarah Smith,224,2BR/2BA,2002.0,2023-04-19,-1084,Expired,Active
+Cedar Ridge Commons,Ellicott City,Kyle Green,053,1BR/1BA,1784.0,2023-04-19,-1084,Expired,Active
+Riverfront Flats,Frederick,Donald Jimenez,107,1BR/1BA,1519.0,2023-04-20,-1083,Expired,Active
+Mills Crossing,Owings Mills,Christina White,296,3BR/2BA,2134.0,2023-04-21,-1082,Expired,Active
+Riverfront Flats,Frederick,Nicole West,016,Studio,1504.0,2023-04-22,-1081,Expired,Active
+Mills Crossing,Owings Mills,Michael Osborn,050,1BR/1BA,1723.0,2023-04-24,-1079,Expired,Active
+Mills Crossing,Owings Mills,Lisa Martin,141,2BR/2BA,1939.0,2023-04-25,-1078,Expired,Active
+Riverfront Flats,Frederick,Kevin Smith,157,2BR/2BA,2253.0,2023-04-26,-1077,Expired,Active
+Duvall Westside,Laurel,Darrell Adams,220,2BR/2BA,2009.0,2023-04-29,-1074,Expired,Active
+Duvall Westside,Laurel,Melinda Compton,227,2BR/2BA,2072.0,2023-04-29,-1074,Expired,Active
+Mills Crossing,Owings Mills,Melissa Garcia,130,2BR/2BA,2097.0,2023-04-30,-1073,Expired,Active
+Fieldside Grande Ph1,Pikesville,Jessica Nelson,207,2BR/2BA,2113.0,2023-04-30,-1073,Expired,Active
+Cedar Ridge Commons,Ellicott City,Steve Walsh,261,2BR/2BA,2072.0,2023-04-30,-1073,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Ellen Acosta,060,2BR/1BA,2152.0,2023-04-30,-1073,Expired,Active
+Fieldside Grande Ph1,Pikesville,Mario Stout,062,1BR/1BA,1894.0,2023-05-01,-1072,Expired,Active
+Fieldside Grande Ph1,Pikesville,Steven Scott,069,1BR/1BA,1426.0,2023-05-03,-1070,Expired,Active
+Cedar Ridge Commons,Ellicott City,Emily Sullivan,215,2BR/2BA,2272.0,2023-05-04,-1069,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Victoria Massey,173,3BR/2BA,2755.0,2023-05-06,-1067,Expired,Active
+Riverfront Flats,Frederick,Erin Walker,044,1BR/1BA,1649.0,2023-05-06,-1067,Expired,Active
+Cedar Ridge Commons,Ellicott City,Sabrina Gonzales,194,2BR/2BA,2223.0,2023-05-07,-1066,Expired,Active
+Duvall Westside,Laurel,Bob Cole,148,2BR/2BA,2022.0,2023-05-11,-1062,Expired,Active
+Cedar Ridge Commons,Ellicott City,Cody Woods,172,2BR/1BA,1768.0,2023-05-12,-1061,Expired,Active
+Mills Crossing,Owings Mills,Brenda Perez,155,2BR/2BA,2405.0,2023-05-13,-1060,Expired,Active
+Fieldside Grande Ph1,Pikesville,Heather Young,181,2BR/2BA,1955.0,2023-05-13,-1060,Expired,Active
+Mills Crossing,Owings Mills,Luis Hill,099,2BR/1BA,1982.0,2023-05-14,-1059,Expired,Active
+Cedar Ridge Commons,Ellicott City,Savannah Estrada,205,2BR/2BA,1906.0,2023-05-15,-1058,Expired,Active
+Duvall Westside,Laurel,Paul Lee,104,1BR/1BA,1791.0,2023-05-16,-1057,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Savannah Beck,134,2BR/2BA,1972.0,2023-05-16,-1057,Expired,Active
+Duvall Westside,Laurel,Kyle Johnson,207,2BR/2BA,2106.0,2023-05-18,-1055,Expired,Active
+Mills Crossing,Owings Mills,Sheena Burton,151,2BR/2BA,2296.0,2023-05-19,-1054,Expired,Active
+Mills Crossing,Owings Mills,John Savage,189,2BR/2BA,1927.0,2023-05-19,-1054,Expired,Active
+Riverfront Flats,Frederick,Travis Carter,192,2BR/2BA,1843.0,2023-05-22,-1051,Expired,Active
+Duvall Westside,Laurel,Jennifer Ramirez,026,Studio,1396.0,2023-05-24,-1049,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Joseph Sanchez,082,2BR/2BA,2243.0,2023-05-24,-1049,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Ashley Walker,100,3BR/2BA,2368.0,2023-05-25,-1048,Expired,Active
+Mills Crossing,Owings Mills,Anita Serrano,120,2BR/1BA,1864.0,2023-05-27,-1046,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Keith Bauer,036,2BR/1BA,1850.0,2023-05-27,-1046,Expired,Active
+Fieldside Grande Ph1,Pikesville,Brian Miller,183,2BR/2BA,2137.0,2023-05-28,-1045,Expired,Active
+Avenue Grand,Baltimore,Hannah Campbell,213,3BR/2BA,2689.0,2023-05-28,-1045,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Benjamin Wilson,063,2BR/1BA,1766.0,2023-05-28,-1045,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Johnny Pierce,075,2BR/2BA,2211.0,2023-05-30,-1043,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Lisa Roberts,106,2BR/2BA,2110.0,2023-05-30,-1043,Expired,Active
+Duvall Westside,Laurel,Elizabeth Davis,218,2BR/2BA,2020.0,2023-06-04,-1038,Expired,Active
+Fieldside Grande Ph1,Pikesville,Andrew Williams,261,3BR/2BA,2914.0,2023-06-06,-1036,Expired,Active
+Duvall Westside,Laurel,Richard Jones,088,1BR/1BA,1508.0,2023-06-07,-1035,Expired,Active
+Mills Crossing,Owings Mills,Megan Nelson,084,2BR/1BA,1767.0,2023-06-08,-1034,Expired,Active
+Riverfront Flats,Frederick,Terri Davis,024,Studio,1265.0,2023-06-08,-1034,Expired,Active
+Townes at Heritage Hills,Glen Burnie,David Delgado,151,3BR/2BA,2249.0,2023-06-12,-1030,Expired,Active
+Fieldside Grande Ph1,Pikesville,Edward Johnson,138,2BR/1BA,1741.0,2023-06-15,-1027,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Kevin Allen,110,2BR/2BA,1880.0,2023-06-15,-1027,Expired,Active
+Riverfront Flats,Frederick,Samantha Smith,021,Studio,1311.0,2023-06-15,-1027,Expired,Active
+Avenue Grand,Baltimore,Joy Dorsey,209,3BR/2BA,2602.0,2023-06-16,-1026,Expired,Active
+Mills Crossing,Owings Mills,Peter Jackson,118,2BR/1BA,2178.0,2023-06-17,-1025,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Linda Thompson,175,3BR/2BA,2735.0,2023-06-17,-1025,Expired,Active
+Duvall Westside,Laurel,Tyler Reid,041,1BR/1BA,1548.0,2023-06-18,-1024,Expired,Active
+Duvall Westside,Laurel,Krista Bell MD,046,1BR/1BA,1537.0,2023-06-18,-1024,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Tara Taylor,020,1BR/1BA,1660.0,2023-06-19,-1023,Expired,Active
+Duvall Westside,Laurel,Vanessa Cochran,025,Studio,1363.0,2023-06-21,-1021,Expired,Active
+Fieldside Grande Ph1,Pikesville,Tammy Mcdaniel,180,2BR/2BA,2140.0,2023-06-23,-1019,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Kristin Morgan,102,2BR/2BA,2178.0,2023-06-23,-1019,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Sara Wallace,061,2BR/1BA,1802.0,2023-06-24,-1018,Expired,Active
+Mills Crossing,Owings Mills,Teresa Garner,307,3BR/2BA,2358.0,2023-06-26,-1016,Expired,Active
+Cedar Ridge Commons,Ellicott City,Rebecca Boone,037,1BR/1BA,1791.0,2023-06-26,-1016,Expired,Active
+Duvall Westside,Laurel,Reginald Knapp,123,2BR/1BA,1929.0,2023-06-27,-1015,Expired,Active
+Mills Crossing,Owings Mills,Tyrone White,227,2BR/2BA,2140.0,2023-06-28,-1014,Expired,Active
+Cedar Ridge Commons,Ellicott City,Frank Stephenson,192,2BR/2BA,2292.0,2023-06-28,-1014,Expired,Active
+Fieldside Grande Ph1,Pikesville,Alexander Stein,094,1BR/1BA,1715.0,2023-06-29,-1013,Expired,Active
+Duvall Westside,Laurel,Kathryn Farrell,019,Studio,1356.0,2023-06-30,-1012,Expired,Active
+Avenue Grand,Baltimore,Trevor Bautista,051,1BR/1BA,1660.0,2023-07-02,-1010,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Misty Walsh,141,3BR/2BA,2782.0,2023-07-02,-1010,Expired,Active
+Avenue Grand,Baltimore,Megan Fitzgerald,167,2BR/2BA,1942.0,2023-07-04,-1008,Expired,Active
+Riverfront Flats,Frederick,Angel Summers,005,Studio,1399.0,2023-07-04,-1008,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Glenda Calderon,148,3BR/2BA,3051.0,2023-07-05,-1007,Expired,Active
+Fieldside Grande Ph1,Pikesville,Angelica Smith,114,1BR/1BA,1664.0,2023-07-06,-1006,Expired,Active
+Riverfront Flats,Frederick,Christina Evans,051,1BR/1BA,1656.0,2023-07-06,-1006,Expired,Active
+Duvall Westside,Laurel,Michael Chambers,068,1BR/1BA,1819.0,2023-07-07,-1005,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Peter Davila,126,2BR/2BA,1826.0,2023-07-08,-1004,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Timothy Thomas,152,3BR/2BA,2396.0,2023-07-08,-1004,Expired,Active
+Duvall Westside,Laurel,Meredith Barnes,003,Studio,1504.0,2023-07-10,-1002,Expired,Active
+Avenue Grand,Baltimore,Crystal Abbott,112,2BR/1BA,1886.0,2023-07-11,-1001,Expired,Active
+Cedar Ridge Commons,Ellicott City,Jeanne Johnson,105,1BR/1BA,1852.0,2023-07-11,-1001,Expired,Active
+Fieldside Grande Ph1,Pikesville,Erin Carter,079,1BR/1BA,1470.0,2023-07-13,-999,Expired,Active
+Cedar Ridge Commons,Ellicott City,Todd Hampton,196,2BR/2BA,1790.0,2023-07-13,-999,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Dakota Hickman,061,2BR/2BA,2058.0,2023-07-14,-998,Expired,Active
+Fieldside Grande Ph1,Pikesville,Tammy Lopez,122,2BR/1BA,2212.0,2023-07-14,-998,Expired,Active
+Riverfront Flats,Frederick,Jean Graham,198,2BR/2BA,2346.0,2023-07-15,-997,Expired,Active
+Mills Crossing,Owings Mills,Marissa Nelson,102,2BR/1BA,1914.0,2023-07-16,-996,Expired,Active
+Fieldside Grande Ph1,Pikesville,Juan Morgan,257,3BR/2BA,2516.0,2023-07-16,-996,Expired,Active
+Mills Crossing,Owings Mills,Roberto Foster,240,3BR/2BA,2545.0,2023-07-17,-995,Expired,Active
+Riverfront Flats,Frederick,Erin Williams,259,3BR/2BA,2946.0,2023-07-17,-995,Expired,Active
+Riverfront Flats,Frederick,Kyle Bell,013,Studio,1499.0,2023-07-20,-992,Expired,Active
+Riverfront Flats,Frederick,Daniel Brandt,135,2BR/1BA,2033.0,2023-07-21,-991,Expired,Active
+Cedar Ridge Commons,Ellicott City,Carolyn Johnson,004,Studio,1405.0,2023-07-22,-990,Expired,Active
+Mills Crossing,Owings Mills,Luke Reynolds,275,3BR/2BA,2501.0,2023-07-23,-989,Expired,Active
+Fieldside Grande Ph1,Pikesville,Eduardo Hall,274,3BR/2BA,2405.0,2023-07-23,-989,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Anthony Ayala,140,3BR/2BA,2683.0,2023-07-24,-988,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Daniel Rojas,022,2BR/1BA,1948.0,2023-07-26,-986,Expired,Active
+Fieldside Grande Ph1,Pikesville,Karen Trujillo,259,3BR/2BA,2907.0,2023-07-27,-985,Expired,Active
+Riverfront Flats,Frederick,Sarah Martin,093,1BR/1BA,1739.0,2023-07-27,-985,Expired,Active
+Duvall Westside,Laurel,Jorge Brown PhD,193,2BR/2BA,1949.0,2023-07-28,-984,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Beth Lewis,057,2BR/2BA,1995.0,2023-07-28,-984,Expired,Active
+Cedar Ridge Commons,Ellicott City,Daniel Deleon,168,2BR/1BA,1926.0,2023-07-29,-983,Expired,Active
+Duvall Westside,Laurel,Glen Sheppard,048,1BR/1BA,1625.0,2023-07-30,-982,Expired,Active
+Avenue Grand,Baltimore,Robin Patterson,036,1BR/1BA,1723.0,2023-07-30,-982,Expired,Active
+Cedar Ridge Commons,Ellicott City,Joshua Quinn,100,1BR/1BA,1692.0,2023-07-30,-982,Expired,Active
+Cedar Ridge Commons,Ellicott City,Kayla Maxwell,125,2BR/1BA,1721.0,2023-07-30,-982,Expired,Active
+Duvall Westside,Laurel,Robert Long,166,2BR/2BA,2129.0,2023-07-31,-981,Expired,Active
+Mills Crossing,Owings Mills,Jay Austin,067,1BR/1BA,1610.0,2023-07-31,-981,Expired,Active
+Fieldside Grande Ph1,Pikesville,Anthony Randall,215,2BR/2BA,2153.0,2023-07-31,-981,Expired,Active
+Avenue Grand,Baltimore,Adam Holland,122,2BR/1BA,1866.0,2023-08-01,-980,Expired,Active
+Cedar Ridge Commons,Ellicott City,Greg Wright,074,1BR/1BA,1581.0,2023-08-02,-979,Expired,Active
+Duvall Westside,Laurel,Daniel Cooper,022,Studio,1274.0,2023-08-03,-978,Expired,Active
+Duvall Westside,Laurel,Jamie Kerr,049,1BR/1BA,1690.0,2023-08-03,-978,Expired,Active
+Riverfront Flats,Frederick,Robert Nguyen,029,Studio,1332.0,2023-08-03,-978,Expired,Active
+Avenue Grand,Baltimore,David Hawkins,088,1BR/1BA,1598.0,2023-08-06,-975,Expired,Active
+Cedar Ridge Commons,Ellicott City,Amy Davis,139,2BR/1BA,2041.0,2023-08-06,-975,Expired,Active
+Cedar Ridge Commons,Ellicott City,Robin Wright,032,1BR/1BA,1905.0,2023-08-07,-974,Expired,Active
+Mills Crossing,Owings Mills,Jessica Rojas,032,1BR/1BA,1706.0,2023-08-08,-973,Expired,Active
+Mills Crossing,Owings Mills,Jennifer Bryant,095,2BR/1BA,1615.0,2023-08-08,-973,Expired,Active
+Cedar Ridge Commons,Ellicott City,Jacob Fry,277,2BR/2BA,2075.0,2023-08-09,-972,Expired,Active
+Avenue Grand,Baltimore,Joseph Wang,041,1BR/1BA,1924.0,2023-08-11,-970,Expired,Active
+Avenue Grand,Baltimore,Sean Dixon,054,1BR/1BA,1767.0,2023-08-11,-970,Expired,Active
+Fieldside Grande Ph1,Pikesville,Scott Martinez,195,2BR/2BA,2119.0,2023-08-14,-967,Expired,Active
+Riverfront Flats,Frederick,Bailey Love,169,2BR/2BA,2231.0,2023-08-14,-967,Expired,Active
+Mills Crossing,Owings Mills,Jennifer Jenkins,062,1BR/1BA,1396.0,2023-08-16,-965,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Joshua Baker,101,2BR/2BA,1941.0,2023-08-16,-965,Expired,Active
+Duvall Westside,Laurel,Austin Garcia,275,3BR/2BA,2477.0,2023-08-17,-964,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,David Stephens,025,1BR/1BA,1577.0,2023-08-17,-964,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Dylan Robinson,095,2BR/2BA,2160.0,2023-08-17,-964,Expired,Active
+Duvall Westside,Laurel,Ryan Newman,157,2BR/2BA,2188.0,2023-08-19,-962,Expired,Active
+Cedar Ridge Commons,Ellicott City,George Hill,227,2BR/2BA,2029.0,2023-08-19,-962,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Douglas Brown,140,3BR/2BA,2630.0,2023-08-23,-958,Expired,Active
+Riverfront Flats,Frederick,Kevin Stafford,052,1BR/1BA,1495.0,2023-08-24,-957,Expired,Active
+Fieldside Grande Ph1,Pikesville,Deborah Moreno,169,2BR/2BA,1883.0,2023-08-25,-956,Expired,Active
+Mills Crossing,Owings Mills,Thomas Patrick,203,2BR/2BA,2082.0,2023-08-26,-955,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Debra Mayo,024,2BR/1BA,1731.0,2023-08-26,-955,Expired,Active
+Fieldside Grande Ph1,Pikesville,John Hodges,018,Studio,1492.0,2023-08-26,-955,Expired,Active
+Riverfront Flats,Frederick,Whitney Allen,243,3BR/2BA,2858.0,2023-08-26,-955,Expired,Active
+Cedar Ridge Commons,Ellicott City,Albert Fields,103,1BR/1BA,1513.0,2023-08-28,-953,Expired,Active
+Riverfront Flats,Frederick,Sharon Holland,116,1BR/1BA,1581.0,2023-08-28,-953,Expired,Active
+Cedar Ridge Commons,Ellicott City,Donald Roberts,170,2BR/1BA,2003.0,2023-08-30,-951,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,George Haney,123,2BR/2BA,2189.0,2023-08-30,-951,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Kristina English,072,2BR/2BA,2057.0,2023-08-31,-950,Expired,Active
+Fieldside Grande Ph1,Pikesville,Jennifer Meyer,027,Studio,1475.0,2023-08-31,-950,Expired,Active
+Riverfront Flats,Frederick,Michael Gilbert,242,3BR/2BA,2402.0,2023-08-31,-950,Expired,Active
+Duvall Westside,Laurel,Matthew Wells,273,3BR/2BA,3030.0,2023-09-01,-949,Expired,Active
+Riverfront Flats,Frederick,Tonya Spears,221,2BR/2BA,2169.0,2023-09-01,-949,Expired,Active
+Duvall Westside,Laurel,Steven Taylor,120,2BR/1BA,2009.0,2023-09-02,-948,Expired,Active
+Mills Crossing,Owings Mills,Michael Freeman,020,1BR/1BA,1694.0,2023-09-04,-946,Expired,Active
+Duvall Westside,Laurel,Mariah Robles,253,2BR/2BA,2139.0,2023-09-05,-945,Expired,Active
+Mills Crossing,Owings Mills,Andrew Anderson,249,3BR/2BA,2495.0,2023-09-05,-945,Expired,Active
+Cedar Ridge Commons,Ellicott City,Shirley Todd,166,2BR/1BA,1810.0,2023-09-08,-942,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Jerome Salazar,154,3BR/2BA,2637.0,2023-09-08,-942,Expired,Active
+Riverfront Flats,Frederick,Bradley Brown,190,2BR/2BA,2228.0,2023-09-10,-940,Expired,Active
+Duvall Westside,Laurel,Brittany Stevens,271,3BR/2BA,2272.0,2023-09-11,-939,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Paula Shepherd,052,2BR/2BA,1922.0,2023-09-11,-939,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Kimberly Cummings,139,3BR/2BA,2855.0,2023-09-12,-938,Expired,Active
+Mills Crossing,Owings Mills,Shawn Evans,092,2BR/1BA,1790.0,2023-09-13,-937,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Jonathon Houston,115,2BR/2BA,2047.0,2023-09-14,-936,Expired,Active
+Riverfront Flats,Frederick,Daniel Nelson,062,1BR/1BA,1496.0,2023-09-14,-936,Expired,Active
+Mills Crossing,Owings Mills,Jennifer Smith,277,3BR/2BA,2422.0,2023-09-16,-934,Expired,Active
+Fieldside Grande Ph1,Pikesville,Daniel Lester,023,Studio,1357.0,2023-09-16,-934,Expired,Active
+Cedar Ridge Commons,Ellicott City,Dylan Valenzuela,054,1BR/1BA,1586.0,2023-09-16,-934,Expired,Active
+Cedar Ridge Commons,Ellicott City,Joe Chapman,159,2BR/1BA,1824.0,2023-09-16,-934,Expired,Active
+Fieldside Grande Ph1,Pikesville,Denise Nixon,036,1BR/1BA,1509.0,2023-09-17,-933,Expired,Active
+Cedar Ridge Commons,Ellicott City,Stephanie Walker,290,3BR/2BA,2714.0,2023-09-17,-933,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Stephanie Hoover,160,3BR/2BA,2769.0,2023-09-17,-933,Expired,Active
+Cedar Ridge Commons,Ellicott City,Chelsea Grant,301,3BR/2BA,2312.0,2023-09-18,-932,Expired,Active
+Cedar Ridge Commons,Ellicott City,Monica Chavez,269,2BR/2BA,2156.0,2023-09-19,-931,Expired,Active
+Fieldside Grande Ph1,Pikesville,Cynthia Henry,109,1BR/1BA,1749.0,2023-09-21,-929,Expired,Active
+Riverfront Flats,Frederick,Edward Rowland,171,2BR/2BA,2122.0,2023-09-22,-928,Expired,Active
+Avenue Grand,Baltimore,Kelsey Fernandez,125,2BR/1BA,2025.0,2023-09-26,-924,Expired,Active
+Mills Crossing,Owings Mills,Cory Hogan,121,2BR/1BA,1913.0,2023-09-29,-921,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Leslie Young,096,2BR/2BA,1960.0,2023-09-30,-920,Expired,Active
+Avenue Grand,Baltimore,Judith Garcia,184,2BR/2BA,2036.0,2023-10-02,-918,Expired,Active
+Fieldside Grande Ph1,Pikesville,Lisa Vincent,148,2BR/2BA,2019.0,2023-10-03,-917,Expired,Active
+Riverfront Flats,Frederick,Justin Henry,232,2BR/2BA,1893.0,2023-10-04,-916,Expired,Active
+Duvall Westside,Laurel,Charles Matthews,224,2BR/2BA,2002.0,2023-10-05,-915,Expired,Active
+Avenue Grand,Baltimore,Angela Chapman,163,2BR/2BA,2323.0,2023-10-05,-915,Expired,Active
+Fieldside Grande Ph1,Pikesville,Laura Rush,092,1BR/1BA,1572.0,2023-10-06,-914,Expired,Active
+Riverfront Flats,Frederick,Timothy Hall,127,1BR/1BA,1702.0,2023-10-07,-913,Expired,Active
+Mills Crossing,Owings Mills,Brandon Pearson,119,2BR/1BA,2198.0,2023-10-08,-912,Expired,Active
+Mills Crossing,Owings Mills,Savannah Ibarra,241,3BR/2BA,2883.0,2023-10-10,-910,Expired,Active
+Fieldside Grande Ph1,Pikesville,Steven Clark,026,Studio,1460.0,2023-10-10,-910,Expired,Active
+Cedar Ridge Commons,Ellicott City,Randall Johnson,162,2BR/1BA,2098.0,2023-10-10,-910,Expired,Active
+Avenue Grand,Baltimore,Sally Hurst,110,1BR/1BA,1690.0,2023-10-11,-909,Expired,Active
+Avenue Grand,Baltimore,Richard Harris,217,3BR/2BA,2400.0,2023-10-11,-909,Expired,Active
+Avenue Grand,Baltimore,Brooke Lambert,220,3BR/2BA,2395.0,2023-10-11,-909,Expired,Active
+Mills Crossing,Owings Mills,Dawn Ellis,073,1BR/1BA,1922.0,2023-10-14,-906,Expired,Active
+Mills Crossing,Owings Mills,Heather Johnson,075,1BR/1BA,1616.0,2023-10-14,-906,Expired,Active
+Cedar Ridge Commons,Ellicott City,Adam Martin,298,3BR/2BA,2916.0,2023-10-15,-905,Expired,Active
+Mills Crossing,Owings Mills,Mary Ryan,038,1BR/1BA,1647.0,2023-10-18,-902,Expired,Active
+Cedar Ridge Commons,Ellicott City,Melvin Smith,129,2BR/1BA,1627.0,2023-10-18,-902,Expired,Active
+Mills Crossing,Owings Mills,Sophia Hall,077,1BR/1BA,1632.0,2023-10-21,-899,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Maria Sanders,194,3BR/2BA,2958.0,2023-10-21,-899,Expired,Active
+Fieldside Grande Ph1,Pikesville,Paul Elliott,113,1BR/1BA,1743.0,2023-10-21,-899,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Willie Smith,188,3BR/2BA,2474.0,2023-10-22,-898,Expired,Active
+Duvall Westside,Laurel,Emily Robinson,267,3BR/2BA,2695.0,2023-10-23,-897,Expired,Active
+Cedar Ridge Commons,Ellicott City,James Miller,059,1BR/1BA,1600.0,2023-10-23,-897,Expired,Active
+Avenue Grand,Baltimore,Tracey Reynolds,063,1BR/1BA,1635.0,2023-10-24,-896,Expired,Active
+Mills Crossing,Owings Mills,John Garcia,040,1BR/1BA,1537.0,2023-10-26,-894,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Brenda Clark,164,3BR/2BA,2271.0,2023-10-26,-894,Expired,Active
+Fieldside Grande Ph1,Pikesville,Maria Thomas,278,3BR/2BA,2795.0,2023-10-27,-893,Expired,Active
+Riverfront Flats,Frederick,Laura Miller,015,Studio,1464.0,2023-10-28,-892,Expired,Active
+Mills Crossing,Owings Mills,Misty Arias,007,Studio,1516.0,2023-10-29,-891,Expired,Active
+Mills Crossing,Owings Mills,Jessica Lee,036,1BR/1BA,1387.0,2023-10-29,-891,Expired,Active
+Riverfront Flats,Frederick,Michael Gomez,068,1BR/1BA,1744.0,2023-10-31,-889,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Jamie Smith,044,2BR/2BA,2169.0,2023-11-01,-888,Expired,Active
+Riverfront Flats,Frederick,Sandra Baker,036,Studio,1380.0,2023-11-04,-885,Expired,Active
+Duvall Westside,Laurel,Jeremy Young,072,1BR/1BA,1474.0,2023-11-05,-884,Expired,Active
+Mills Crossing,Owings Mills,Kiara Simmons,176,2BR/2BA,2112.0,2023-11-05,-884,Expired,Active
+Avenue Grand,Baltimore,James Reed,192,2BR/2BA,2110.0,2023-11-05,-884,Expired,Active
+Duvall Westside,Laurel,Heather Lane,079,1BR/1BA,1607.0,2023-11-06,-883,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Hannah Riggs,105,2BR/2BA,2094.0,2023-11-07,-882,Expired,Active
+Riverfront Flats,Frederick,Andrew Mann,255,3BR/2BA,2131.0,2023-11-09,-880,Expired,Active
+Fieldside Grande Ph1,Pikesville,Mrs. Donna Rice,194,2BR/2BA,2247.0,2023-11-10,-879,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Kimberly Hanna,002,Studio,1389.0,2023-11-10,-879,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Kara Stein,013,1BR/1BA,1634.0,2023-11-10,-879,Expired,Active
+Duvall Westside,Laurel,George Orozco,034,1BR/1BA,1809.0,2023-11-13,-876,Expired,Active
+Fieldside Grande Ph1,Pikesville,Michael Cordova,010,Studio,1527.0,2023-11-13,-876,Expired,Active
+Fieldside Grande Ph1,Pikesville,Jeremy Alvarez,040,1BR/1BA,1718.0,2023-11-14,-875,Expired,Active
+Avenue Grand,Baltimore,Evelyn Novak,069,1BR/1BA,1801.0,2023-11-14,-875,Expired,Active
+Riverfront Flats,Frederick,Julia Hoffman,175,2BR/2BA,2131.0,2023-11-14,-875,Expired,Active
+Avenue Grand,Baltimore,Bryan Hardy,049,1BR/1BA,1467.0,2023-11-15,-874,Expired,Active
+Mills Crossing,Owings Mills,Nathan Chen,126,2BR/2BA,2179.0,2023-11-16,-873,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Brandon Lang,097,2BR/2BA,2028.0,2023-11-16,-873,Expired,Active
+Cedar Ridge Commons,Ellicott City,Ronald Edwards,067,1BR/1BA,1599.0,2023-11-17,-872,Expired,Active
+Duvall Westside,Laurel,Kimberly May,272,3BR/2BA,2864.0,2023-11-18,-871,Expired,Active
+Avenue Grand,Baltimore,Jeffrey King,070,1BR/1BA,1520.0,2023-11-18,-871,Expired,Active
+Duvall Westside,Laurel,Elizabeth Vasquez,070,1BR/1BA,1698.0,2023-11-19,-870,Expired,Active
+Cedar Ridge Commons,Ellicott City,Brandi Valdez,017,Studio,1595.0,2023-11-19,-870,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Daniel Barton,164,3BR/2BA,2349.0,2023-11-20,-869,Expired,Active
+Cedar Ridge Commons,Ellicott City,Jeffrey Burke,225,2BR/2BA,1839.0,2023-11-21,-868,Expired,Active
+Riverfront Flats,Frederick,Rodney Johnson,226,2BR/2BA,1908.0,2023-11-23,-866,Expired,Active
+Fieldside Grande Ph1,Pikesville,Douglas Grant,166,2BR/2BA,1997.0,2023-11-24,-865,Expired,Active
+Avenue Grand,Baltimore,Trevor Burns,026,Studio,1352.0,2023-11-25,-864,Expired,Active
+Avenue Grand,Baltimore,Jeffrey Sloan,151,2BR/2BA,2060.0,2023-11-26,-863,Expired,Active
+Duvall Westside,Laurel,Scott Rose,173,2BR/2BA,1899.0,2023-11-28,-861,Expired,Active
+Duvall Westside,Laurel,Jennifer Pitts,238,2BR/2BA,1812.0,2023-11-29,-860,Expired,Active
+Riverfront Flats,Frederick,Claire Mcmillan,065,1BR/1BA,1499.0,2023-12-01,-858,Expired,Active
+Fieldside Grande Ph1,Pikesville,Jason Ferrell,247,2BR/2BA,2192.0,2023-12-04,-855,Expired,Active
+Fieldside Grande Ph1,Pikesville,Tina Berg,112,1BR/1BA,1576.0,2023-12-05,-854,Expired,Active
+Fieldside Grande Ph1,Pikesville,Michael Lewis,151,2BR/2BA,2151.0,2023-12-05,-854,Expired,Active
+Riverfront Flats,Frederick,Angela Ray,040,1BR/1BA,1591.0,2023-12-06,-853,Expired,Active
+Cedar Ridge Commons,Ellicott City,Stanley Brown,005,Studio,1526.0,2023-12-07,-852,Expired,Active
+Cedar Ridge Commons,Ellicott City,Alexis Campbell,259,2BR/2BA,2176.0,2023-12-12,-847,Expired,Active
+Cedar Ridge Commons,Ellicott City,Ian Weaver,007,Studio,1562.0,2023-12-14,-845,Expired,Active
+Duvall Westside,Laurel,Amanda Armstrong,282,3BR/2BA,2472.0,2023-12-16,-843,Expired,Active
+Mills Crossing,Owings Mills,Patrick Horne,097,2BR/1BA,1673.0,2023-12-16,-843,Expired,Active
+Cedar Ridge Commons,Ellicott City,Marvin Johnson,046,1BR/1BA,1891.0,2023-12-16,-843,Expired,Active
+Cedar Ridge Commons,Ellicott City,Connie Johnson,252,2BR/2BA,2046.0,2023-12-16,-843,Expired,Active
+Avenue Grand,Baltimore,Catherine Lopez,081,1BR/1BA,1817.0,2023-12-17,-842,Expired,Active
+Cedar Ridge Commons,Ellicott City,James Nelson,272,2BR/2BA,2110.0,2023-12-19,-840,Expired,Active
+Avenue Grand,Baltimore,Bob Lane,106,1BR/1BA,1565.0,2023-12-22,-837,Expired,Active
+Riverfront Flats,Frederick,Aaron Olson,078,1BR/1BA,1786.0,2023-12-27,-832,Expired,Active
+Mills Crossing,Owings Mills,Bradley Walton,259,3BR/2BA,2259.0,2023-12-28,-831,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Mrs. Ashley Mooney,038,1BR/1BA,1655.0,2023-12-28,-831,Expired,Active
+Riverfront Flats,Frederick,Paul Porter,091,1BR/1BA,1501.0,2023-12-28,-831,Expired,Active
+Riverfront Flats,Frederick,Shane Smith,134,2BR/1BA,1759.0,2023-12-28,-831,Expired,Active
+Duvall Westside,Laurel,Charles Hill,187,2BR/2BA,2048.0,2023-12-29,-830,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Jeffery Thompson,170,3BR/2BA,2640.0,2023-12-29,-830,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Kevin Myers,176,3BR/2BA,2737.0,2023-12-31,-828,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Vanessa Strickland,049,2BR/2BA,2239.0,2024-01-01,-827,Expired,Active
+Avenue Grand,Baltimore,Colleen Padilla,131,2BR/1BA,1923.0,2024-01-01,-827,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Emily Reed,138,3BR/2BA,2589.0,2024-01-02,-826,Expired,Active
+Mills Crossing,Owings Mills,Tyler Jones,091,2BR/1BA,1803.0,2024-01-03,-825,Expired,Active
+Mills Crossing,Owings Mills,Ashley Davenport,158,2BR/2BA,2299.0,2024-01-03,-825,Expired,Active
+Mills Crossing,Owings Mills,Ellen Mullen,183,2BR/2BA,2335.0,2024-01-03,-825,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Jennifer Gibson,096,2BR/2BA,2254.0,2024-01-03,-825,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Danielle Hoover MD,027,2BR/1BA,1686.0,2024-01-04,-824,Expired,Active
+Cedar Ridge Commons,Ellicott City,Daniel Johnson,065,1BR/1BA,1622.0,2024-01-04,-824,Expired,Active
+Duvall Westside,Laurel,Pam Lowe,180,2BR/2BA,1927.0,2024-01-05,-823,Expired,Active
+Fieldside Grande Ph1,Pikesville,Shawn Yu,185,2BR/2BA,2243.0,2024-01-09,-819,Expired,Active
+Avenue Grand,Baltimore,Mark Dennis,055,1BR/1BA,1570.0,2024-01-09,-819,Expired,Active
+Mills Crossing,Owings Mills,Michael Bennett DVM,309,3BR/2BA,2148.0,2024-01-11,-817,Expired,Active
+Cedar Ridge Commons,Ellicott City,Scott Brennan,076,1BR/1BA,1610.0,2024-01-11,-817,Expired,Active
+Riverfront Flats,Frederick,Michael Ellis,002,Studio,1519.0,2024-01-11,-817,Expired,Active
+Riverfront Flats,Frederick,Shannon Bass,017,Studio,1424.0,2024-01-13,-815,Expired,Active
+Avenue Grand,Baltimore,Megan Johnson,207,3BR/2BA,2362.0,2024-01-14,-814,Expired,Active
+Duvall Westside,Laurel,Keith Graham,201,2BR/2BA,2436.0,2024-01-15,-813,Expired,Active
+Fieldside Grande Ph1,Pikesville,Taylor Norman,228,2BR/2BA,2089.0,2024-01-15,-813,Expired,Active
+Avenue Grand,Baltimore,Kimberly Garrett,166,2BR/2BA,1799.0,2024-01-15,-813,Expired,Active
+Cedar Ridge Commons,Ellicott City,Tracy Williams,012,Studio,1391.0,2024-01-16,-812,Expired,Active
+Cedar Ridge Commons,Ellicott City,Thomas Rodgers,132,2BR/1BA,1636.0,2024-01-16,-812,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Antonio Woods,027,1BR/1BA,1695.0,2024-01-17,-811,Expired,Active
+Fieldside Grande Ph1,Pikesville,Adam Burton,144,2BR/2BA,1933.0,2024-01-18,-810,Expired,Active
+Avenue Grand,Baltimore,Julia Arnold,091,1BR/1BA,1654.0,2024-01-19,-809,Expired,Active
+Fieldside Grande Ph1,Pikesville,Jill Shaw,163,2BR/2BA,1918.0,2024-01-22,-806,Expired,Active
+Fieldside Grande Ph1,Pikesville,Felicia Williams,216,2BR/2BA,2289.0,2024-01-22,-806,Expired,Active
+Townes at Heritage Hills,Glen Burnie,John Hart,046,2BR/2BA,1997.0,2024-01-24,-804,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Kelly Palmer,128,3BR/2BA,2607.0,2024-01-25,-803,Expired,Active
+Riverfront Flats,Frederick,Corey Ford,035,Studio,1284.0,2024-01-25,-803,Expired,Active
+Mills Crossing,Owings Mills,Micheal Perkins,161,2BR/2BA,2174.0,2024-01-26,-802,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Lauren Reeves,006,1BR/1BA,1606.0,2024-01-26,-802,Expired,Active
+Mills Crossing,Owings Mills,Miguel Rodriguez,089,2BR/1BA,1766.0,2024-01-29,-799,Expired,Active
+Fieldside Grande Ph1,Pikesville,Jason Potter,141,2BR/1BA,1794.0,2024-01-29,-799,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Ashley Donaldson,172,3BR/2BA,2970.0,2024-01-30,-798,Expired,Active
+Cedar Ridge Commons,Ellicott City,Cathy Wyatt,049,1BR/1BA,1604.0,2024-01-30,-798,Expired,Active
+Cedar Ridge Commons,Ellicott City,Brian Fernandez,088,1BR/1BA,1458.0,2024-01-30,-798,Expired,Active
+Fieldside Grande Ph1,Pikesville,Sarah Garcia,210,2BR/2BA,2154.0,2024-01-31,-797,Expired,Active
+Mills Crossing,Owings Mills,Thomas Kelly,152,2BR/2BA,1828.0,2024-02-01,-796,Expired,Active
+Fieldside Grande Ph1,Pikesville,Brianna Price,240,2BR/2BA,2257.0,2024-02-01,-796,Expired,Active
+Cedar Ridge Commons,Ellicott City,Kevin Roberts,118,1BR/1BA,1752.0,2024-02-01,-796,Expired,Active
+Mills Crossing,Owings Mills,Laura Butler,196,2BR/2BA,2320.0,2024-02-02,-795,Expired,Active
+Riverfront Flats,Frederick,Kevin Gutierrez,199,2BR/2BA,2268.0,2024-02-02,-795,Expired,Active
+Fieldside Grande Ph1,Pikesville,Tasha Taylor,051,1BR/1BA,1540.0,2024-02-04,-793,Expired,Active
+Duvall Westside,Laurel,Brenda Ryan,277,3BR/2BA,2460.0,2024-02-06,-791,Expired,Active
+Fieldside Grande Ph1,Pikesville,Lisa Watson,184,2BR/2BA,2156.0,2024-02-06,-791,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Richard Davis DDS,118,2BR/2BA,2333.0,2024-02-06,-791,Expired,Active
+Fieldside Grande Ph1,Pikesville,Chad Hurley,073,1BR/1BA,1605.0,2024-02-08,-789,Expired,Active
+Mills Crossing,Owings Mills,Bryan Roman,181,2BR/2BA,2216.0,2024-02-09,-788,Expired,Active
+Avenue Grand,Baltimore,Angela Hunt,172,2BR/2BA,2111.0,2024-02-10,-787,Expired,Active
+Riverfront Flats,Frederick,Travis Shannon,133,2BR/1BA,1983.0,2024-02-10,-787,Expired,Active
+Fieldside Grande Ph1,Pikesville,Sylvia Escobar,038,1BR/1BA,1858.0,2024-02-11,-786,Expired,Active
+Fieldside Grande Ph1,Pikesville,Nicole Perez,125,2BR/1BA,1800.0,2024-02-12,-785,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Mitchell Brown,154,3BR/2BA,2348.0,2024-02-13,-784,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Carla Patterson,069,2BR/2BA,2115.0,2024-02-13,-784,Expired,Active
+Mills Crossing,Owings Mills,Stephen Alvarez MD,199,2BR/2BA,1894.0,2024-02-14,-783,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Matthew Kemp,119,2BR/2BA,2032.0,2024-02-16,-781,Expired,Active
+Cedar Ridge Commons,Ellicott City,Daryl Olson,161,2BR/1BA,1959.0,2024-02-17,-780,Expired,Active
+Mills Crossing,Owings Mills,Courtney Powers,065,1BR/1BA,1650.0,2024-02-18,-779,Expired,Active
+Fieldside Grande Ph1,Pikesville,Stacy Orozco,249,2BR/2BA,2075.0,2024-02-18,-779,Expired,Active
+Duvall Westside,Laurel,Katherine Barton,198,2BR/2BA,2001.0,2024-02-21,-776,Expired,Active
+Riverfront Flats,Frederick,Daniel Harris,145,2BR/1BA,1738.0,2024-02-21,-776,Expired,Active
+Duvall Westside,Laurel,Kevin Mills,020,Studio,1319.0,2024-02-22,-775,Expired,Active
+Fieldside Grande Ph1,Pikesville,Corey Flowers,074,1BR/1BA,1797.0,2024-02-22,-775,Expired,Active
+Avenue Grand,Baltimore,Ronald Khan,002,Studio,1513.0,2024-02-22,-775,Expired,Active
+Avenue Grand,Baltimore,Jon Ramos,007,Studio,1301.0,2024-02-22,-775,Expired,Active
+Riverfront Flats,Frederick,Tammie Campbell,214,2BR/2BA,2098.0,2024-02-23,-774,Expired,Active
+Riverfront Flats,Frederick,Jeremy Garza,246,3BR/2BA,2449.0,2024-02-23,-774,Expired,Active
+Duvall Westside,Laurel,Jonathon Taylor,230,2BR/2BA,2335.0,2024-02-25,-772,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Caitlin Morris,081,2BR/2BA,1776.0,2024-02-26,-771,Expired,Active
+Avenue Grand,Baltimore,Kenneth Johnson,045,1BR/1BA,1702.0,2024-02-27,-770,Expired,Active
+Avenue Grand,Baltimore,Zachary Jones,075,1BR/1BA,1830.0,2024-02-27,-770,Expired,Active
+Duvall Westside,Laurel,Gregory Jones,021,Studio,1447.0,2024-02-28,-769,Expired,Active
+Avenue Grand,Baltimore,Kristy Tate,065,1BR/1BA,1703.0,2024-02-28,-769,Expired,Active
+Cedar Ridge Commons,Ellicott City,Marvin Sparks,177,2BR/1BA,1752.0,2024-02-28,-769,Expired,Active
+Riverfront Flats,Frederick,Roger Hall,108,1BR/1BA,1634.0,2024-02-28,-769,Expired,Active
+Avenue Grand,Baltimore,Arthur Gonzalez,040,1BR/1BA,1746.0,2024-02-29,-768,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Christina Weber,086,2BR/2BA,2099.0,2024-02-29,-768,Expired,Active
+Mills Crossing,Owings Mills,Brian Morris,282,3BR/2BA,2599.0,2024-03-01,-767,Expired,Active
+Mills Crossing,Owings Mills,Madeline Vasquez,304,3BR/2BA,2908.0,2024-03-03,-765,Expired,Active
+Avenue Grand,Baltimore,Catherine Brown,157,2BR/2BA,2159.0,2024-03-04,-764,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Kathryn Edwards,062,2BR/2BA,1937.0,2024-03-06,-762,Expired,Active
+Fieldside Grande Ph1,Pikesville,Stephen Brown,241,2BR/2BA,1922.0,2024-03-06,-762,Expired,Active
+Fieldside Grande Ph1,Pikesville,Natasha Stone,276,3BR/2BA,2248.0,2024-03-06,-762,Expired,Active
+Avenue Grand,Baltimore,Anthony Mccormick III,100,1BR/1BA,1467.0,2024-03-07,-761,Expired,Active
+Fieldside Grande Ph1,Pikesville,Tracie Harrington,134,2BR/1BA,1671.0,2024-03-08,-760,Expired,Active
+Duvall Westside,Laurel,Margaret Hensley MD,235,2BR/2BA,2192.0,2024-03-09,-759,Expired,Active
+Cedar Ridge Commons,Ellicott City,Jennifer Barrett,051,1BR/1BA,1476.0,2024-03-10,-758,Expired,Active
+Mills Crossing,Owings Mills,Ronald Williams,066,1BR/1BA,1863.0,2024-03-11,-757,Expired,Active
+Mills Crossing,Owings Mills,Roger Jacobs,274,3BR/2BA,2363.0,2024-03-11,-757,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Victoria Wilson,025,2BR/1BA,1627.0,2024-03-11,-757,Expired,Active
+Avenue Grand,Baltimore,Gregory Hart,133,2BR/1BA,2043.0,2024-03-11,-757,Expired,Active
+Fieldside Grande Ph1,Pikesville,Brittney Moore,044,1BR/1BA,1600.0,2024-03-13,-755,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Jennifer Johnston,049,2BR/1BA,1871.0,2024-03-14,-754,Expired,Active
+Duvall Westside,Laurel,Jerry Pierce,119,2BR/1BA,1726.0,2024-03-15,-753,Expired,Active
+Cedar Ridge Commons,Ellicott City,Jesse Jones,304,3BR/2BA,2790.0,2024-03-15,-753,Expired,Active
+Duvall Westside,Laurel,Tiffany Mcclain,240,2BR/2BA,2271.0,2024-03-16,-752,Expired,Active
+Fieldside Grande Ph1,Pikesville,Danny Simmons,055,1BR/1BA,1580.0,2024-03-16,-752,Expired,Active
+Cedar Ridge Commons,Ellicott City,Ryan Powell,146,2BR/1BA,2144.0,2024-03-16,-752,Expired,Active
+Riverfront Flats,Frederick,Nicole Patterson,184,2BR/2BA,1966.0,2024-03-17,-751,Expired,Active
+Riverfront Flats,Frederick,Selena Robinson,215,2BR/2BA,2016.0,2024-03-17,-751,Expired,Active
+Mills Crossing,Owings Mills,William Hoffman,195,2BR/2BA,2271.0,2024-03-18,-750,Expired,Active
+Fieldside Grande Ph1,Pikesville,Brian Hall,108,1BR/1BA,1454.0,2024-03-18,-750,Expired,Active
+Duvall Westside,Laurel,Alex Hernandez,039,1BR/1BA,1505.0,2024-03-19,-749,Expired,Active
+Riverfront Flats,Frederick,Kevin Chapman,001,Studio,1381.0,2024-03-19,-749,Expired,Active
+Mills Crossing,Owings Mills,Destiny Obrien,010,Studio,1484.0,2024-03-20,-748,Expired,Active
+Avenue Grand,Baltimore,Tara Jones,008,Studio,1353.0,2024-03-20,-748,Expired,Active
+Cedar Ridge Commons,Ellicott City,Lance Lambert,035,1BR/1BA,1738.0,2024-03-21,-747,Expired,Active
+Fieldside Grande Ph1,Pikesville,Alex Suarez,265,3BR/2BA,2400.0,2024-03-22,-746,Expired,Active
+Duvall Westside,Laurel,Michael Dixon,030,1BR/1BA,1701.0,2024-03-25,-743,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Willie Allen,149,3BR/2BA,2120.0,2024-03-26,-742,Expired,Active
+Riverfront Flats,Frederick,Richard Davis,155,2BR/1BA,2047.0,2024-03-26,-742,Expired,Active
+Duvall Westside,Laurel,Olivia Cole,089,1BR/1BA,1489.0,2024-03-27,-741,Expired,Active
+Mills Crossing,Owings Mills,William Jones,291,3BR/2BA,2494.0,2024-03-28,-740,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Paula Thomas,011,1BR/1BA,1607.0,2024-03-28,-740,Expired,Active
+Cedar Ridge Commons,Ellicott City,Rose Francis,185,2BR/1BA,1757.0,2024-03-30,-738,Expired,Active
+Fieldside Grande Ph1,Pikesville,Gary Russell,219,2BR/2BA,1940.0,2024-04-01,-736,Expired,Active
+Cedar Ridge Commons,Ellicott City,Raymond Miller,180,2BR/1BA,1912.0,2024-04-01,-736,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Brian Collins,178,3BR/2BA,2223.0,2024-04-02,-735,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Michael Gutierrez,050,2BR/2BA,1903.0,2024-04-03,-734,Expired,Active
+Duvall Westside,Laurel,Steven Cooper,091,1BR/1BA,1646.0,2024-04-04,-733,Expired,Active
+Fieldside Grande Ph1,Pikesville,Joel Tyler,019,Studio,1308.0,2024-04-04,-733,Expired,Active
+Avenue Grand,Baltimore,Melissa Hall,018,Studio,1561.0,2024-04-04,-733,Expired,Active
+Cedar Ridge Commons,Ellicott City,Paul Jennings,140,2BR/1BA,1940.0,2024-04-04,-733,Expired,Active
+Cedar Ridge Commons,Ellicott City,Mason Olson,145,2BR/1BA,1733.0,2024-04-04,-733,Expired,Active
+Riverfront Flats,Frederick,Sandra Washington,046,1BR/1BA,1604.0,2024-04-04,-733,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Alejandro Clayton,056,2BR/1BA,1765.0,2024-04-06,-731,Expired,Active
+Duvall Westside,Laurel,Candace Jones,217,2BR/2BA,2325.0,2024-04-07,-730,Expired,Active
+Duvall Westside,Laurel,Kenneth Hanna,233,2BR/2BA,2464.0,2024-04-08,-729,Expired,Active
+Cedar Ridge Commons,Ellicott City,James Levy,206,2BR/2BA,2069.0,2024-04-08,-729,Expired,Active
+Mills Crossing,Owings Mills,Marcus Lopez,030,1BR/1BA,1754.0,2024-04-12,-725,Expired,Active
+Avenue Grand,Baltimore,Kimberly Johnson,221,3BR/2BA,2667.0,2024-04-12,-725,Expired,Active
+Mills Crossing,Owings Mills,Brandon Moore,034,1BR/1BA,1516.0,2024-04-14,-723,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Joel Mcclure,063,2BR/2BA,2220.0,2024-04-14,-723,Expired,Active
+Riverfront Flats,Frederick,Jonathan Martinez,033,Studio,1513.0,2024-04-15,-722,Expired,Active
+Riverfront Flats,Frederick,Luke Carpenter,159,2BR/2BA,2295.0,2024-04-17,-720,Expired,Active
+Cedar Ridge Commons,Ellicott City,Dr. Mario Harris DDS,112,1BR/1BA,1717.0,2024-04-19,-718,Expired,Active
+Riverfront Flats,Frederick,James Jones,057,1BR/1BA,1440.0,2024-04-19,-718,Expired,Active
+Duvall Westside,Laurel,Dana Hopkins,167,2BR/2BA,2116.0,2024-04-20,-717,Expired,Active
+Cedar Ridge Commons,Ellicott City,Nicholas Tapia,239,2BR/2BA,2248.0,2024-04-20,-717,Expired,Active
+Mills Crossing,Owings Mills,Kimberly Romero,143,2BR/2BA,2169.0,2024-04-21,-716,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Dustin Ortiz,066,2BR/2BA,2155.0,2024-04-21,-716,Expired,Active
+Townes at Heritage Hills,Glen Burnie,David Alexander,144,3BR/2BA,2394.0,2024-04-22,-715,Expired,Active
+Cedar Ridge Commons,Ellicott City,Michael Jackson,025,Studio,1334.0,2024-04-22,-715,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Joseph Newman,190,3BR/2BA,2395.0,2024-04-23,-714,Expired,Active
+Mills Crossing,Owings Mills,Joshua Reynolds,107,2BR/1BA,2032.0,2024-04-24,-713,Expired,Active
+Cedar Ridge Commons,Ellicott City,Paul Willis,154,2BR/1BA,1813.0,2024-04-24,-713,Expired,Active
+Riverfront Flats,Frederick,Patricia Martinez,201,2BR/2BA,2019.0,2024-04-25,-712,Expired,Active
+Duvall Westside,Laurel,Brandon Hunt,250,2BR/2BA,2115.0,2024-04-28,-709,Expired,Active
+Mills Crossing,Owings Mills,Connie Miller,028,1BR/1BA,1755.0,2024-04-29,-708,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Rachael Romero,078,2BR/2BA,2289.0,2024-04-29,-708,Expired,Active
+Cedar Ridge Commons,Ellicott City,Larry Bates,038,1BR/1BA,1569.0,2024-04-29,-708,Expired,Active
+Cedar Ridge Commons,Ellicott City,Joshua Nelson,041,1BR/1BA,1496.0,2024-04-29,-708,Expired,Active
+Avenue Grand,Baltimore,Andrea Smith,038,1BR/1BA,1497.0,2024-04-30,-707,Expired,Active
+Cedar Ridge Commons,Ellicott City,Natalie Krueger,143,2BR/1BA,1949.0,2024-04-30,-707,Expired,Active
+Riverfront Flats,Frederick,Brandy Allen MD,196,2BR/2BA,1807.0,2024-04-30,-707,Expired,Active
+Duvall Westside,Laurel,Anthony Evans,203,2BR/2BA,2062.0,2024-05-01,-706,Expired,Active
+Fieldside Grande Ph1,Pikesville,Cody Johnson,005,Studio,1455.0,2024-05-01,-706,Expired,Active
+Riverfront Flats,Frederick,Robert Phillips,028,Studio,1539.0,2024-05-01,-706,Expired,Active
+Avenue Grand,Baltimore,Jane Neal,094,1BR/1BA,1653.0,2024-05-02,-705,Expired,Active
+Mills Crossing,Owings Mills,Danielle Gonzalez,253,3BR/2BA,2589.0,2024-05-05,-702,Expired,Active
+Fieldside Grande Ph1,Pikesville,Ryan Montes,229,2BR/2BA,1846.0,2024-05-06,-701,Expired,Active
+Fieldside Grande Ph1,Pikesville,Bridget Wallace,116,2BR/1BA,1798.0,2024-05-09,-698,Expired,Active
+Cedar Ridge Commons,Ellicott City,Grant Henderson,047,1BR/1BA,1605.0,2024-05-10,-697,Expired,Active
+Cedar Ridge Commons,Ellicott City,Dawn Hart,300,3BR/2BA,2272.0,2024-05-11,-696,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Leah Fox,103,2BR/2BA,1951.0,2024-05-13,-694,Expired,Active
+Cedar Ridge Commons,Ellicott City,Taylor Abbott,244,2BR/2BA,2157.0,2024-05-15,-692,Expired,Active
+Duvall Westside,Laurel,Brenda Thornton,100,1BR/1BA,1565.0,2024-05-16,-691,Expired,Active
+Cedar Ridge Commons,Ellicott City,Heidi Mullins,186,2BR/1BA,1999.0,2024-05-16,-691,Expired,Active
+Mills Crossing,Owings Mills,Arthur Johns,023,1BR/1BA,1470.0,2024-05-17,-690,Expired,Active
+Fieldside Grande Ph1,Pikesville,Katherine Young,022,Studio,1505.0,2024-05-17,-690,Expired,Active
+Cedar Ridge Commons,Ellicott City,James Singh,231,2BR/2BA,1987.0,2024-05-20,-687,Expired,Active
+Riverfront Flats,Frederick,Christopher Thomas,152,2BR/1BA,1985.0,2024-05-20,-687,Expired,Active
+Mills Crossing,Owings Mills,Rachael Alvarez,223,2BR/2BA,2293.0,2024-05-21,-686,Expired,Active
+Duvall Westside,Laurel,Chelsea Barnett,102,1BR/1BA,1699.0,2024-05-22,-685,Expired,Active
+Avenue Grand,Baltimore,Scott Wood,102,1BR/1BA,1816.0,2024-05-23,-684,Expired,Active
+Riverfront Flats,Frederick,Karen Weber,096,1BR/1BA,1696.0,2024-05-23,-684,Expired,Active
+Mills Crossing,Owings Mills,Mary Carrillo,106,2BR/1BA,1814.0,2024-05-24,-683,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Greg Hull,141,3BR/2BA,2405.0,2024-05-24,-683,Expired,Active
+Fieldside Grande Ph1,Pikesville,James Grant,046,1BR/1BA,1518.0,2024-05-24,-683,Expired,Active
+Fieldside Grande Ph1,Pikesville,Gregory Walker,063,1BR/1BA,1644.0,2024-05-24,-683,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Stephen Lyons,109,3BR/2BA,2989.0,2024-05-25,-682,Expired,Active
+Avenue Grand,Baltimore,Paula Johnson,062,1BR/1BA,1653.0,2024-05-25,-682,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Darrell Carter,169,3BR/2BA,2773.0,2024-05-25,-682,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Veronica Lewis,069,2BR/2BA,2310.0,2024-05-27,-680,Expired,Active
+Mills Crossing,Owings Mills,Bob Solis,200,2BR/2BA,2170.0,2024-05-29,-678,Expired,Active
+Cedar Ridge Commons,Ellicott City,Jason Stevenson,116,1BR/1BA,1568.0,2024-05-29,-678,Expired,Active
+Riverfront Flats,Frederick,Holly Suarez,208,2BR/2BA,1904.0,2024-05-29,-678,Expired,Active
+Duvall Westside,Laurel,Harold Morgan,103,1BR/1BA,1551.0,2024-06-01,-675,Expired,Active
+Avenue Grand,Baltimore,Wanda Rogers,150,2BR/2BA,2358.0,2024-06-01,-675,Expired,Active
+Avenue Grand,Baltimore,James Ellis,154,2BR/2BA,2104.0,2024-06-01,-675,Expired,Active
+Cedar Ridge Commons,Ellicott City,Amber Lopez,246,2BR/2BA,2043.0,2024-06-01,-675,Expired,Active
+Fieldside Grande Ph1,Pikesville,Jennifer Rivera,208,2BR/2BA,2366.0,2024-06-02,-674,Expired,Active
+Mills Crossing,Owings Mills,Charles Delgado,074,1BR/1BA,1546.0,2024-06-03,-673,Expired,Active
+Mills Crossing,Owings Mills,Mr. Joseph Kelley,140,2BR/2BA,2080.0,2024-06-03,-673,Expired,Active
+Duvall Westside,Laurel,Erin Anderson,093,1BR/1BA,1825.0,2024-06-04,-672,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Timothy Miller,107,3BR/2BA,2691.0,2024-06-06,-670,Expired,Active
+Mills Crossing,Owings Mills,Abigail Booker,197,2BR/2BA,2147.0,2024-06-07,-669,Expired,Active
+Fieldside Grande Ph1,Pikesville,Christopher Jones,191,2BR/2BA,2285.0,2024-06-07,-669,Expired,Active
+Cedar Ridge Commons,Ellicott City,Samuel Willis,144,2BR/1BA,1624.0,2024-06-10,-666,Expired,Active
+Mills Crossing,Owings Mills,Eric Garrett,244,3BR/2BA,2697.0,2024-06-11,-665,Expired,Active
+Cedar Ridge Commons,Ellicott City,Joshua Wagner,287,3BR/2BA,2828.0,2024-06-11,-665,Expired,Active
+Duvall Westside,Laurel,John Jones,164,2BR/2BA,1960.0,2024-06-12,-664,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Mary Jackson,126,3BR/2BA,2621.0,2024-06-12,-664,Expired,Active
+Avenue Grand,Baltimore,Brittany Marquez,109,1BR/1BA,1714.0,2024-06-12,-664,Expired,Active
+Cedar Ridge Commons,Ellicott City,Michelle Ramirez,292,3BR/2BA,2340.0,2024-06-13,-663,Expired,Active
+Duvall Westside,Laurel,Heather Williams,106,1BR/1BA,1857.0,2024-06-14,-662,Expired,Active
+Cedar Ridge Commons,Ellicott City,Karen Decker,022,Studio,1571.0,2024-06-14,-662,Expired,Active
+Fieldside Grande Ph1,Pikesville,Ms. Amy Brown,047,1BR/1BA,1534.0,2024-06-15,-661,Expired,Active
+Riverfront Flats,Frederick,Michael White,106,1BR/1BA,1557.0,2024-06-15,-661,Expired,Active
+Cedar Ridge Commons,Ellicott City,Arthur White,058,1BR/1BA,1672.0,2024-06-16,-660,Expired,Active
+Mills Crossing,Owings Mills,Julie Taylor,131,2BR/2BA,2195.0,2024-06-17,-659,Expired,Active
+Fieldside Grande Ph1,Pikesville,Ann Moon,190,2BR/2BA,2098.0,2024-06-18,-658,Expired,Active
+Riverfront Flats,Frederick,Christopher Bennett,006,Studio,1524.0,2024-06-19,-657,Expired,Active
+Duvall Westside,Laurel,Julie Ortiz,054,1BR/1BA,1570.0,2024-06-20,-656,Expired,Active
+Cedar Ridge Commons,Ellicott City,Alice Moran,033,1BR/1BA,1720.0,2024-06-20,-656,Expired,Active
+Riverfront Flats,Frederick,Sarah Griffin,011,Studio,1276.0,2024-06-21,-655,Expired,Active
+Riverfront Flats,Frederick,Kayla Mccann,072,1BR/1BA,1777.0,2024-06-23,-653,Expired,Active
+Duvall Westside,Laurel,Jerry Wheeler,050,1BR/1BA,1448.0,2024-06-24,-652,Expired,Active
+Duvall Westside,Laurel,Becky Johnson,231,2BR/2BA,2096.0,2024-06-24,-652,Expired,Active
+Duvall Westside,Laurel,Jesse Jensen,263,3BR/2BA,2906.0,2024-06-24,-652,Expired,Active
+Mills Crossing,Owings Mills,Kelly Burton,137,2BR/2BA,2290.0,2024-06-24,-652,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Mary Welch,087,2BR/2BA,1897.0,2024-06-24,-652,Expired,Active
+Avenue Grand,Baltimore,Austin Rose,006,Studio,1339.0,2024-06-24,-652,Expired,Active
+Avenue Grand,Baltimore,Courtney Tate,169,2BR/2BA,2441.0,2024-06-24,-652,Expired,Active
+Cedar Ridge Commons,Ellicott City,Rebecca Rosales,293,3BR/2BA,2332.0,2024-06-24,-652,Expired,Active
+Duvall Westside,Laurel,Cynthia Haas,214,2BR/2BA,2090.0,2024-06-25,-651,Expired,Active
+Mills Crossing,Owings Mills,Tracy Hart,011,Studio,1507.0,2024-06-26,-650,Expired,Active
+Fieldside Grande Ph1,Pikesville,Melissa Pierce,143,2BR/2BA,2056.0,2024-06-26,-650,Expired,Active
+Riverfront Flats,Frederick,Marcia Sanders,083,1BR/1BA,1681.0,2024-06-28,-648,Expired,Active
+Mills Crossing,Owings Mills,Carolyn Collins,085,2BR/1BA,1873.0,2024-06-30,-646,Expired,Active
+Fieldside Grande Ph1,Pikesville,Jeffrey Short,075,1BR/1BA,1543.0,2024-06-30,-646,Expired,Active
+Fieldside Grande Ph1,Pikesville,Kenneth Austin Jr.,100,1BR/1BA,1795.0,2024-06-30,-646,Expired,Active
+Avenue Grand,Baltimore,Sandy Todd,032,Studio,1301.0,2024-07-01,-645,Expired,Active
+Fieldside Grande Ph1,Pikesville,Shawn Harding,001,Studio,1427.0,2024-07-02,-644,Expired,Active
+Cedar Ridge Commons,Ellicott City,Lori Howard,294,3BR/2BA,2682.0,2024-07-04,-642,Expired,Active
+Riverfront Flats,Frederick,Katherine Tran,151,2BR/1BA,1804.0,2024-07-04,-642,Expired,Active
+Riverfront Flats,Frederick,Tamara Clark,218,2BR/2BA,2196.0,2024-07-04,-642,Expired,Active
+Duvall Westside,Laurel,Jacqueline Hernandez,078,1BR/1BA,1588.0,2024-07-05,-641,Expired,Active
+Riverfront Flats,Frederick,Sarah Thomas,007,Studio,1398.0,2024-07-06,-640,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Gary Salazar,101,3BR/2BA,2550.0,2024-07-07,-639,Expired,Active
+Fieldside Grande Ph1,Pikesville,David Wells,159,2BR/2BA,2124.0,2024-07-07,-639,Expired,Active
+Fieldside Grande Ph1,Pikesville,Phillip Lewis,253,2BR/2BA,2368.0,2024-07-07,-639,Expired,Active
+Mills Crossing,Owings Mills,Lisa Cohen,005,Studio,1574.0,2024-07-08,-638,Expired,Active
+Townes at Heritage Hills,Glen Burnie,James Freeman,104,3BR/2BA,2414.0,2024-07-08,-638,Expired,Active
+Duvall Westside,Laurel,Matthew Foster,172,2BR/2BA,2395.0,2024-07-09,-637,Expired,Active
+Duvall Westside,Laurel,Melanie Larson,136,2BR/1BA,1780.0,2024-07-10,-636,Expired,Active
+Duvall Westside,Laurel,Ronald Foster,064,1BR/1BA,1721.0,2024-07-12,-634,Expired,Active
+Cedar Ridge Commons,Ellicott City,Carl Anderson,080,1BR/1BA,1571.0,2024-07-12,-634,Expired,Active
+Riverfront Flats,Frederick,Sandra Baker,059,1BR/1BA,1611.0,2024-07-13,-633,Expired,Active
+Mills Crossing,Owings Mills,Stephanie Bishop,214,2BR/2BA,1964.0,2024-07-14,-632,Expired,Active
+Duvall Westside,Laurel,Donald Farmer,080,1BR/1BA,1787.0,2024-07-16,-630,Expired,Active
+Mills Crossing,Owings Mills,Lisa Rodriguez,076,1BR/1BA,1649.0,2024-07-16,-630,Expired,Active
+Cedar Ridge Commons,Ellicott City,Robert Hall,134,2BR/1BA,1977.0,2024-07-16,-630,Expired,Active
+Cedar Ridge Commons,Ellicott City,Bryan Brown,200,2BR/2BA,2254.0,2024-07-19,-627,Expired,Active
+Cedar Ridge Commons,Ellicott City,Jeremy Benjamin,217,2BR/2BA,2181.0,2024-07-21,-625,Expired,Active
+Mills Crossing,Owings Mills,Laura Johnson,096,2BR/1BA,1873.0,2024-07-22,-624,Expired,Active
+Fieldside Grande Ph1,Pikesville,Kayla Banks,028,Studio,1390.0,2024-07-22,-624,Expired,Active
+Mills Crossing,Owings Mills,Jeremy Wilson,302,3BR/2BA,2846.0,2024-07-23,-623,Expired,Active
+Riverfront Flats,Frederick,April Salazar,099,1BR/1BA,1722.0,2024-07-23,-623,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Charles Castaneda,053,2BR/2BA,1915.0,2024-07-24,-622,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Richard Miller,031,1BR/1BA,1517.0,2024-07-25,-621,Expired,Active
+Duvall Westside,Laurel,Melanie Morales,225,2BR/2BA,2300.0,2024-07-26,-620,Expired,Active
+Duvall Westside,Laurel,Gregory Allen,268,3BR/2BA,2936.0,2024-07-26,-620,Expired,Active
+Duvall Westside,Laurel,William Wilson,027,Studio,1320.0,2024-07-27,-619,Expired,Active
+Mills Crossing,Owings Mills,Tara Sanders,295,3BR/2BA,2379.0,2024-07-28,-618,Expired,Active
+Avenue Grand,Baltimore,Isaac Evans,219,3BR/2BA,2314.0,2024-07-28,-618,Expired,Active
+Avenue Grand,Baltimore,Erica Thomas,011,Studio,1585.0,2024-07-29,-617,Expired,Active
+Fieldside Grande Ph1,Pikesville,Eric Petersen,176,2BR/2BA,1923.0,2024-07-31,-615,Expired,Active
+Avenue Grand,Baltimore,Andrew Johnson,119,2BR/1BA,1813.0,2024-08-01,-614,Expired,Active
+Cedar Ridge Commons,Ellicott City,Melissa Brown,189,2BR/2BA,2013.0,2024-08-01,-614,Expired,Active
+Mills Crossing,Owings Mills,Brian Walter,251,3BR/2BA,2581.0,2024-08-02,-613,Expired,Active
+Duvall Westside,Laurel,Amber Campbell,118,2BR/1BA,1891.0,2024-08-05,-610,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Jason Johnson,121,3BR/2BA,2821.0,2024-08-05,-610,Expired,Active
+Riverfront Flats,Frederick,Ashley Bailey,213,2BR/2BA,2308.0,2024-08-05,-610,Expired,Active
+Avenue Grand,Baltimore,Justin Daniel,144,2BR/2BA,2296.0,2024-08-06,-609,Expired,Active
+Duvall Westside,Laurel,Shawn Odom,146,2BR/2BA,1945.0,2024-08-07,-608,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Noah Chavez,112,3BR/2BA,2687.0,2024-08-07,-608,Expired,Active
+Mills Crossing,Owings Mills,Ashlee Perry,209,2BR/2BA,2250.0,2024-08-08,-607,Expired,Active
+Fieldside Grande Ph1,Pikesville,Tracey Lopez,152,2BR/2BA,2282.0,2024-08-08,-607,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Elizabeth Jenkins,173,3BR/2BA,2550.0,2024-08-11,-604,Expired,Active
+Cedar Ridge Commons,Ellicott City,Erin Montes,212,2BR/2BA,1987.0,2024-08-12,-603,Expired,Active
+Mills Crossing,Owings Mills,Jessica Mays,002,Studio,1492.0,2024-08-13,-602,Expired,Active
+Fieldside Grande Ph1,Pikesville,Carl Hunter,012,Studio,1531.0,2024-08-13,-602,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Lori Weaver,176,3BR/2BA,2554.0,2024-08-15,-600,Expired,Active
+Duvall Westside,Laurel,Joel Frazier,169,2BR/2BA,2272.0,2024-08-17,-598,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Cesar Watts,001,Studio,1484.0,2024-08-18,-597,Expired,Active
+Mills Crossing,Owings Mills,Kyle Bird,283,3BR/2BA,2252.0,2024-08-19,-596,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Kelly Roberts,115,3BR/2BA,2622.0,2024-08-19,-596,Expired,Active
+Avenue Grand,Baltimore,Anthony Washington,096,1BR/1BA,1505.0,2024-08-20,-595,Expired,Active
+Avenue Grand,Baltimore,Frederick Molina,197,2BR/2BA,1970.0,2024-08-20,-595,Expired,Active
+Riverfront Flats,Frederick,Carol Baker,073,1BR/1BA,1428.0,2024-08-20,-595,Expired,Active
+Duvall Westside,Laurel,Adam Russell,056,1BR/1BA,1546.0,2024-08-21,-594,Expired,Active
+Duvall Westside,Laurel,Tonya Wilson,149,2BR/2BA,2253.0,2024-08-23,-592,Expired,Active
+Avenue Grand,Baltimore,Antonio Atkins,141,2BR/2BA,2162.0,2024-08-23,-592,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Timothy Cowan,193,3BR/2BA,2659.0,2024-08-24,-591,Expired,Active
+Fieldside Grande Ph1,Pikesville,Donald Skinner,232,2BR/2BA,2377.0,2024-08-24,-591,Expired,Active
+Cedar Ridge Commons,Ellicott City,Lindsay Perry,197,2BR/2BA,2020.0,2024-08-24,-591,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Carol Murray,156,3BR/2BA,2765.0,2024-08-24,-591,Expired,Active
+Riverfront Flats,Frederick,Keith Taylor,034,Studio,1317.0,2024-08-25,-590,Expired,Active
+Mills Crossing,Owings Mills,Lindsey Clarke,127,2BR/2BA,2154.0,2024-08-27,-588,Expired,Active
+Avenue Grand,Baltimore,Olivia Gordon,168,2BR/2BA,2043.0,2024-08-27,-588,Expired,Active
+Cedar Ridge Commons,Ellicott City,Janet White,279,2BR/2BA,2034.0,2024-08-27,-588,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Victoria Kelly,155,3BR/2BA,2484.0,2024-08-27,-588,Expired,Active
+Duvall Westside,Laurel,Rodney Watson,204,2BR/2BA,2082.0,2024-08-28,-587,Expired,Active
+Riverfront Flats,Frederick,Charles Collier,250,3BR/2BA,2677.0,2024-08-28,-587,Expired,Active
+Mills Crossing,Owings Mills,Dana Johnson,292,3BR/2BA,2750.0,2024-08-30,-585,Expired,Active
+Cedar Ridge Commons,Ellicott City,Samantha Underwood,280,3BR/2BA,2569.0,2024-09-01,-583,Expired,Active
+Duvall Westside,Laurel,Courtney Hayes,098,1BR/1BA,1727.0,2024-09-02,-582,Expired,Active
+Duvall Westside,Laurel,Carrie Ochoa,260,3BR/2BA,2850.0,2024-09-02,-582,Expired,Active
+Avenue Grand,Baltimore,Valerie Harrison,194,2BR/2BA,2065.0,2024-09-02,-582,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Angela Brown,059,2BR/1BA,1809.0,2024-09-02,-582,Expired,Active
+Cedar Ridge Commons,Ellicott City,Joseph Armstrong,214,2BR/2BA,2272.0,2024-09-03,-581,Expired,Active
+Riverfront Flats,Frederick,Michelle Martinez,086,1BR/1BA,1612.0,2024-09-04,-580,Expired,Active
+Duvall Westside,Laurel,David Brewer,107,1BR/1BA,1629.0,2024-09-05,-579,Expired,Active
+Mills Crossing,Owings Mills,Richard Miller,289,3BR/2BA,2412.0,2024-09-06,-578,Expired,Active
+Fieldside Grande Ph1,Pikesville,Diana Miller,225,2BR/2BA,2273.0,2024-09-08,-576,Expired,Active
+Avenue Grand,Baltimore,Cynthia Palmer,010,Studio,1536.0,2024-09-08,-576,Expired,Active
+Duvall Westside,Laurel,Michael Flores,170,2BR/2BA,2362.0,2024-09-09,-575,Expired,Active
+Avenue Grand,Baltimore,Erin Taylor,059,1BR/1BA,1500.0,2024-09-09,-575,Expired,Active
+Mills Crossing,Owings Mills,Jasmine Berger,270,3BR/2BA,2541.0,2024-09-10,-574,Expired,Active
+Mills Crossing,Owings Mills,Megan Blackwell,180,2BR/2BA,2043.0,2024-09-11,-573,Expired,Active
+Fieldside Grande Ph1,Pikesville,Heidi Hall,072,1BR/1BA,1836.0,2024-09-11,-573,Expired,Active
+Duvall Westside,Laurel,Julie Moore,134,2BR/1BA,2138.0,2024-09-12,-572,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Mary Bray,103,3BR/2BA,2910.0,2024-09-12,-572,Expired,Active
+Mills Crossing,Owings Mills,Alexander Miller,063,1BR/1BA,1512.0,2024-09-14,-570,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Kendra Snyder,108,3BR/2BA,2629.0,2024-09-14,-570,Expired,Active
+Fieldside Grande Ph1,Pikesville,Jeremy Ross,057,1BR/1BA,1824.0,2024-09-15,-569,Expired,Active
+Cedar Ridge Commons,Ellicott City,Mary Reid,169,2BR/1BA,1734.0,2024-09-15,-569,Expired,Active
+Fieldside Grande Ph1,Pikesville,Alyssa Powers,172,2BR/2BA,2096.0,2024-09-16,-568,Expired,Active
+Mills Crossing,Owings Mills,Robert James,049,1BR/1BA,1610.0,2024-09-18,-566,Expired,Active
+Fieldside Grande Ph1,Pikesville,Dr. Erik Duarte Jr.,128,2BR/1BA,2099.0,2024-09-19,-565,Expired,Active
+Cedar Ridge Commons,Ellicott City,Cassandra Flores,013,Studio,1599.0,2024-09-20,-564,Expired,Active
+Riverfront Flats,Frederick,Manuel Bradley,188,2BR/2BA,1956.0,2024-09-20,-564,Expired,Active
+Avenue Grand,Baltimore,Crystal Wolf,107,1BR/1BA,1748.0,2024-09-21,-563,Expired,Active
+Avenue Grand,Baltimore,Cody Ford,191,2BR/2BA,2038.0,2024-09-22,-562,Expired,Active
+Duvall Westside,Laurel,Megan Jones,186,2BR/2BA,2245.0,2024-09-23,-561,Expired,Active
+Cedar Ridge Commons,Ellicott City,Nina Combs,078,1BR/1BA,1619.0,2024-09-23,-561,Expired,Active
+Cedar Ridge Commons,Ellicott City,Patrick Fowler,233,2BR/2BA,2238.0,2024-09-23,-561,Expired,Active
+Mills Crossing,Owings Mills,Sara Kelly,014,Studio,1570.0,2024-09-24,-560,Expired,Active
+Fieldside Grande Ph1,Pikesville,Kristy Reeves,031,1BR/1BA,1614.0,2024-09-24,-560,Expired,Active
+Fieldside Grande Ph1,Pikesville,David Russell,182,2BR/2BA,1995.0,2024-09-25,-559,Expired,Active
+Avenue Grand,Baltimore,Melissa Martinez,161,2BR/2BA,2197.0,2024-09-25,-559,Expired,Active
+Fieldside Grande Ph1,Pikesville,Sara Lawrence,174,2BR/2BA,1870.0,2024-09-26,-558,Expired,Active
+Mills Crossing,Owings Mills,Chelsea Henderson,294,3BR/2BA,2575.0,2024-09-27,-557,Expired,Active
+Duvall Westside,Laurel,Christopher Guzman,281,3BR/2BA,2565.0,2024-09-28,-556,Expired,Active
+Fieldside Grande Ph1,Pikesville,Lynn Ross MD,129,2BR/1BA,1804.0,2024-09-29,-555,Expired,Active
+Fieldside Grande Ph1,Pikesville,Jenny Duncan,102,1BR/1BA,1618.0,2024-10-02,-552,Expired,Active
+Cedar Ridge Commons,Ellicott City,Carrie Herrera,077,1BR/1BA,1606.0,2024-10-02,-552,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Jacob Roach,088,2BR/2BA,2394.0,2024-10-03,-551,Expired,Active
+Fieldside Grande Ph1,Pikesville,Alice Robinson,235,2BR/2BA,2023.0,2024-10-03,-551,Expired,Active
+Fieldside Grande Ph1,Pikesville,Joshua Long,009,Studio,1571.0,2024-10-04,-550,Expired,Active
+Riverfront Flats,Frederick,Heidi Nunez,094,1BR/1BA,1476.0,2024-10-07,-547,Expired,Active
+Riverfront Flats,Frederick,Debra Greer,120,1BR/1BA,1706.0,2024-10-07,-547,Expired,Active
+Riverfront Flats,Frederick,Todd Carpenter,225,2BR/2BA,2085.0,2024-10-07,-547,Expired,Active
+Duvall Westside,Laurel,Derrick Anderson,161,2BR/2BA,2198.0,2024-10-08,-546,Expired,Active
+Duvall Westside,Laurel,Wanda Garcia,178,2BR/2BA,2190.0,2024-10-08,-546,Expired,Active
+Mills Crossing,Owings Mills,Samantha Howard,093,2BR/1BA,1814.0,2024-10-08,-546,Expired,Active
+Cedar Ridge Commons,Ellicott City,Joanne Lopez,207,2BR/2BA,2090.0,2024-10-08,-546,Expired,Active
+Avenue Grand,Baltimore,Ms. Kayla Williams,118,2BR/1BA,1951.0,2024-10-09,-545,Expired,Active
+Duvall Westside,Laurel,Frank Lopez,058,1BR/1BA,1596.0,2024-10-10,-544,Expired,Active
+Duvall Westside,Laurel,Nathan Freeman,045,1BR/1BA,1804.0,2024-10-11,-543,Expired,Active
+Riverfront Flats,Frederick,William Riley,239,3BR/2BA,2881.0,2024-10-11,-543,Expired,Active
+Mills Crossing,Owings Mills,Nicholas Miller,056,1BR/1BA,1415.0,2024-10-13,-541,Expired,Active
+Cedar Ridge Commons,Ellicott City,Carolyn Silva,052,1BR/1BA,1687.0,2024-10-13,-541,Expired,Active
+Mills Crossing,Owings Mills,Timothy White,225,2BR/2BA,2252.0,2024-10-15,-539,Expired,Active
+Riverfront Flats,Frederick,Andrew Reyes,067,1BR/1BA,1504.0,2024-10-16,-538,Expired,Active
+Duvall Westside,Laurel,Monica Garcia,199,2BR/2BA,1894.0,2024-10-17,-537,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Sandra Johnson,160,3BR/2BA,2914.0,2024-10-17,-537,Expired,Active
+Avenue Grand,Baltimore,Tyler Sullivan,198,2BR/2BA,2006.0,2024-10-17,-537,Expired,Active
+Duvall Westside,Laurel,Jacqueline Mcmahon,210,2BR/2BA,2063.0,2024-10-18,-536,Expired,Active
+Mills Crossing,Owings Mills,Heather Pena,008,Studio,1472.0,2024-10-18,-536,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Adrienne Moon,092,2BR/2BA,1852.0,2024-10-18,-536,Expired,Active
+Mills Crossing,Owings Mills,Wendy Neal,057,1BR/1BA,1763.0,2024-10-21,-533,Expired,Active
+Mills Crossing,Owings Mills,Donna Johnson,286,3BR/2BA,2377.0,2024-10-21,-533,Expired,Active
+Avenue Grand,Baltimore,Brandon Meyer,132,2BR/1BA,1932.0,2024-10-21,-533,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Andrew Morales,099,2BR/2BA,2202.0,2024-10-21,-533,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Mandy Henderson,117,3BR/2BA,2754.0,2024-10-22,-532,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Larry Benson,087,2BR/2BA,1881.0,2024-10-22,-532,Expired,Active
+Riverfront Flats,Frederick,Carol Perez,162,2BR/2BA,2324.0,2024-10-22,-532,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Jesse Martinez,053,2BR/1BA,2172.0,2024-10-25,-529,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Ricky Martin,043,1BR/1BA,1681.0,2024-10-27,-527,Expired,Active
+Duvall Westside,Laurel,Sara Smith,183,2BR/2BA,2111.0,2024-10-28,-526,Expired,Active
+Avenue Grand,Baltimore,Laura Grimes,136,2BR/2BA,2232.0,2024-10-28,-526,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Marissa Miller,007,1BR/1BA,1688.0,2024-10-30,-524,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Bonnie Barnes,195,3BR/2BA,2535.0,2024-10-30,-524,Expired,Active
+Cedar Ridge Commons,Ellicott City,Philip Barnes,182,2BR/1BA,1803.0,2024-10-30,-524,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Keith Fuller,119,3BR/2BA,2749.0,2024-10-31,-523,Expired,Active
+Fieldside Grande Ph1,Pikesville,Kimberly Price,096,1BR/1BA,1720.0,2024-11-02,-521,Expired,Active
+Duvall Westside,Laurel,Kristin Haney,163,2BR/2BA,2235.0,2024-11-03,-520,Expired,Active
+Mills Crossing,Owings Mills,Mark Nelson,148,2BR/2BA,1995.0,2024-11-03,-520,Expired,Active
+Duvall Westside,Laurel,Samantha White,283,3BR/2BA,2475.0,2024-11-04,-519,Expired,Active
+Riverfront Flats,Frederick,Jonathan Wright,125,1BR/1BA,1729.0,2024-11-04,-519,Expired,Active
+Fieldside Grande Ph1,Pikesville,Melissa Mendoza,142,2BR/1BA,1669.0,2024-11-05,-518,Expired,Active
+Riverfront Flats,Frederick,Craig Baker,158,2BR/2BA,2455.0,2024-11-05,-518,Expired,Active
+Cedar Ridge Commons,Ellicott City,Ashley Ruiz,195,2BR/2BA,1797.0,2024-11-06,-517,Expired,Active
+Duvall Westside,Laurel,Cynthia Evans,221,2BR/2BA,2397.0,2024-11-07,-516,Expired,Active
+Avenue Grand,Baltimore,Linda Ball,212,3BR/2BA,2897.0,2024-11-07,-516,Expired,Active
+Mills Crossing,Owings Mills,Joseph Watson,153,2BR/2BA,2263.0,2024-11-08,-515,Expired,Active
+Cedar Ridge Commons,Ellicott City,Heather Hunt,079,1BR/1BA,1782.0,2024-11-08,-515,Expired,Active
+Mills Crossing,Owings Mills,Leah Odom,174,2BR/2BA,2079.0,2024-11-09,-514,Expired,Active
+Fieldside Grande Ph1,Pikesville,Micheal Washington,077,1BR/1BA,1678.0,2024-11-09,-514,Expired,Active
+Cedar Ridge Commons,Ellicott City,David Parrish,128,2BR/1BA,1991.0,2024-11-12,-511,Expired,Active
+Riverfront Flats,Frederick,Lawrence Velasquez,026,Studio,1493.0,2024-11-12,-511,Expired,Active
+Fieldside Grande Ph1,Pikesville,Joel Phelps,212,2BR/2BA,2196.0,2024-11-13,-510,Expired,Active
+Cedar Ridge Commons,Ellicott City,Alan Hoffman,235,2BR/2BA,2026.0,2024-11-14,-509,Expired,Active
+Mills Crossing,Owings Mills,Michael Hansen,247,3BR/2BA,2858.0,2024-11-15,-508,Expired,Active
+Duvall Westside,Laurel,Kimberly Morrison,265,3BR/2BA,2897.0,2024-11-16,-507,Expired,Active
+Riverfront Flats,Frederick,David Andrews,126,1BR/1BA,1544.0,2024-11-16,-507,Expired,Active
+Avenue Grand,Baltimore,Robert Murray,066,1BR/1BA,1867.0,2024-11-17,-506,Expired,Active
+Mills Crossing,Owings Mills,Christina Reid,175,2BR/2BA,1839.0,2024-11-18,-505,Expired,Active
+Duvall Westside,Laurel,Mark Pierce,113,1BR/1BA,1597.0,2024-11-19,-504,Expired,Active
+Riverfront Flats,Frederick,Julie Villanueva,163,2BR/2BA,2039.0,2024-11-19,-504,Expired,Active
+Duvall Westside,Laurel,Courtney Peterson,258,3BR/2BA,2414.0,2024-11-20,-503,Expired,Active
+Mills Crossing,Owings Mills,Emily Reyes,262,3BR/2BA,2605.0,2024-11-20,-503,Expired,Active
+Riverfront Flats,Frederick,Terrance Mullins,081,1BR/1BA,1708.0,2024-11-20,-503,Expired,Active
+Fieldside Grande Ph1,Pikesville,Sara Young,066,1BR/1BA,1802.0,2024-11-21,-502,Expired,Active
+Duvall Westside,Laurel,Mary Kelly,168,2BR/2BA,2309.0,2024-11-25,-498,Expired,Active
+Duvall Westside,Laurel,Stacey Snyder,216,2BR/2BA,1825.0,2024-11-25,-498,Expired,Active
+Mills Crossing,Owings Mills,Lydia Howard,111,2BR/1BA,2158.0,2024-11-25,-498,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,James Watkins,091,2BR/2BA,2145.0,2024-11-25,-498,Expired,Active
+Mills Crossing,Owings Mills,Andrew Moore,220,2BR/2BA,2027.0,2024-11-28,-495,Expired,Active
+Riverfront Flats,Frederick,Teresa Montes,177,2BR/2BA,2152.0,2024-11-28,-495,Expired,Active
+Cedar Ridge Commons,Ellicott City,Brittany Fisher,237,2BR/2BA,1895.0,2024-11-29,-494,Expired,Active
+Duvall Westside,Laurel,Danielle Reed,255,2BR/2BA,1908.0,2024-11-30,-493,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Andrea Freeman,014,1BR/1BA,1499.0,2024-11-30,-493,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Jane Frank,146,3BR/2BA,2417.0,2024-12-02,-491,Expired,Active
+Riverfront Flats,Frederick,Stephen Scott,115,1BR/1BA,1709.0,2024-12-02,-491,Expired,Active
+Duvall Westside,Laurel,Joseph Jenkins,154,2BR/2BA,1978.0,2024-12-03,-490,Expired,Active
+Mills Crossing,Owings Mills,Joshua Murray,308,3BR/2BA,2697.0,2024-12-03,-490,Expired,Active
+Riverfront Flats,Frederick,Robert Moore,128,1BR/1BA,1679.0,2024-12-03,-490,Expired,Active
+Mills Crossing,Owings Mills,Maria Cline,224,2BR/2BA,1919.0,2024-12-04,-489,Expired,Active
+Cedar Ridge Commons,Ellicott City,Amanda Davis,087,1BR/1BA,1611.0,2024-12-04,-489,Expired,Active
+Cedar Ridge Commons,Ellicott City,Chad Carroll,255,2BR/2BA,1841.0,2024-12-04,-489,Expired,Active
+Fieldside Grande Ph1,Pikesville,Robin Cooper,206,2BR/2BA,2031.0,2024-12-05,-488,Expired,Active
+Fieldside Grande Ph1,Pikesville,Stacey Jones MD,117,2BR/1BA,1767.0,2024-12-07,-486,Expired,Active
+Cedar Ridge Commons,Ellicott City,Joseph Cruz,262,2BR/2BA,1996.0,2024-12-07,-486,Expired,Active
+Fieldside Grande Ph1,Pikesville,Michelle Nielsen,162,2BR/2BA,2143.0,2024-12-08,-485,Expired,Active
+Duvall Westside,Laurel,Kelly Owen,105,1BR/1BA,1717.0,2024-12-10,-483,Expired,Active
+Fieldside Grande Ph1,Pikesville,Isabella Hawkins,267,3BR/2BA,2223.0,2024-12-11,-482,Expired,Active
+Cedar Ridge Commons,Ellicott City,Kimberly Esparza,021,Studio,1260.0,2024-12-11,-482,Expired,Active
+Mills Crossing,Owings Mills,George Jordan,298,3BR/2BA,2897.0,2024-12-12,-481,Expired,Active
+Fieldside Grande Ph1,Pikesville,Michael Jones,277,3BR/2BA,2548.0,2024-12-12,-481,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Donald Wood,055,2BR/1BA,1764.0,2024-12-13,-480,Expired,Active
+Riverfront Flats,Frederick,Nicholas Blevins,187,2BR/2BA,1926.0,2024-12-14,-479,Expired,Active
+Cedar Ridge Commons,Ellicott City,Karen Wilkins,251,2BR/2BA,2178.0,2024-12-15,-478,Expired,Active
+Riverfront Flats,Frederick,Kyle Young,049,1BR/1BA,1840.0,2024-12-16,-477,Expired,Active
+Duvall Westside,Laurel,Mary Miller,160,2BR/2BA,2019.0,2024-12-17,-476,Expired,Active
+Fieldside Grande Ph1,Pikesville,Jessica Murphy,049,1BR/1BA,1568.0,2024-12-17,-476,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Michael Gardner,089,2BR/2BA,2264.0,2024-12-17,-476,Expired,Active
+Riverfront Flats,Frederick,Jennifer Flores,257,3BR/2BA,2722.0,2024-12-18,-475,Expired,Active
+Cedar Ridge Commons,Ellicott City,Ronald Watson,232,2BR/2BA,2135.0,2024-12-19,-474,Expired,Active
+Fieldside Grande Ph1,Pikesville,Randall Anderson,103,1BR/1BA,1732.0,2024-12-22,-471,Expired,Active
+Cedar Ridge Commons,Ellicott City,William Hicks,113,1BR/1BA,1733.0,2024-12-22,-471,Expired,Active
+Riverfront Flats,Frederick,Brandon Harris,022,Studio,1523.0,2024-12-24,-469,Expired,Active
+Duvall Westside,Laurel,Jean Carrillo,035,1BR/1BA,1841.0,2024-12-26,-467,Expired,Active
+Fieldside Grande Ph1,Pikesville,Jennifer Colon,155,2BR/2BA,1935.0,2024-12-26,-467,Expired,Active
+Fieldside Grande Ph1,Pikesville,Benjamin Clements,157,2BR/2BA,1850.0,2024-12-30,-463,Expired,Active
+Fieldside Grande Ph1,Pikesville,William Wood,021,Studio,1442.0,2025-01-01,-461,Expired,Active
+Cedar Ridge Commons,Ellicott City,Charles Brown,104,1BR/1BA,1522.0,2025-01-01,-461,Expired,Active
+Riverfront Flats,Frederick,Blake Schaefer,168,2BR/2BA,1960.0,2025-01-02,-460,Expired,Active
+Fieldside Grande Ph1,Pikesville,Michael Melendez,083,1BR/1BA,1449.0,2025-01-05,-457,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Autumn Robertson,002,1BR/1BA,1642.0,2025-01-06,-456,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Timothy Martin,065,2BR/2BA,2142.0,2025-01-07,-455,Expired,Active
+Riverfront Flats,Frederick,Ashley Herring,061,1BR/1BA,1473.0,2025-01-07,-455,Expired,Active
+Duvall Westside,Laurel,Jill Powers,145,2BR/2BA,1842.0,2025-01-08,-454,Expired,Active
+Riverfront Flats,Frederick,Frank Martinez,048,1BR/1BA,1580.0,2025-01-08,-454,Expired,Active
+Riverfront Flats,Frederick,Tanya Hall,085,1BR/1BA,1496.0,2025-01-09,-453,Expired,Active
+Fieldside Grande Ph1,Pikesville,Michelle Greer,239,2BR/2BA,2189.0,2025-01-10,-452,Expired,Active
+Duvall Westside,Laurel,Courtney Nichols,236,2BR/2BA,2009.0,2025-01-12,-450,Expired,Active
+Fieldside Grande Ph1,Pikesville,Curtis Krause,002,Studio,1490.0,2025-01-12,-450,Expired,Active
+Avenue Grand,Baltimore,Troy Powers,208,3BR/2BA,2431.0,2025-01-12,-450,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Nicholas Delgado,094,2BR/2BA,2135.0,2025-01-12,-450,Expired,Active
+Riverfront Flats,Frederick,Danny Nguyen,090,1BR/1BA,1766.0,2025-01-16,-446,Expired,Active
+Duvall Westside,Laurel,Joel Baxter,016,Studio,1378.0,2025-01-17,-445,Expired,Active
+Cedar Ridge Commons,Ellicott City,Thomas Watson,062,1BR/1BA,1532.0,2025-01-18,-444,Expired,Active
+Cedar Ridge Commons,Ellicott City,Debra Poole,147,2BR/1BA,2087.0,2025-01-18,-444,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Kurt Montgomery,137,3BR/2BA,2518.0,2025-01-18,-444,Expired,Active
+Duvall Westside,Laurel,Deborah Rios,121,2BR/1BA,1899.0,2025-01-19,-443,Expired,Active
+Cedar Ridge Commons,Ellicott City,Joseph Young,027,Studio,1336.0,2025-01-20,-442,Expired,Active
+Duvall Westside,Laurel,Riley Bryant,101,1BR/1BA,1717.0,2025-01-24,-438,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Michael Hampton,020,1BR/1BA,1656.0,2025-01-24,-438,Expired,Active
+Cedar Ridge Commons,Ellicott City,Christopher Howard,156,2BR/1BA,2141.0,2025-01-25,-437,Expired,Active
+Duvall Westside,Laurel,Taylor Chen,261,3BR/2BA,2477.0,2025-01-26,-436,Expired,Active
+Cedar Ridge Commons,Ellicott City,Marcus Phillips,018,Studio,1267.0,2025-01-27,-435,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Benjamin Sandoval,093,2BR/2BA,1928.0,2025-01-29,-433,Expired,Active
+Fieldside Grande Ph1,Pikesville,Daniel Brewer,279,3BR/2BA,2801.0,2025-01-29,-433,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Christopher Odom,122,2BR/2BA,2136.0,2025-01-30,-432,Expired,Active
+Fieldside Grande Ph1,Pikesville,Joe Page,110,1BR/1BA,1626.0,2025-01-31,-431,Expired,Active
+Riverfront Flats,Frederick,Matthew Marsh,244,3BR/2BA,2881.0,2025-01-31,-431,Expired,Active
+Fieldside Grande Ph1,Pikesville,Rodney Young,251,2BR/2BA,2418.0,2025-02-01,-430,Expired,Active
+Cedar Ridge Commons,Ellicott City,Monica Anderson,096,1BR/1BA,1459.0,2025-02-03,-428,Expired,Active
+Mills Crossing,Owings Mills,Luke Martinez,210,2BR/2BA,2393.0,2025-02-04,-427,Expired,Active
+Fieldside Grande Ph1,Pikesville,Melissa Ray,238,2BR/2BA,1889.0,2025-02-04,-427,Expired,Active
+Fieldside Grande Ph1,Pikesville,Brandon Shelton,269,3BR/2BA,2588.0,2025-02-04,-427,Expired,Active
+Mills Crossing,Owings Mills,Cassandra Martinez,278,3BR/2BA,2600.0,2025-02-06,-425,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Tracy Aguilar,111,3BR/2BA,2413.0,2025-02-06,-425,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Matthew Love,148,3BR/2BA,2736.0,2025-02-06,-425,Expired,Active
+Riverfront Flats,Frederick,Lori Duran,176,2BR/2BA,2138.0,2025-02-06,-425,Expired,Active
+Duvall Westside,Laurel,Jessica Osborn DDS,223,2BR/2BA,2322.0,2025-02-07,-424,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Selena Hopkins,113,3BR/2BA,2802.0,2025-02-07,-424,Expired,Active
+Mills Crossing,Owings Mills,Craig Chang,087,2BR/1BA,1880.0,2025-02-09,-422,Expired,Active
+Mills Crossing,Owings Mills,Thomas Davis,052,1BR/1BA,1539.0,2025-02-10,-421,Expired,Active
+Duvall Westside,Laurel,Janet Weeks,057,1BR/1BA,1619.0,2025-02-13,-418,Expired,Active
+Riverfront Flats,Frederick,Jason Williams,008,Studio,1526.0,2025-02-13,-418,Expired,Active
+Duvall Westside,Laurel,Renee Hudson,179,2BR/2BA,2318.0,2025-02-14,-417,Expired,Active
+Duvall Westside,Laurel,David Little,188,2BR/2BA,2410.0,2025-02-14,-417,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Raven Williams,174,3BR/2BA,2318.0,2025-02-14,-417,Expired,Active
+Riverfront Flats,Frederick,Larry Smith,079,1BR/1BA,1528.0,2025-02-14,-417,Expired,Active
+Avenue Grand,Baltimore,Carlos Harris,117,2BR/1BA,1994.0,2025-02-16,-415,Expired,Active
+Mills Crossing,Owings Mills,Stephen Anderson,254,3BR/2BA,2792.0,2025-02-17,-414,Expired,Active
+Riverfront Flats,Frederick,Tina Adams,130,1BR/1BA,1564.0,2025-02-17,-414,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Kerry Marquez,088,2BR/2BA,2253.0,2025-02-18,-413,Expired,Active
+Duvall Westside,Laurel,Miguel Jones,040,1BR/1BA,1805.0,2025-02-19,-412,Expired,Active
+Mills Crossing,Owings Mills,Paul Anderson,015,Studio,1346.0,2025-02-19,-412,Expired,Active
+Mills Crossing,Owings Mills,Kimberly Smith,164,2BR/2BA,1995.0,2025-02-19,-412,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Jay Parks,106,3BR/2BA,2484.0,2025-02-21,-410,Expired,Active
+Fieldside Grande Ph1,Pikesville,Misty Richardson,252,2BR/2BA,2151.0,2025-02-21,-410,Expired,Active
+Avenue Grand,Baltimore,Taylor Martinez,180,2BR/2BA,1900.0,2025-02-22,-409,Expired,Active
+Riverfront Flats,Frederick,Samuel Phillips,248,3BR/2BA,2730.0,2025-02-23,-408,Expired,Active
+Fieldside Grande Ph1,Pikesville,Jaclyn Williams MD,262,3BR/2BA,2563.0,2025-02-25,-406,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Ashley Roberts,047,2BR/1BA,1746.0,2025-02-27,-404,Expired,Active
+Cedar Ridge Commons,Ellicott City,Carol Medina,218,2BR/2BA,1951.0,2025-02-28,-403,Expired,Active
+Mills Crossing,Owings Mills,Matthew Watkins,173,2BR/2BA,2090.0,2025-03-03,-400,Expired,Active
+Townes at Heritage Hills,Glen Burnie,John Wall,125,3BR/2BA,2260.0,2025-03-04,-399,Expired,Active
+Cedar Ridge Commons,Ellicott City,Samuel Anderson,303,3BR/2BA,2482.0,2025-03-04,-399,Expired,Active
+Fieldside Grande Ph1,Pikesville,Nathan Payne,258,3BR/2BA,2545.0,2025-03-05,-398,Expired,Active
+Riverfront Flats,Frederick,Nicholas Garcia,224,2BR/2BA,2018.0,2025-03-06,-397,Expired,Active
+Duvall Westside,Laurel,Michael Brown,014,Studio,1365.0,2025-03-07,-396,Expired,Active
+Cedar Ridge Commons,Ellicott City,Amy Guzman,108,1BR/1BA,1789.0,2025-03-07,-396,Expired,Active
+Fieldside Grande Ph1,Pikesville,Peter Williams,140,2BR/1BA,1882.0,2025-03-08,-395,Expired,Active
+Cedar Ridge Commons,Ellicott City,Donald Mays,122,1BR/1BA,1804.0,2025-03-08,-395,Expired,Active
+Duvall Westside,Laurel,Jennifer Fowler,114,1BR/1BA,1762.0,2025-03-10,-393,Expired,Active
+Duvall Westside,Laurel,Kerry Chavez DDS,077,1BR/1BA,1838.0,2025-03-11,-392,Expired,Active
+Duvall Westside,Laurel,Latoya Miller,081,1BR/1BA,1598.0,2025-03-11,-392,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Chloe Rodriguez,059,2BR/2BA,1839.0,2025-03-11,-392,Expired,Active
+Mills Crossing,Owings Mills,John Alvarez,101,2BR/1BA,1809.0,2025-03-13,-390,Expired,Active
+Duvall Westside,Laurel,Kimberly Dudley,006,Studio,1250.0,2025-03-14,-389,Expired,Active
+Mills Crossing,Owings Mills,Heather Williams,216,2BR/2BA,2049.0,2025-03-16,-387,Expired,Active
+Fieldside Grande Ph1,Pikesville,Ronald Nash,130,2BR/1BA,2050.0,2025-03-17,-386,Expired,Active
+Duvall Westside,Laurel,Sandra Dudley,249,2BR/2BA,2127.0,2025-03-18,-385,Expired,Active
+Townes at Heritage Hills,Glen Burnie,James Wallace,146,3BR/2BA,2422.0,2025-03-18,-385,Expired,Active
+Duvall Westside,Laurel,Sheryl Acosta,254,2BR/2BA,2377.0,2025-03-19,-384,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Heather Hernandez,050,2BR/1BA,2147.0,2025-03-19,-384,Expired,Active
+Riverfront Flats,Frederick,Andrew Green,156,2BR/1BA,1885.0,2025-03-19,-384,Expired,Active
+Fieldside Grande Ph1,Pikesville,Nicole Norman,080,1BR/1BA,1648.0,2025-03-20,-383,Expired,Active
+Fieldside Grande Ph1,Pikesville,Gregory Holland,093,1BR/1BA,1598.0,2025-03-23,-380,Expired,Active
+Fieldside Grande Ph1,Pikesville,Christine Singh,061,1BR/1BA,1633.0,2025-03-24,-379,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,David Williams,098,2BR/2BA,2193.0,2025-03-24,-379,Expired,Active
+Riverfront Flats,Frederick,Anna Novak,104,1BR/1BA,1614.0,2025-03-25,-378,Expired,Active
+Cedar Ridge Commons,Ellicott City,Suzanne Hardy,009,Studio,1344.0,2025-03-27,-376,Expired,Active
+Mills Crossing,Owings Mills,Tracy Blackwell,255,3BR/2BA,2435.0,2025-03-28,-375,Expired,Active
+Fieldside Grande Ph1,Pikesville,Kimberly Blevins,056,1BR/1BA,1675.0,2025-03-28,-375,Expired,Active
+Cedar Ridge Commons,Ellicott City,Jared Haynes,187,2BR/2BA,1828.0,2025-03-28,-375,Expired,Active
+Fieldside Grande Ph1,Pikesville,Geoffrey Austin,203,2BR/2BA,2359.0,2025-03-29,-374,Expired,Active
+Cedar Ridge Commons,Ellicott City,Robert Kim,003,Studio,1380.0,2025-03-30,-373,Expired,Active
+Duvall Westside,Laurel,Ruth Solis,097,1BR/1BA,1673.0,2025-03-31,-372,Expired,Active
+Duvall Westside,Laurel,Ryan Smith,266,3BR/2BA,2973.0,2025-03-31,-372,Expired,Active
+Mills Crossing,Owings Mills,Gabriela Randolph,132,2BR/2BA,1948.0,2025-03-31,-372,Expired,Active
+Fieldside Grande Ph1,Pikesville,Alice Weber,263,3BR/2BA,2193.0,2025-03-31,-372,Expired,Active
+Mills Crossing,Owings Mills,Robert Peterson,212,2BR/2BA,2324.0,2025-04-01,-371,Expired,Active
+Cedar Ridge Commons,Ellicott City,Robert Brown,072,1BR/1BA,1440.0,2025-04-01,-371,Expired,Active
+Riverfront Flats,Frederick,Jeremiah Fisher,009,Studio,1242.0,2025-04-01,-371,Expired,Active
+Mills Crossing,Owings Mills,Patricia Harvey,246,3BR/2BA,2411.0,2025-04-02,-370,Expired,Active
+Riverfront Flats,Frederick,Melissa Smith,018,Studio,1437.0,2025-04-02,-370,Expired,Active
+Mills Crossing,Owings Mills,Diana Lyons,300,3BR/2BA,2596.0,2025-04-03,-369,Expired,Active
+Fieldside Grande Ph1,Pikesville,Steve Gamble,054,1BR/1BA,1796.0,2025-04-03,-369,Expired,Active
+Duvall Westside,Laurel,Brandon Holden,133,2BR/1BA,1847.0,2025-04-09,-363,Expired,Active
+Fieldside Grande Ph1,Pikesville,Robert Bowers,284,3BR/2BA,2459.0,2025-04-09,-363,Expired,Active
+Cedar Ridge Commons,Ellicott City,Timothy Robinson,131,2BR/1BA,1903.0,2025-04-09,-363,Expired,Active
+Mills Crossing,Owings Mills,Carol Wilson,211,2BR/2BA,1854.0,2025-04-11,-361,Expired,Active
+Duvall Westside,Laurel,Kathleen Garcia,150,2BR/2BA,2069.0,2025-04-13,-359,Expired,Active
+Cedar Ridge Commons,Ellicott City,Kelsey Flores,097,1BR/1BA,1506.0,2025-04-13,-359,Expired,Active
+Duvall Westside,Laurel,Stephanie Lucas,065,1BR/1BA,1535.0,2025-04-14,-358,Expired,Active
+Duvall Westside,Laurel,Charles Hensley,116,2BR/1BA,2050.0,2025-04-14,-358,Expired,Active
+Mills Crossing,Owings Mills,Margaret White,185,2BR/2BA,1928.0,2025-04-14,-358,Expired,Active
+Riverfront Flats,Frederick,Mr. Ross Cox,063,1BR/1BA,1537.0,2025-04-14,-358,Expired,Active
+Mills Crossing,Owings Mills,Deborah Ross,051,1BR/1BA,1669.0,2025-04-15,-357,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Sherri Greene,081,2BR/2BA,2345.0,2025-04-15,-357,Expired,Active
+Fieldside Grande Ph1,Pikesville,Jody Scott,280,3BR/2BA,2691.0,2025-04-16,-356,Expired,Active
+Mills Crossing,Owings Mills,Kevin Mack,201,2BR/2BA,2041.0,2025-04-17,-355,Expired,Active
+Cedar Ridge Commons,Ellicott City,Miranda Sanchez,101,1BR/1BA,1698.0,2025-04-18,-354,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Aaron Aguirre,123,3BR/2BA,2601.0,2025-04-19,-353,Expired,Active
+Mills Crossing,Owings Mills,Karen Perez,025,1BR/1BA,1570.0,2025-04-21,-351,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Aaron Watson,143,3BR/2BA,2344.0,2025-04-21,-351,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Anna Watkins,004,1BR/1BA,1523.0,2025-04-22,-350,Expired,Active
+Fieldside Grande Ph1,Pikesville,Ronald Hines,024,Studio,1345.0,2025-04-24,-348,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,David Wright,127,2BR/2BA,2202.0,2025-04-25,-347,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Jessica Stanley,165,3BR/2BA,2613.0,2025-04-25,-347,Expired,Active
+Mills Crossing,Owings Mills,Richard Strickland,082,2BR/1BA,2052.0,2025-04-26,-346,Expired,Active
+Avenue Grand,Baltimore,Michelle Barrett,177,2BR/2BA,2074.0,2025-04-26,-346,Expired,Active
+Fieldside Grande Ph1,Pikesville,Charles Davila,017,Studio,1309.0,2025-04-27,-345,Expired,Active
+Avenue Grand,Baltimore,Kimberly Black,068,1BR/1BA,1840.0,2025-04-27,-345,Expired,Active
+Cedar Ridge Commons,Ellicott City,Shannon Green,268,2BR/2BA,1881.0,2025-04-29,-343,Expired,Active
+Cedar Ridge Commons,Ellicott City,Cynthia Velazquez,061,1BR/1BA,1586.0,2025-04-30,-342,Expired,Active
+Mills Crossing,Owings Mills,Jennifer Harris DDS,004,Studio,1313.0,2025-05-01,-341,Expired,Active
+Avenue Grand,Baltimore,Andre Lee,089,1BR/1BA,1619.0,2025-05-01,-341,Expired,Active
+Cedar Ridge Commons,Ellicott City,Katherine Sexton,289,3BR/2BA,2432.0,2025-05-02,-340,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Cathy Reynolds,109,2BR/2BA,2266.0,2025-05-02,-340,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Kevin Evans MD,016,1BR/1BA,1485.0,2025-05-03,-339,Expired,Active
+Cedar Ridge Commons,Ellicott City,Dale Warren,284,3BR/2BA,2525.0,2025-05-07,-335,Expired,Active
+Duvall Westside,Laurel,George Shelton,037,1BR/1BA,1435.0,2025-05-10,-332,Expired,Active
+Mills Crossing,Owings Mills,Charles Valdez,114,2BR/1BA,1829.0,2025-05-10,-332,Expired,Active
+Mills Crossing,Owings Mills,Barry Evans,078,2BR/1BA,1798.0,2025-05-12,-330,Expired,Active
+Avenue Grand,Baltimore,Daniel Singh,052,1BR/1BA,1836.0,2025-05-13,-329,Expired,Active
+Avenue Grand,Baltimore,Kevin Jennings,076,1BR/1BA,1755.0,2025-05-13,-329,Expired,Active
+Riverfront Flats,Frederick,Katherine Guzman,023,Studio,1282.0,2025-05-14,-328,Expired,Active
+Fieldside Grande Ph1,Pikesville,Jeffrey Morgan,011,Studio,1521.0,2025-05-15,-327,Expired,Active
+Duvall Westside,Laurel,Mark Lee,032,1BR/1BA,1509.0,2025-05-16,-326,Expired,Active
+Mills Crossing,Owings Mills,Steven Sandoval,060,1BR/1BA,1484.0,2025-05-17,-325,Expired,Active
+Fieldside Grande Ph1,Pikesville,Melissa Nelson,243,2BR/2BA,1781.0,2025-05-17,-325,Expired,Active
+Cedar Ridge Commons,Ellicott City,Christopher Wilson,124,1BR/1BA,1573.0,2025-05-17,-325,Expired,Active
+Fieldside Grande Ph1,Pikesville,Richard Griffith,266,3BR/2BA,2539.0,2025-05-18,-324,Expired,Active
+Duvall Westside,Laurel,Ryan Garcia,094,1BR/1BA,1434.0,2025-05-20,-322,Expired,Active
+Avenue Grand,Baltimore,Wendy Bryant,121,2BR/1BA,1618.0,2025-05-20,-322,Expired,Active
+Fieldside Grande Ph1,Pikesville,David Palmer,118,2BR/1BA,1849.0,2025-05-21,-321,Expired,Active
+Duvall Westside,Laurel,Angela Bradshaw,126,2BR/1BA,2124.0,2025-05-22,-320,Expired,Active
+Riverfront Flats,Frederick,Jeremy Salas,260,3BR/2BA,2787.0,2025-05-22,-320,Expired,Active
+Mills Crossing,Owings Mills,Aaron Manning,003,Studio,1596.0,2025-05-25,-317,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Angela Flores,051,2BR/1BA,2015.0,2025-05-25,-317,Expired,Active
+Riverfront Flats,Frederick,Kevin Daugherty,064,1BR/1BA,1592.0,2025-05-25,-317,Expired,Active
+Cedar Ridge Commons,Ellicott City,Nicholas Grant,083,1BR/1BA,1689.0,2025-05-27,-315,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Paul Chavez,067,2BR/2BA,2172.0,2025-05-27,-315,Expired,Active
+Duvall Westside,Laurel,Brian Cox DVM,011,Studio,1264.0,2025-05-28,-314,Expired,Active
+Cedar Ridge Commons,Ellicott City,Madeline Kelly,306,3BR/2BA,2609.0,2025-05-28,-314,Expired,Active
+Riverfront Flats,Frederick,Bradley Montgomery,031,Studio,1461.0,2025-05-28,-314,Expired,Active
+Fieldside Grande Ph1,Pikesville,Kathleen Robinson,132,2BR/1BA,1936.0,2025-05-29,-313,Expired,Active
+Avenue Grand,Baltimore,Carolyn Walker,015,Studio,1396.0,2025-05-29,-313,Expired,Active
+Cedar Ridge Commons,Ellicott City,Noah Phillips,201,2BR/2BA,2047.0,2025-05-30,-312,Expired,Active
+Riverfront Flats,Frederick,Tiffany Randolph,003,Studio,1272.0,2025-05-30,-312,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Scott Rivera,159,3BR/2BA,2335.0,2025-06-01,-310,Expired,Active
+Duvall Westside,Laurel,Benjamin Thompson,110,1BR/1BA,1763.0,2025-06-08,-303,Expired,Active
+Mills Crossing,Owings Mills,Jonathan Chandler,157,2BR/2BA,2176.0,2025-06-11,-300,Expired,Active
+Riverfront Flats,Frederick,Amber Rodriguez,240,3BR/2BA,2602.0,2025-06-11,-300,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Ms. Elizabeth Smith MD,044,1BR/1BA,1646.0,2025-06-12,-299,Expired,Active
+Duvall Westside,Laurel,Heather Jenkins,015,Studio,1566.0,2025-06-13,-298,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Elizabeth Mejia,021,1BR/1BA,1658.0,2025-06-18,-293,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Barry Campbell,083,2BR/2BA,2160.0,2025-06-18,-293,Expired,Active
+Duvall Westside,Laurel,Evan Rojas,208,2BR/2BA,2004.0,2025-06-21,-290,Expired,Active
+Riverfront Flats,Frederick,Teresa Green,077,1BR/1BA,1609.0,2025-06-21,-290,Expired,Active
+Avenue Grand,Baltimore,Sheri Hoover,187,2BR/2BA,2071.0,2025-07-02,-279,Expired,Active
+Cedar Ridge Commons,Ellicott City,Anthony Luna,184,2BR/1BA,1752.0,2025-07-15,-266,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Thomas Johnson,047,2BR/2BA,2456.0,2025-07-16,-265,Expired,Active
+Avenue Grand,Baltimore,Michael Neal,108,1BR/1BA,1733.0,2025-07-19,-262,Expired,Active
+Cedar Ridge Commons,Ellicott City,Monica Brown,031,Studio,1491.0,2025-07-20,-261,Expired,Active
+Cedar Ridge Commons,Ellicott City,Jerome Edwards,258,2BR/2BA,2014.0,2025-07-20,-261,Expired,Active
+Cedar Ridge Commons,Ellicott City,David White,250,2BR/2BA,2223.0,2025-07-22,-259,Expired,Active
+Riverfront Flats,Frederick,William Jackson,241,3BR/2BA,2774.0,2025-07-27,-254,Expired,Active
+Townes at Heritage Hills,Glen Burnie,John Huff,197,3BR/2BA,2267.0,2025-07-30,-251,Expired,Active
+Fieldside Grande Ph1,Pikesville,Derek Gentry DVM,120,2BR/1BA,1633.0,2025-07-30,-251,Expired,Active
+Fieldside Grande Ph1,Pikesville,Jason Williams,199,2BR/2BA,2334.0,2025-08-02,-248,Expired,Active
+Cedar Ridge Commons,Ellicott City,Cheryl Gomez MD,291,3BR/2BA,2600.0,2025-08-02,-248,Expired,Active
+Avenue Grand,Baltimore,Steven Vazquez,084,1BR/1BA,1595.0,2025-08-05,-245,Expired,Active
+Mills Crossing,Owings Mills,Charles Richardson,046,1BR/1BA,1463.0,2025-08-09,-241,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Adrian Snow,170,3BR/2BA,2389.0,2025-08-09,-241,Expired,Active
+Riverfront Flats,Frederick,Shane Bell,256,3BR/2BA,2519.0,2025-08-17,-233,Expired,Active
+Mills Crossing,Owings Mills,Barbara Gates,105,2BR/1BA,1964.0,2025-08-23,-227,Expired,Active
+Fieldside Grande Ph1,Pikesville,Veronica Schmidt,014,Studio,1357.0,2025-08-26,-224,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Anne Kramer,007,Studio,1365.0,2025-08-27,-223,Expired,Active
+Riverfront Flats,Frederick,Cory Mccann,223,2BR/2BA,1999.0,2025-08-27,-223,Expired,Active
+Riverfront Flats,Frederick,John Moore,231,2BR/2BA,2125.0,2025-08-27,-223,Expired,Active
+Cedar Ridge Commons,Ellicott City,Jacob Hoover,222,2BR/2BA,2063.0,2025-08-28,-222,Expired,Active
+Mills Crossing,Owings Mills,Michael Brown,018,1BR/1BA,1743.0,2025-09-01,-218,Expired,Active
+Cedar Ridge Commons,Ellicott City,Laura Hayden,190,2BR/2BA,2018.0,2025-09-02,-217,Expired,Active
+Duvall Westside,Laurel,Cassandra Valenzuela,284,3BR/2BA,2956.0,2025-09-03,-216,Expired,Active
+Avenue Grand,Baltimore,Felicia Hester,159,2BR/2BA,2129.0,2025-09-06,-213,Expired,Active
+Fieldside Grande Ph1,Pikesville,Brianna Hodges,171,2BR/2BA,2232.0,2025-09-09,-210,Expired,Active
+Avenue Grand,Baltimore,James Martin,171,2BR/2BA,2137.0,2025-09-09,-210,Expired,Active
+Avenue Grand,Baltimore,Linda Martin,027,Studio,1463.0,2025-09-10,-209,Expired,Active
+Duvall Westside,Laurel,Gary James,151,2BR/2BA,1904.0,2025-09-11,-208,Expired,Active
+Mills Crossing,Owings Mills,Jennifer Gill,276,3BR/2BA,2308.0,2025-09-11,-208,Expired,Active
+Avenue Grand,Baltimore,Robert Williams,182,2BR/2BA,2044.0,2025-09-12,-207,Expired,Active
+Avenue Grand,Baltimore,Jerry Perez,214,3BR/2BA,2655.0,2025-09-13,-206,Expired,Active
+Riverfront Flats,Frederick,Robert Serrano,114,1BR/1BA,1553.0,2025-09-14,-205,Expired,Active
+Riverfront Flats,Frederick,Deanna Padilla,233,2BR/2BA,2242.0,2025-09-16,-203,Expired,Active
+Riverfront Flats,Frederick,Richard Franco,143,2BR/1BA,2139.0,2025-09-18,-201,Expired,Active
+Fieldside Grande Ph1,Pikesville,Travis Peterson,035,1BR/1BA,1629.0,2025-09-20,-199,Expired,Active
+Duvall Westside,Laurel,Emily Ali,158,2BR/2BA,2314.0,2025-09-22,-197,Expired,Active
+Riverfront Flats,Frederick,Terry Howard,206,2BR/2BA,2011.0,2025-09-25,-194,Expired,Active
+Cedar Ridge Commons,Ellicott City,Matthew Sellers,056,1BR/1BA,1747.0,2025-09-26,-193,Expired,Active
+Cedar Ridge Commons,Ellicott City,Kerry Gallegos,167,2BR/1BA,1837.0,2025-09-28,-191,Expired,Active
+Riverfront Flats,Frederick,Corey Clark,139,2BR/1BA,1798.0,2025-10-01,-188,Expired,Active
+Mills Crossing,Owings Mills,Justin Bridges,094,2BR/1BA,1791.0,2025-10-06,-183,Expired,Active
+Cedar Ridge Commons,Ellicott City,Dawn Yates,165,2BR/1BA,1738.0,2025-10-11,-178,Expired,Active
+Avenue Grand,Baltimore,Kevin Warren,071,1BR/1BA,1594.0,2025-10-15,-174,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Yvonne Adkins,026,1BR/1BA,1528.0,2025-10-20,-169,Expired,Active
+Duvall Westside,Laurel,Amanda Juarez,279,3BR/2BA,2434.0,2025-10-22,-167,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Stephanie Bolton,142,3BR/2BA,2744.0,2025-10-22,-167,Expired,Active
+Avenue Grand,Baltimore,Tyler Vasquez,148,2BR/2BA,2402.0,2025-10-24,-165,Expired,Active
+Cedar Ridge Commons,Ellicott City,Barbara Kennedy,136,2BR/1BA,1662.0,2025-10-25,-164,Expired,Active
+Cedar Ridge Commons,Ellicott City,Megan Beasley,273,2BR/2BA,1984.0,2025-10-25,-164,Expired,Active
+Cedar Ridge Commons,Ellicott City,Justin Preston,029,Studio,1542.0,2025-10-27,-162,Expired,Active
+Duvall Westside,Laurel,Daniel Murphy,038,1BR/1BA,1788.0,2025-10-30,-159,Expired,Active
+Cedar Ridge Commons,Ellicott City,Luis Williams,236,2BR/2BA,2128.0,2025-11-04,-154,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Caitlyn Salazar,052,2BR/1BA,1644.0,2025-11-04,-154,Expired,Active
+Mills Crossing,Owings Mills,Mark Tyler,205,2BR/2BA,2064.0,2025-11-06,-152,Expired,Active
+Mills Crossing,Owings Mills,Yesenia Kirk,044,1BR/1BA,1441.0,2025-11-07,-151,Expired,Active
+Townes at Heritage Hills,Glen Burnie,Corey Frazier,075,2BR/2BA,2395.0,2025-11-08,-150,Expired,Active
+Riverfront Flats,Frederick,Matthew Williams,038,Studio,1569.0,2025-11-12,-146,Expired,Active
+Duvall Westside,Laurel,Seth Fisher,237,2BR/2BA,1995.0,2025-11-13,-145,Expired,Active
+Avenue Grand,Baltimore,Ricky Hill,200,2BR/2BA,1877.0,2025-11-15,-143,Expired,Active
+Mills Crossing,Owings Mills,Mark Harris,233,3BR/2BA,2933.0,2025-11-16,-142,Expired,Active
+Duvall Westside,Laurel,Jennifer Wilson,086,1BR/1BA,1418.0,2025-11-17,-141,Expired,Active
+Mills Crossing,Owings Mills,Kyle Williams,279,3BR/2BA,2440.0,2025-11-19,-139,Expired,Active
+Duvall Westside,Laurel,Antonio Mccormick,189,2BR/2BA,1925.0,2025-11-21,-137,Expired,Active
+Avenue Grand,Baltimore,Brittany Hernandez,193,2BR/2BA,1986.0,2025-11-21,-137,Expired,Active
+Duvall Westside,Laurel,Donald Hunter,256,2BR/2BA,1927.0,2025-11-23,-135,Expired,Active
+Cedar Ridge Commons,Ellicott City,Brandon Harvey,107,1BR/1BA,1810.0,2025-11-27,-131,Expired,Active
+Fieldside Grande Ph1,Pikesville,Ronald Park,086,1BR/1BA,1542.0,2025-11-28,-130,Expired,Active
+Cedar Ridge Commons,Ellicott City,Walter Howard,044,1BR/1BA,1783.0,2025-11-28,-130,Expired,Active
+Riverfront Flats,Frederick,Brianna Warren,050,1BR/1BA,1808.0,2025-12-10,-118,Expired,Active
+Cedar Ridge Commons,Ellicott City,Joshua Smith,179,2BR/1BA,2033.0,2025-12-16,-112,Expired,Active
+Fieldside Grande Ph1,Pikesville,Stephanie Mullen,135,2BR/1BA,1954.0,2025-12-24,-104,Expired,Active
+Fieldside Grande Ph1,Pikesville,Robert Burke,260,3BR/2BA,3015.0,2025-12-26,-102,Expired,Active
+Avenue Grand,Baltimore,Amber Chapman,073,1BR/1BA,1789.0,2025-12-26,-102,Expired,Active
+Mills Crossing,Owings Mills,Bonnie Roberson,024,1BR/1BA,1573.0,2025-12-28,-100,Expired,Active
+Fieldside Grande Ph1,Pikesville,Juan Carroll,085,1BR/1BA,1740.0,2026-01-03,-94,Expired,Active
+Duvall Westside,Laurel,Donald Juarez,239,2BR/2BA,2138.0,2026-01-10,-87,Expired,Active
+Mills Crossing,Owings Mills,Scott Lopez,016,1BR/1BA,1881.0,2026-01-14,-83,Expired,Active
+Cedar Ridge Commons,Ellicott City,Sarah Walker,020,Studio,1217.0,2026-02-06,-60,Expired,Active
+Duvall Westside,Laurel,Jenny Smith,262,3BR/2BA,2843.0,2026-02-18,-48,Expired,Active
+Avenue Grand,Baltimore,Pamela George,116,2BR/1BA,1953.0,2026-02-19,-47,Expired,Active
+Riverfront Flats,Frederick,Gregory Deleon,058,1BR/1BA,1511.0,2026-02-21,-45,Expired,Active
+Avenue Grand,Baltimore,Brian Smith,215,3BR/2BA,2305.0,2026-02-22,-44,Expired,Active
+Fieldside Grande Ph1,Pikesville,Christopher Turner,115,2BR/1BA,1727.0,2026-02-28,-38,Expired,Active
+Riverfront Flats,Frederick,George Johnson,227,2BR/2BA,2274.0,2026-03-03,-35,Expired,Active
+Mills Crossing,Owings Mills,Michelle Brock,017,1BR/1BA,1531.0,2026-03-13,-25,Expired,Active
+Avenue Grand,Baltimore,Rachel Ward,128,2BR/1BA,1628.0,2026-03-13,-25,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Francisco Rivas,174,3BR/2BA,2369.0,2026-03-18,-20,Expired,Active
+Fieldside Grande Ph1,Pikesville,Autumn Gallagher,078,1BR/1BA,1486.0,2026-03-19,-19,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Emily Potter,070,2BR/2BA,2226.0,2026-03-21,-17,Expired,Active
+Riverfront Flats,Frederick,David Fields,047,1BR/1BA,1543.0,2026-03-22,-16,Expired,Active
+Avenue Grand,Baltimore,John Richards,216,3BR/2BA,2540.0,2026-03-30,-8,Expired,Active
+Duvall Westside,Laurel,Debra Sanders,155,2BR/2BA,2016.0,2026-03-31,-7,Expired,Active
+Overlook at Bulle Rock,Havre de Grace,Mr. Joshua Davis,005,Studio,1405.0,2026-04-12,4,0-30 Days,Active
+Mills Crossing,Owings Mills,Robert Hansen,250,3BR/2BA,2641.0,2026-04-17,9,0-30 Days,Active
+Riverfront Flats,Frederick,Gina Chang,088,1BR/1BA,1410.0,2026-04-22,14,0-30 Days,Active
+Mills Crossing,Owings Mills,Kristin Reese,042,1BR/1BA,1723.0,2026-05-07,29,0-30 Days,Active
+Cedar Ridge Commons,Ellicott City,Timothy Maxwell,085,1BR/1BA,1368.0,2026-05-13,35,31-60 Days,Active
+Townes at Heritage Hills,Glen Burnie,James Jones,135,3BR/2BA,2930.0,2026-05-18,40,31-60 Days,Active
+Mills Crossing,Owings Mills,Benjamin Mccarty,269,3BR/2BA,2522.0,2026-05-19,41,31-60 Days,Active
+Avenue Grand,Baltimore,Patricia Smith,149,2BR/2BA,2139.0,2026-05-31,53,31-60 Days,Active

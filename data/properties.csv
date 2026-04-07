@@ -1,0 +1,9 @@
+property_id,name,city,zip,property_type,total_units,year_built
+P001,Duvall Westside,Laurel,20707,Luxury Apartment,287,2023
+P002,Mills Crossing,Owings Mills,21117,Townhome/Apartment,312,2018
+P003,Townes at Heritage Hills,Glen Burnie,21061,Townhome,198,2016
+P004,Fieldside Grande Ph1,Pikesville,21208,Luxury Apartment,287,2023
+P005,Avenue Grand,Baltimore,21201,Mid-Rise Apartment,224,2020
+P006,Cedar Ridge Commons,Ellicott City,21043,Garden Apartment,310,2015
+P007,Overlook at Bulle Rock,Havre de Grace,21078,Condominium,180,2019
+P008,Riverfront Flats,Frederick,21701,Mid-Rise Apartment,260,2021
