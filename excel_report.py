@@ -1,15 +1,14 @@
 """
-=============================================================
- Sage Ventures – Multifamily Analytics
- PHASE 4: Automated Excel Report Generator
- Run:    python excel_report.py
- Needs:  pip install pandas openpyxl
- Run AFTER Phase 1, 2 & 3
-=============================================================
- Produces a fully formatted, multi-sheet Excel workbook —
- exactly the kind of Monday morning report a DA would
- schedule and auto-email to leadership.
-=============================================================
+excel_report.py
+
+auto-generates a formatted 7-sheet excel workbook from the database.
+this is the kind of report you'd schedule to run on the 1st of every month
+and land in the CFO's inbox automatically.
+
+run after generate_data.py, feature_engineering.py, adhoc_analysis.py.
+
+run:  python excel_report.py
+deps: pip install pandas openpyxl
 """
 
 import sqlite3
@@ -22,440 +21,405 @@ from openpyxl.styles import (
 )
 from openpyxl.utils import get_column_letter
 from openpyxl.chart import BarChart, LineChart, Reference
-from openpyxl.chart.series import DataPoint
 
-DB_PATH    = "data/sage_ventures.db"
-OUTPUT_DIR = "outputs"
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+DB  = "data/sage_ventures.db"
+OUT = "outputs"
+os.makedirs(OUT, exist_ok=True)
 
-TODAY     = date.today()
-RPT_DATE  = TODAY.strftime("%B %d, %Y")
-OUT_FILE  = f"{OUTPUT_DIR}/SageVentures_Analytics_Report_{TODAY.strftime('%Y%m%d')}.xlsx"
+TODAY    = date.today()
+RPT_DATE = TODAY.strftime("%B %d, %Y")
+OUTFILE  = f"{OUT}/SageVentures_Analytics_Report_{TODAY.strftime('%Y%m%d')}.xlsx"
 
-# ── BRAND COLORS ──────────────────────────────────────────────────────────────
-DARK_GREEN  = "1A3A2A"
-MID_GREEN   = "1A6B3A"
-LIGHT_GREEN = "E8F5E9"
-ACCENT_GOLD = "C8A951"
-WHITE       = "FFFFFF"
-LIGHT_GRAY  = "F5F5F5"
-MID_GRAY    = "CCCCCC"
-DARK_GRAY   = "444444"
-RED_LIGHT   = "FFEBEE"
-RED_DARK    = "C62828"
-AMBER_LIGHT = "FFF8E1"
-AMBER_DARK  = "E65100"
+# brand colors
+C_DARK_GREEN  = "1A3A2A"
+C_MID_GREEN   = "1A6B3A"
+C_LIGHT_GREEN = "E8F5E9"
+C_GOLD        = "C8A951"
+C_WHITE       = "FFFFFF"
+C_LIGHT_GRAY  = "F5F5F5"
+C_DARK_GRAY   = "444444"
+C_RED_LIGHT   = "FFEBEE"
+C_RED_DARK    = "C62828"
+C_AMBER_LIGHT = "FFF8E1"
+C_AMBER_DARK  = "E65100"
 
-def side(style="thin", color="CCCCCC"):
-    return Side(style=style, color=color)
 
-def border(all_sides="thin"):
-    s = side(all_sides)
-    return Border(left=s, right=s, top=s, bottom=s)
+# ── style helpers ─────────────────────────────────────────────────────────────
 
-def fill(hex_color):
-    return PatternFill("solid", fgColor=hex_color)
+def fill(hex_c):
+    return PatternFill("solid", fgColor=hex_c)
 
-def font(bold=False, color=DARK_GRAY, size=11, italic=False):
-    return Font(bold=bold, color=color, size=size, italic=italic,
-                name="Calibri")
+def font(bold=False, color=C_DARK_GRAY, size=11, italic=False):
+    return Font(bold=bold, color=color, size=size,
+                italic=italic, name="Calibri")
 
 def align(h="left", v="center", wrap=False):
     return Alignment(horizontal=h, vertical=v, wrap_text=wrap)
 
-def set_col_widths(ws, widths: dict):
-    for col, width in widths.items():
-        ws.column_dimensions[col].width = width
+def thin_border():
+    s = Side(style="thin", color="CCCCCC")
+    return Border(left=s, right=s, top=s, bottom=s)
 
-def header_row(ws, row, values, bg=DARK_GREEN, fg=WHITE, bold=True, size=11):
-    for col, val in enumerate(values, 1):
-        cell = ws.cell(row=row, column=col, value=val)
-        cell.fill    = fill(bg)
-        cell.font    = font(bold=bold, color=fg, size=size)
-        cell.border  = border()
-        cell.alignment = align("center")
+def set_widths(ws, widths):
+    for col, w in widths.items():
+        ws.column_dimensions[col].width = w
 
-def data_row(ws, row, values, bg=WHITE, fmt_map=None, bold=False):
-    fmt_map = fmt_map or {}
-    for col, val in enumerate(values, 1):
-        cell = ws.cell(row=row, column=col, value=val)
-        cell.fill      = fill(bg)
-        cell.font      = font(bold=bold, color=DARK_GRAY)
-        cell.border    = border()
-        cell.alignment = align("left" if isinstance(val,str) else "right")
-        if col in fmt_map:
-            cell.number_format = fmt_map[col]
 
-def title_block(ws, title, subtitle, logo_text="SAGE VENTURES"):
+def write_header_row(ws, row, cols, bg=C_DARK_GREEN, fg=C_WHITE):
+    for i, val in enumerate(cols, 1):
+        c = ws.cell(row=row, column=i, value=val)
+        c.fill      = fill(bg)
+        c.font      = font(bold=True, color=fg, size=10)
+        c.border    = thin_border()
+        c.alignment = align("center")
+
+
+def write_data_row(ws, row, vals, bg=C_WHITE, money_cols=None):
+    money_cols = money_cols or []
+    for i, val in enumerate(vals, 1):
+        c = ws.cell(row=row, column=i, value=val)
+        c.fill      = fill(bg)
+        c.font      = font(color=C_DARK_GRAY)
+        c.border    = thin_border()
+        c.alignment = align("left" if isinstance(val,str) else "right")
+        if i in money_cols:
+            c.number_format = "$#,##0"
+
+
+def title_block(ws, title, subtitle):
+    # sage ventures branding at top of each sheet
     ws.merge_cells("A1:H1")
-    c = ws["A1"]
-    c.value     = logo_text
-    c.font      = Font(bold=True, size=16, color=WHITE, name="Calibri")
-    c.fill      = fill(DARK_GREEN)
-    c.alignment = align("left","center")
+    h = ws["A1"]
+    h.value     = "SAGE VENTURES"
+    h.font      = Font(bold=True, size=14, color=C_WHITE, name="Calibri")
+    h.fill      = fill(C_DARK_GREEN)
+    h.alignment = align("left","center")
+    ws.row_dimensions[1].height = 26
 
     ws.merge_cells("A2:H2")
-    c = ws["A2"]
-    c.value     = title
-    c.font      = Font(bold=True, size=13, color=DARK_GREEN, name="Calibri")
-    c.fill      = fill(LIGHT_GREEN)
-    c.alignment = align("left","center")
+    t = ws["A2"]
+    t.value     = title
+    t.font      = Font(bold=True, size=12, color=C_DARK_GREEN, name="Calibri")
+    t.fill      = fill(C_LIGHT_GREEN)
+    t.alignment = align("left","center")
 
     ws.merge_cells("A3:H3")
-    c = ws["A3"]
-    c.value     = f"Report Date: {RPT_DATE}  |  {subtitle}"
-    c.font      = Font(size=10, color=DARK_GRAY, italic=True, name="Calibri")
-    c.fill      = fill(LIGHT_GRAY)
-    c.alignment = align("left","center")
-
-    ws.row_dimensions[1].height = 28
-    ws.row_dimensions[2].height = 22
-    ws.row_dimensions[3].height = 18
+    s = ws["A3"]
+    s.value     = f"Report Date: {RPT_DATE}  |  {subtitle}"
+    s.font      = Font(size=9, color=C_DARK_GRAY, italic=True, name="Calibri")
+    s.fill      = fill(C_LIGHT_GRAY)
+    s.alignment = align("left","center")
+    ws.row_dimensions[3].height = 16
 
 
-# ══════════════════════════════════════════════════════════════════════════════
-# SHEET 1 — EXECUTIVE SUMMARY
-# ══════════════════════════════════════════════════════════════════════════════
-def sheet_executive_summary(wb, conn):
+# ── sheet 1: executive summary ────────────────────────────────────────────────
+
+def sheet_executive(wb, conn):
     ws = wb.create_sheet("Executive Summary")
     ws.sheet_view.showGridLines = False
-    title_block(ws, "Portfolio Executive Summary",
-                "Multifamily Analytics Dashboard — All Properties")
+    title_block(ws, "Portfolio Executive Summary", "All Properties")
 
-    # KPI data from SQL
     kpi = pd.read_sql("""
     SELECT
-      COUNT(DISTINCT p.property_id)                              AS total_properties,
-      COUNT(DISTINCT u.unit_id)                                  AS total_units,
-      COUNT(DISTINCT t.tenant_id)                                AS occupied_units,
-      ROUND(COUNT(DISTINCT t.tenant_id)*100.0/COUNT(DISTINCT u.unit_id),1) AS occ_pct,
-      ROUND(AVG(u.market_rent),0)                                AS avg_market_rent,
-      ROUND(AVG(t.monthly_rent),0)                               AS avg_actual_rent,
-      ROUND(SUM(t.monthly_rent),0)                               AS total_monthly_rev
+        COUNT(DISTINCT p.property_id)                              total_props,
+        COUNT(DISTINCT u.unit_id)                                  total_units,
+        COUNT(DISTINCT t.tenant_id)                                occupied,
+        ROUND(COUNT(DISTINCT t.tenant_id)*100.0/COUNT(DISTINCT u.unit_id),1) occ_pct,
+        ROUND(AVG(u.market_rent),0)                                avg_mkt,
+        ROUND(AVG(t.monthly_rent),0)                               avg_actual,
+        ROUND(SUM(t.monthly_rent),0)                               monthly_rev
     FROM properties p
-    JOIN units u      ON p.property_id = u.property_id
-    LEFT JOIN tenants t ON u.unit_id  = t.unit_id AND t.status='Active'
+    JOIN units u ON p.property_id=u.property_id
+    LEFT JOIN tenants t ON u.unit_id=t.unit_id AND t.status='Active'
     """, conn).iloc[0]
 
-    # KPI cards (row 5 onwards)
-    ws.row_dimensions[4].height = 10
-    kpi_labels = [
-        ("Total Properties",   kpi["total_properties"],   "",          WHITE),
-        ("Total Units",        kpi["total_units"],         "",          WHITE),
-        ("Occupied Units",     kpi["occupied_units"],      "",          WHITE),
-        ("Portfolio Occupancy",f"{kpi['occ_pct']}%",      "Target 93%",LIGHT_GREEN),
-        ("Avg Market Rent",    f"${kpi['avg_market_rent']:,.0f}", "",   WHITE),
-        ("Avg Actual Rent",    f"${kpi['avg_actual_rent']:,.0f}", "Loss-to-Lease",WHITE),
-        ("Monthly Revenue",    f"${kpi['total_monthly_rev']:,.0f}","",  LIGHT_GREEN),
+    # quick KPI summary rows before the property table
+    ws.row_dimensions[5].height = 8
+    kpis = [
+        ("Portfolio Occupancy", f"{kpi['occ_pct']}%"),
+        ("Total Units",         f"{int(kpi['total_units']):,}"),
+        ("Occupied Units",      f"{int(kpi['occupied']):,}"),
+        ("Avg Market Rent",     f"${kpi['avg_mkt']:,.0f}"),
+        ("Avg Actual Rent",     f"${kpi['avg_actual']:,.0f}"),
+        ("Monthly Revenue",     f"${kpi['monthly_rev']:,.0f}"),
     ]
-
-    for idx, (label, value, note, bg) in enumerate(kpi_labels):
-        row = 5 + (idx // 4) * 4
-        col = 1 + (idx % 4) * 2
+    for i, (lbl, val) in enumerate(kpis):
+        col = 1 + (i % 4) * 2
+        row = 6 + (i // 4) * 3
         ws.merge_cells(start_row=row,   start_column=col, end_row=row,   end_column=col+1)
         ws.merge_cells(start_row=row+1, start_column=col, end_row=row+1, end_column=col+1)
-        ws.merge_cells(start_row=row+2, start_column=col, end_row=row+2, end_column=col+1)
-
-        lc = ws.cell(row=row,   column=col, value=label)
-        vc = ws.cell(row=row+1, column=col, value=value)
-        nc = ws.cell(row=row+2, column=col, value=note)
-
-        lc.font = Font(size=9, color=DARK_GRAY, name="Calibri")
-        vc.font = Font(bold=True, size=18, color=DARK_GREEN, name="Calibri")
-        nc.font = Font(size=9, italic=True, color=DARK_GRAY, name="Calibri")
-        for cell in [lc, vc, nc]:
-            cell.fill = fill(bg)
+        lc = ws.cell(row=row,   column=col, value=lbl)
+        vc = ws.cell(row=row+1, column=col, value=val)
+        lc.font = Font(size=9, color=C_DARK_GRAY, name="Calibri")
+        vc.font = Font(bold=True, size=16, color=C_DARK_GREEN, name="Calibri")
+        for cell in [lc, vc]:
+            cell.fill      = fill(C_LIGHT_GREEN)
             cell.alignment = align("center")
 
-    # Property performance table
-    start_r = 14
-    ws.cell(row=start_r, column=1, value="Property Performance Summary").font = \
-        Font(bold=True, size=11, color=DARK_GREEN, name="Calibri")
+    # property table starts at row 13
+    start = 13
+    ws.cell(row=start, column=1, value="Property Performance").font = \
+        Font(bold=True, size=11, color=C_DARK_GREEN, name="Calibri")
 
-    cols = ["Property","City","Total Units","Occupied","Occ %",
-            "Avg Market Rent","Avg Actual Rent","Monthly Revenue"]
-    header_row(ws, start_r+1, cols)
+    cols = ["Property","City","Units","Occupied","Occ %",
+            "Avg Mkt Rent","Avg Actual Rent","Monthly Rev"]
+    write_header_row(ws, start+1, cols)
 
     props = pd.read_sql("""
     SELECT p.name, p.city, p.total_units,
-      COUNT(t.tenant_id) occupied,
-      ROUND(COUNT(t.tenant_id)*100.0/p.total_units,1) occ_pct,
-      ROUND(AVG(u.market_rent),0) avg_mkt,
-      ROUND(AVG(t.monthly_rent),0) avg_actual,
-      ROUND(SUM(t.monthly_rent),0) monthly_rev
+        COUNT(t.tenant_id) occ,
+        ROUND(COUNT(t.tenant_id)*100.0/p.total_units,1) occ_pct,
+        ROUND(AVG(u.market_rent),0) avg_mkt,
+        ROUND(AVG(t.monthly_rent),0) avg_actual,
+        ROUND(SUM(t.monthly_rent),0) monthly_rev
     FROM properties p
     JOIN units u ON p.property_id=u.property_id
     LEFT JOIN tenants t ON u.unit_id=t.unit_id AND t.status='Active'
     GROUP BY p.property_id ORDER BY monthly_rev DESC
     """, conn)
 
-    fmt = {5:"0.0%", 6:"$#,##0", 7:"$#,##0", 8:"$#,##0"}
-    for i, (_, row) in enumerate(props.iterrows()):
-        bg = LIGHT_GRAY if i % 2 == 0 else WHITE
-        occ = row["occ_pct"] / 100
-        data_row(ws, start_r+2+i,
-                 [row["name"],row["city"],row["total_units"],row["occupied"],
-                  occ, row["avg_mkt"], row["avg_actual"], row["monthly_rev"]],
-                 bg=bg, fmt_map=fmt)
-        # Color-code occupancy
-        occ_cell = ws.cell(row=start_r+2+i, column=5)
-        if occ < 0.80:
-            occ_cell.fill = fill(RED_LIGHT)
-            occ_cell.font = font(color=RED_DARK, bold=True)
-        elif occ >= 0.90:
-            occ_cell.fill = fill(LIGHT_GREEN)
-            occ_cell.font = font(color=MID_GREEN, bold=True)
+    for i, (_, r) in enumerate(props.iterrows()):
+        bg = C_LIGHT_GRAY if i%2==0 else C_WHITE
+        write_data_row(ws, start+2+i,
+                       [r["name"],r["city"],r["total_units"],r["occ"],
+                        r["occ_pct"]/100, r["avg_mkt"],r["avg_actual"],r["monthly_rev"]],
+                       bg=bg, money_cols=[6,7,8])
+        occ_cell = ws.cell(row=start+2+i, column=5)
+        occ_cell.number_format = "0.0%"
+        # color code occupancy
+        if r["occ_pct"] < 80:
+            occ_cell.fill = fill(C_RED_LIGHT)
+            occ_cell.font = font(color=C_RED_DARK, bold=True)
+        elif r["occ_pct"] >= 90:
+            occ_cell.fill = fill(C_LIGHT_GREEN)
+            occ_cell.font = font(color=C_MID_GREEN, bold=True)
 
-    set_col_widths(ws, {"A":28,"B":14,"C":12,"D":10,"E":10,
-                        "F":16,"G":16,"H":16})
+    set_widths(ws, {"A":26,"B":14,"C":8,"D":10,"E":8,
+                    "F":15,"G":15,"H":14})
 
 
-# ══════════════════════════════════════════════════════════════════════════════
-# SHEET 2 — RENT ROLL
-# ══════════════════════════════════════════════════════════════════════════════
+# ── sheet 2: rent roll ────────────────────────────────────────────────────────
+
 def sheet_rent_roll(wb, conn):
     ws = wb.create_sheet("Rent Roll")
     ws.sheet_view.showGridLines = False
     title_block(ws, "Rent Roll — Current Month",
-                "All active tenants, lease terms and payment status")
+                "All active tenants and payment status")
 
-    last_month = pd.read_sql(
-        "SELECT MAX(period_month) mo FROM rent_roll", conn).iloc[0]["mo"]
+    last = pd.read_sql("SELECT MAX(period_month) mo FROM rent_roll", conn).iloc[0]["mo"]
 
     df = pd.read_sql(f"""
     SELECT
-        p.name property, p.city,
-        u.unit_number, u.unit_type,
-        t.full_name tenant,
-        t.lease_start, t.lease_end,
-        t.monthly_rent,
-        u.market_rent,
-        ROUND(u.market_rent - t.monthly_rent,0) loss_to_lease,
+        p.name property, p.city, u.unit_number, u.unit_type,
+        t.full_name tenant, t.lease_start, t.lease_end,
+        t.monthly_rent, u.market_rent,
+        ROUND(u.market_rent-t.monthly_rent,0) loss_to_lease,
         r.amount_due, r.amount_paid,
         ROUND(r.amount_due-r.amount_paid,0) balance,
-        r.status payment_status
+        r.status
     FROM rent_roll r
-    JOIN tenants t    ON r.tenant_id   = t.tenant_id
-    JOIN units u      ON r.unit_id     = u.unit_id
+    JOIN tenants    t ON r.tenant_id   = t.tenant_id
+    JOIN units      u ON r.unit_id     = u.unit_id
     JOIN properties p ON r.property_id = p.property_id
-    WHERE r.period_month = '{last_month}'
+    WHERE r.period_month = '{last}'
     ORDER BY p.name, u.unit_number
     """, conn)
 
-    cols = ["Property","City","Unit","Type","Tenant","Lease Start","Lease End",
-            "Monthly Rent","Market Rent","Loss-to-Lease",
-            "Amount Due","Amount Paid","Balance","Payment Status"]
-    header_row(ws, 5, cols)
-
     status_colors = {
-        "Paid":       (LIGHT_GREEN, MID_GREEN),
-        "Partial":    (AMBER_LIGHT, AMBER_DARK),
-        "Delinquent": (RED_LIGHT,   RED_DARK),
+        "Paid":       (C_LIGHT_GREEN,  C_MID_GREEN),
+        "Partial":    (C_AMBER_LIGHT,  C_AMBER_DARK),
+        "Delinquent": (C_RED_LIGHT,    C_RED_DARK),
     }
-    money_cols = {8:"$#,##0",9:"$#,##0",10:"$#,##0",11:"$#,##0",12:"$#,##0",13:"$#,##0"}
 
-    for i, (_, row) in enumerate(df.iterrows()):
-        bg = LIGHT_GRAY if i % 2 == 0 else WHITE
-        data_row(ws, 6+i,
-                 [row["property"],row["city"],row["unit_number"],row["unit_type"],
-                  row["tenant"],row["lease_start"],row["lease_end"],
-                  row["monthly_rent"],row["market_rent"],row["loss_to_lease"],
-                  row["amount_due"],row["amount_paid"],row["balance"],
-                  row["payment_status"]],
-                 bg=bg, fmt_map=money_cols)
-        # Color status cell
-        status_cell = ws.cell(row=6+i, column=14)
-        st = row["payment_status"]
-        if st in status_colors:
-            bg_c, fg_c = status_colors[st]
-            status_cell.fill = fill(bg_c)
-            status_cell.font = font(color=fg_c, bold=True)
+    cols = ["Property","City","Unit","Type","Tenant",
+            "Lease Start","Lease End","Monthly Rent","Market Rent",
+            "Loss-to-Lease","Amount Due","Amount Paid","Balance","Status"]
+    write_header_row(ws, 5, cols)
 
-    set_col_widths(ws, {"A":24,"B":14,"C":7,"D":12,"E":22,
-                        "F":12,"G":12,"H":13,"I":13,"J":13,
-                        "K":12,"L":12,"M":10,"N":13})
+    for i, (_, r) in enumerate(df.iterrows()):
+        bg = C_LIGHT_GRAY if i%2==0 else C_WHITE
+        write_data_row(ws, 6+i,
+                       [r["property"],r["city"],r["unit_number"],r["unit_type"],
+                        r["tenant"],r["lease_start"],r["lease_end"],
+                        r["monthly_rent"],r["market_rent"],r["loss_to_lease"],
+                        r["amount_due"],r["amount_paid"],r["balance"],r["status"]],
+                       bg=bg, money_cols=[8,9,10,11,12,13])
+        sc = ws.cell(row=6+i, column=14)
+        if r["status"] in status_colors:
+            bg_c, fg_c = status_colors[r["status"]]
+            sc.fill = fill(bg_c)
+            sc.font = font(color=fg_c, bold=True)
+
     ws.freeze_panes = "A6"
+    set_widths(ws, {"A":22,"B":14,"C":7,"D":11,"E":22,
+                    "F":12,"G":12,"H":13,"I":13,"J":13,
+                    "K":12,"L":12,"M":10,"N":12})
 
 
-# ══════════════════════════════════════════════════════════════════════════════
-# SHEET 3 — LEASE EXPIRATION PIPELINE
-# ══════════════════════════════════════════════════════════════════════════════
+# ── sheet 3: lease expiration ──────────────────────────────────────────────────
+
 def sheet_lease_expiration(wb, conn):
     ws = wb.create_sheet("Lease Expiration")
     ws.sheet_view.showGridLines = False
-    title_block(ws, "Lease Expiration Pipeline",
-                "Renewal risk analysis — next 90 days")
+    title_block(ws, "Lease Expiration Pipeline", "Next 90 days — renewal risk")
 
     df = pd.read_sql("""
     SELECT
-        p.name property, p.city,
-        t.full_name tenant,
-        u.unit_number, u.unit_type,
-        t.monthly_rent,
-        t.lease_end,
-        CAST(julianday(t.lease_end)-julianday('now') AS INTEGER) days_to_expiry,
+        p.name property, p.city, t.full_name tenant,
+        u.unit_number, u.unit_type, t.monthly_rent, t.lease_end,
+        CAST(julianday(t.lease_end)-julianday('now') AS INT) days_to_expiry,
         CASE
           WHEN julianday(t.lease_end)-julianday('now') < 0    THEN 'Expired'
           WHEN julianday(t.lease_end)-julianday('now') <= 30  THEN '0-30 Days'
           WHEN julianday(t.lease_end)-julianday('now') <= 60  THEN '31-60 Days'
           ELSE '61-90 Days'
-        END bucket
+        END bucket,
+        t.status
     FROM tenants t
-    JOIN units u      ON t.unit_id     = u.unit_id
+    JOIN units      u ON t.unit_id     = u.unit_id
     JOIN properties p ON u.property_id = p.property_id
     WHERE julianday(t.lease_end)-julianday('now') <= 90
       AND t.status = 'Active'
     ORDER BY days_to_expiry
     """, conn)
 
-    cols = ["Property","City","Tenant","Unit","Type",
-            "Monthly Rent","Lease End","Days to Expiry","Bucket"]
-    header_row(ws, 5, cols)
-
     bucket_colors = {
-        "Expired":    (RED_LIGHT,   RED_DARK),
-        "0-30 Days":  (RED_LIGHT,   RED_DARK),
-        "31-60 Days": (AMBER_LIGHT, AMBER_DARK),
-        "61-90 Days": (LIGHT_GREEN, MID_GREEN),
+        "Expired":    (C_RED_LIGHT,   C_RED_DARK),
+        "0-30 Days":  (C_RED_LIGHT,   C_RED_DARK),
+        "31-60 Days": (C_AMBER_LIGHT, C_AMBER_DARK),
+        "61-90 Days": (C_LIGHT_GREEN, C_MID_GREEN),
     }
-    for i, (_, row) in enumerate(df.iterrows()):
-        bg = LIGHT_GRAY if i % 2 == 0 else WHITE
-        data_row(ws, 6+i,
-                 [row["property"],row["city"],row["tenant"],
-                  row["unit_number"],row["unit_type"],row["monthly_rent"],
-                  row["lease_end"],row["days_to_expiry"],row["bucket"]],
-                 bg=bg, fmt_map={6:"$#,##0"})
+
+    cols = ["Property","City","Tenant","Unit","Type",
+            "Monthly Rent","Lease End","Days to Expiry","Bucket","Status"]
+    write_header_row(ws, 5, cols)
+
+    for i, (_, r) in enumerate(df.iterrows()):
+        bg = C_LIGHT_GRAY if i%2==0 else C_WHITE
+        write_data_row(ws, 6+i,
+                       [r["property"],r["city"],r["tenant"],r["unit_number"],
+                        r["unit_type"],r["monthly_rent"],r["lease_end"],
+                        r["days_to_expiry"],r["bucket"],r["status"]],
+                       bg=bg, money_cols=[6])
         bc = ws.cell(row=6+i, column=9)
-        bucket = row["bucket"]
-        if bucket in bucket_colors:
-            bg_c, fg_c = bucket_colors[bucket]
+        if r["bucket"] in bucket_colors:
+            bg_c, fg_c = bucket_colors[r["bucket"]]
             bc.fill = fill(bg_c)
             bc.font = font(color=fg_c, bold=True)
 
-    set_col_widths(ws, {"A":24,"B":14,"C":22,"D":7,"E":12,
-                        "F":13,"G":12,"H":14,"I":12})
     ws.freeze_panes = "A6"
+    set_widths(ws, {"A":22,"B":14,"C":22,"D":7,"E":11,
+                    "F":13,"G":12,"H":14,"I":12,"J":12})
 
 
-# ══════════════════════════════════════════════════════════════════════════════
-# SHEET 4 — DELINQUENCY REPORT
-# ══════════════════════════════════════════════════════════════════════════════
+# ── sheet 4: delinquency ──────────────────────────────────────────────────────
+
 def sheet_delinquency(wb, conn):
     ws = wb.create_sheet("Delinquency Report")
     ws.sheet_view.showGridLines = False
     title_block(ws, "Delinquency Report — Current Month",
-                "Accounts with unpaid or partial balances")
+                "Unpaid and partial balance accounts")
 
-    last_month = pd.read_sql(
-        "SELECT MAX(period_month) mo FROM rent_roll", conn).iloc[0]["mo"]
+    last = pd.read_sql("SELECT MAX(period_month) mo FROM rent_roll", conn).iloc[0]["mo"]
 
     df = pd.read_sql(f"""
     SELECT
-        p.name property, p.city,
-        t.full_name tenant,
-        u.unit_number, u.unit_type,
-        r.period_month,
+        p.name property, p.city, t.full_name tenant,
+        u.unit_number, u.unit_type, r.period_month,
         r.amount_due, r.amount_paid,
         ROUND(r.amount_due-r.amount_paid,0) balance_owed,
-        r.status,
-        t.lease_end
+        r.status, t.lease_end
     FROM rent_roll r
-    JOIN tenants t    ON r.tenant_id   = t.tenant_id
-    JOIN units u      ON r.unit_id     = u.unit_id
+    JOIN tenants    t ON r.tenant_id   = t.tenant_id
+    JOIN units      u ON r.unit_id     = u.unit_id
     JOIN properties p ON r.property_id = p.property_id
     WHERE r.status IN ('Delinquent','Partial')
-      AND r.period_month = '{last_month}'
+      AND r.period_month = '{last}'
     ORDER BY balance_owed DESC
     """, conn)
 
-    # Summary box
-    ws.cell(row=5, column=1, value="Total Delinquent Accounts:").font = font(bold=True)
-    ws.cell(row=5, column=2, value=len(df[df["status"]=="Delinquent"])).font = font(color=RED_DARK, bold=True)
-    ws.cell(row=5, column=3, value="Total Exposure:").font = font(bold=True)
-    ws.cell(row=5, column=4, value=df["balance_owed"].sum()).font = font(color=RED_DARK, bold=True)
-    ws.cell(row=5, column=4).number_format = "$#,##0"
+    # summary at top
+    total = df["balance_owed"].sum()
+    ws.cell(row=5,column=1,value="Delinquent Accounts:").font = font(bold=True)
+    ws.cell(row=5,column=2,value=len(df[df["status"]=="Delinquent"])).font = font(color=C_RED_DARK,bold=True)
+    ws.cell(row=5,column=3,value="Total Exposure:").font = font(bold=True)
+    ws.cell(row=5,column=4,value=total).font = font(color=C_RED_DARK,bold=True)
+    ws.cell(row=5,column=4).number_format = "$#,##0"
 
     cols = ["Property","City","Tenant","Unit","Type",
             "Period","Amount Due","Amount Paid","Balance Owed","Status","Lease End"]
-    header_row(ws, 7, cols, bg=RED_DARK)
+    write_header_row(ws, 7, cols, bg=C_RED_DARK)
 
-    for i, (_, row) in enumerate(df.iterrows()):
-        bg = RED_LIGHT if row["status"]=="Delinquent" else AMBER_LIGHT
-        data_row(ws, 8+i,
-                 [row["property"],row["city"],row["tenant"],
-                  row["unit_number"],row["unit_type"],row["period_month"],
-                  row["amount_due"],row["amount_paid"],row["balance_owed"],
-                  row["status"],row["lease_end"]],
-                 bg=bg, fmt_map={7:"$#,##0",8:"$#,##0",9:"$#,##0"})
+    for i, (_, r) in enumerate(df.iterrows()):
+        bg = C_RED_LIGHT if r["status"]=="Delinquent" else C_AMBER_LIGHT
+        write_data_row(ws, 8+i,
+                       [r["property"],r["city"],r["tenant"],r["unit_number"],
+                        r["unit_type"],r["period_month"],r["amount_due"],
+                        r["amount_paid"],r["balance_owed"],r["status"],r["lease_end"]],
+                       bg=bg, money_cols=[7,8,9])
 
-    set_col_widths(ws, {"A":24,"B":14,"C":22,"D":7,"E":12,
-                        "F":10,"G":12,"H":12,"I":12,"J":12,"K":12})
+    set_widths(ws, {"A":22,"B":14,"C":22,"D":7,"E":11,
+                    "F":10,"G":12,"H":12,"I":12,"J":12,"K":12})
 
 
-# ══════════════════════════════════════════════════════════════════════════════
-# SHEET 5 — YSR REVENUE TREND (with chart)
-# ══════════════════════════════════════════════════════════════════════════════
+# ── sheet 5: YSR revenue trend ────────────────────────────────────────────────
+
 def sheet_ysr(wb, conn):
     ws = wb.create_sheet("YSR Revenue Trend")
     ws.sheet_view.showGridLines = False
-    title_block(ws, "Yield Summary Report (YSR) — Monthly Revenue Trend",
-                "Gross Potential Rent vs Collected Rent | 15-month view")
+    title_block(ws, "YSR — Yield Summary Report",
+                "Monthly GPR vs Collected Rent | 15-month view")
 
     df = pd.read_sql("""
     SELECT
         period_month,
-        ROUND(SUM(amount_due),0)  gross_potential_rent,
-        ROUND(SUM(amount_paid),0) collected_rent,
+        ROUND(SUM(amount_due),0)  gpr,
+        ROUND(SUM(amount_paid),0) collected,
         ROUND(SUM(amount_due)-SUM(amount_paid),0) uncollected,
-        ROUND(SUM(amount_paid)*100.0/SUM(amount_due),1) collection_rate_pct
+        ROUND(SUM(amount_paid)*100.0/SUM(amount_due),1) coll_rate
     FROM rent_roll
     GROUP BY period_month
     ORDER BY period_month
     """, conn)
 
-    cols = ["Period","Gross Potential Rent","Collected Rent",
-            "Uncollected","Collection Rate %"]
-    header_row(ws, 5, cols)
+    cols = ["Period","Gross Potential Rent","Collected Rent","Uncollected","Collection Rate %"]
+    write_header_row(ws, 5, cols)
 
-    for i, (_, row) in enumerate(df.iterrows()):
-        bg = LIGHT_GRAY if i % 2 == 0 else WHITE
-        data_row(ws, 6+i,
-                 [row["period_month"],row["gross_potential_rent"],
-                  row["collected_rent"],row["uncollected"],
-                  row["collection_rate_pct"]/100],
-                 bg=bg, fmt_map={2:"$#,##0",3:"$#,##0",4:"$#,##0",5:"0.0%"})
+    for i, (_, r) in enumerate(df.iterrows()):
+        bg = C_LIGHT_GRAY if i%2==0 else C_WHITE
+        write_data_row(ws, 6+i,
+                       [r["period_month"],r["gpr"],r["collected"],
+                        r["uncollected"],r["coll_rate"]/100],
+                       bg=bg, money_cols=[2,3,4])
+        ws.cell(row=6+i,column=5).number_format = "0.0%"
 
-    # Bar Chart: GPR vs Collected
+    # bar chart
     chart = BarChart()
-    chart.type    = "col"
-    chart.title   = "GPR vs Collected Rent"
+    chart.type  = "col"
+    chart.title = "GPR vs Collected Rent"
     chart.y_axis.title = "Revenue ($)"
-    chart.x_axis.title = "Month"
-    chart.style   = 10
-    chart.width   = 22
-    chart.height  = 12
+    chart.width  = 22
+    chart.height = 12
+    chart.style  = 10
 
-    data_ref = Reference(ws, min_col=2, max_col=3,
-                         min_row=5, max_row=5+len(df))
-    cats_ref = Reference(ws, min_col=1,
-                         min_row=6, max_row=5+len(df))
-    chart.add_data(data_ref, titles_from_data=True)
-    chart.set_categories(cats_ref)
-    chart.series[0].graphicalProperties.solidFill = DARK_GREEN
-    chart.series[1].graphicalProperties.solidFill = ACCENT_GOLD
-
+    data = Reference(ws, min_col=2, max_col=3, min_row=5, max_row=5+len(df))
+    cats = Reference(ws, min_col=1, min_row=6, max_row=5+len(df))
+    chart.add_data(data, titles_from_data=True)
+    chart.set_categories(cats)
+    chart.series[0].graphicalProperties.solidFill = C_DARK_GREEN
+    chart.series[1].graphicalProperties.solidFill = C_GOLD
     ws.add_chart(chart, "G5")
-    set_col_widths(ws, {"A":12,"B":22,"C":18,"D":14,"E":16})
+
+    set_widths(ws, {"A":12,"B":22,"C":18,"D":14,"E":16})
 
 
-# ══════════════════════════════════════════════════════════════════════════════
-# SHEET 6 — MAINTENANCE ANALYSIS
-# ══════════════════════════════════════════════════════════════════════════════
+# ── sheet 6: maintenance ──────────────────────────────────────────────────────
+
 def sheet_maintenance(wb, conn):
     ws = wb.create_sheet("Maintenance Analysis")
     ws.sheet_view.showGridLines = False
     title_block(ws, "Maintenance Cost & SLA Analysis",
-                "Open tickets, resolution times, cost by property & category")
+                "Open tickets, resolution times, cost by property and category")
 
     df = pd.read_sql("""
     SELECT
@@ -463,7 +427,7 @@ def sheet_maintenance(wb, conn):
         COUNT(m.ticket_id) total_tickets,
         SUM(CASE WHEN m.status='Open' THEN 1 ELSE 0 END) open_tickets,
         ROUND(AVG(CASE WHEN m.close_date IS NOT NULL
-              THEN julianday(m.close_date)-julianday(m.open_date) END),1) avg_resolution_days,
+              THEN julianday(m.close_date)-julianday(m.open_date) END),1) avg_res_days,
         ROUND(SUM(m.cost),0) total_cost,
         ROUND(AVG(m.cost),0) avg_cost
     FROM maintenance m
@@ -472,120 +436,115 @@ def sheet_maintenance(wb, conn):
     ORDER BY total_cost DESC
     """, conn)
 
-    cols = ["Property","Category","Priority","Total Tickets",
-            "Open Tickets","Avg Resolution Days","Total Cost","Avg Cost"]
-    header_row(ws, 5, cols)
-
     priority_colors = {
-        "Emergency": (RED_LIGHT, RED_DARK),
-        "High":      (AMBER_LIGHT, AMBER_DARK),
+        "Emergency": (C_RED_LIGHT,   C_RED_DARK),
+        "High":      (C_AMBER_LIGHT, C_AMBER_DARK),
     }
-    for i, (_, row) in enumerate(df.iterrows()):
-        bg = LIGHT_GRAY if i % 2 == 0 else WHITE
-        data_row(ws, 6+i,
-                 [row["property"],row["category"],row["priority"],
-                  row["total_tickets"],row["open_tickets"],
-                  row["avg_resolution_days"],row["total_cost"],row["avg_cost"]],
-                 bg=bg, fmt_map={7:"$#,##0",8:"$#,##0"})
-        pri_cell = ws.cell(row=6+i, column=3)
-        if row["priority"] in priority_colors:
-            bg_c, fg_c = priority_colors[row["priority"]]
-            pri_cell.fill = fill(bg_c)
-            pri_cell.font = font(color=fg_c, bold=True)
 
-    set_col_widths(ws, {"A":24,"B":14,"C":12,"D":13,
-                        "E":12,"F":20,"G":12,"H":10})
+    cols = ["Property","Category","Priority","Total Tickets",
+            "Open","Avg Res. Days","Total Cost","Avg Cost"]
+    write_header_row(ws, 5, cols)
+
+    for i, (_, r) in enumerate(df.iterrows()):
+        bg = C_LIGHT_GRAY if i%2==0 else C_WHITE
+        write_data_row(ws, 6+i,
+                       [r["property"],r["category"],r["priority"],
+                        r["total_tickets"],r["open_tickets"],
+                        r["avg_res_days"],r["total_cost"],r["avg_cost"]],
+                       bg=bg, money_cols=[7,8])
+        pc = ws.cell(row=6+i, column=3)
+        if r["priority"] in priority_colors:
+            bg_c, fg_c = priority_colors[r["priority"]]
+            pc.fill = fill(bg_c)
+            pc.font = font(color=fg_c, bold=True)
+
+    set_widths(ws, {"A":22,"B":14,"C":11,"D":13,"E":8,
+                    "F":14,"G":12,"H":10})
 
 
-# ══════════════════════════════════════════════════════════════════════════════
-# SHEET 7 — FEATURE ENGINEERING INSIGHTS
-# ══════════════════════════════════════════════════════════════════════════════
+# ── sheet 7: feature engineering insights ─────────────────────────────────────
+
 def sheet_feature_insights(wb):
     ws = wb.create_sheet("Feature Engineering")
     ws.sheet_view.showGridLines = False
     title_block(ws, "Feature-Engineered Metrics",
-                "Derived analytics: risk scores, loss-to-lease, SLA breaches")
+                "Derived analytics — risk scores, grades, loss-to-lease")
 
     try:
         df = pd.read_csv("data/feat_property_kpis.csv")
-        cols = ["name","city","occupancy_rate","vacancy_rate",
+        want = ["name","city","occupancy_rate","vacancy_rate",
                 "avg_market_rent","avg_actual_rent","loss_to_lease_pct",
                 "collection_rate_pct","revenue_per_unit",
                 "performance_score","performance_grade"]
-        df = df[[c for c in cols if c in df.columns]]
+        df = df[[c for c in want if c in df.columns]]
 
-        header_row(ws, 5,
-                   ["Property","City","Occupancy %","Vacancy %",
-                    "Avg Market Rent","Avg Actual Rent","Loss-to-Lease %",
-                    "Collection Rate %","Rev/Unit","Perf Score","Grade"])
+        cols = ["Property","City","Occupancy %","Vacancy %",
+                "Avg Mkt Rent","Avg Actual Rent","Loss-to-Lease %",
+                "Collection %","Rev/Unit","Perf Score","Grade"]
+        write_header_row(ws, 5, cols)
 
         grade_colors = {
-            "A+": (LIGHT_GREEN, MID_GREEN),
-            "A":  (LIGHT_GREEN, MID_GREEN),
-            "B":  (AMBER_LIGHT, AMBER_DARK),
-            "C":  (RED_LIGHT,   RED_DARK),
+            "A+": (C_LIGHT_GREEN, C_MID_GREEN),
+            "A":  (C_LIGHT_GREEN, C_MID_GREEN),
+            "B":  (C_AMBER_LIGHT, C_AMBER_DARK),
+            "C":  (C_RED_LIGHT,   C_RED_DARK),
         }
-        for i, (_, row) in enumerate(df.iterrows()):
-            bg = LIGHT_GRAY if i % 2 == 0 else WHITE
-            vals = [row.get(c,"") for c in df.columns]
-            data_row(ws, 6+i, vals, bg=bg,
-                     fmt_map={3:"0.0%",4:"0.0%",5:"$#,##0",6:"$#,##0",
-                               7:"0.00%",8:"0.0%",9:"$#,##0"})
-            grade_cell = ws.cell(row=6+i, column=len(df.columns))
-            g = str(row.get("performance_grade",""))
+        for i, (_, r) in enumerate(df.iterrows()):
+            bg   = C_LIGHT_GRAY if i%2==0 else C_WHITE
+            vals = [r.get(c,"") for c in df.columns]
+            write_data_row(ws, 6+i, vals, bg=bg, money_cols=[5,6,9])
+            gc = ws.cell(row=6+i, column=len(df.columns))
+            g  = str(r.get("performance_grade",""))
             if g in grade_colors:
                 bg_c, fg_c = grade_colors[g]
-                grade_cell.fill = fill(bg_c)
-                grade_cell.font = font(color=fg_c, bold=True)
+                gc.fill = fill(bg_c)
+                gc.font = font(color=fg_c, bold=True)
 
-        set_col_widths(ws, {"A":24,"B":14,"C":12,"D":10,"E":16,
-                            "F":16,"G":14,"H":16,"I":12,"J":12,"K":8})
+        set_widths(ws, {"A":22,"B":14,"C":11,"D":10,"E":14,
+                        "F":14,"G":13,"H":12,"I":10,"J":11,"K":7})
     except FileNotFoundError:
         ws.cell(row=5, column=1,
-                value="Run feature_engineering.py first to populate this sheet.")
+                value="run feature_engineering.py first to populate this sheet.")
 
 
-# ══════════════════════════════════════════════════════════════════════════════
-# MAIN — BUILD WORKBOOK
-# ══════════════════════════════════════════════════════════════════════════════
+# ── main ───────────────────────────────────────────────────────────────────────
+
 def main():
-    print("\n" + "="*55)
-    print("  Sage Ventures — Phase 4: Excel Report Generator")
-    print("="*55)
-
-    conn = sqlite3.connect(DB_PATH)
+    conn = sqlite3.connect(DB)
     wb   = Workbook()
-    wb.remove(wb.active)  # remove default sheet
+    wb.remove(wb.active)  # remove blank default sheet
 
-    print("  Building Sheet 1: Executive Summary...")
-    sheet_executive_summary(wb, conn)
+    print("phase 4 — excel report")
+    print("-" * 30)
 
-    print("  Building Sheet 2: Rent Roll...")
+    print("  executive summary...")
+    sheet_executive(wb, conn)
+
+    print("  rent roll...")
     sheet_rent_roll(wb, conn)
 
-    print("  Building Sheet 3: Lease Expiration Pipeline...")
+    print("  lease expiration...")
     sheet_lease_expiration(wb, conn)
 
-    print("  Building Sheet 4: Delinquency Report...")
+    print("  delinquency report...")
     sheet_delinquency(wb, conn)
 
-    print("  Building Sheet 5: YSR Revenue Trend...")
+    print("  YSR revenue trend...")
     sheet_ysr(wb, conn)
 
-    print("  Building Sheet 6: Maintenance Analysis...")
+    print("  maintenance analysis...")
     sheet_maintenance(wb, conn)
 
-    print("  Building Sheet 7: Feature Engineering Insights...")
+    print("  feature engineering insights...")
     sheet_feature_insights(wb)
 
     conn.close()
-    wb.save(OUT_FILE)
+    wb.save(OUTFILE)
 
-    print("="*55)
-    print("  Phase 4 Complete ✓")
-    print(f"  Excel Report → {OUT_FILE}")
-    print("  7 sheets | Charts | Conditional formatting | KPI cards")
-    print("="*55)
+    print(f"\nreport → {OUTFILE}")
+    print("7 sheets | conditional formatting | charts")
+    print("done.")
+
 
 if __name__ == "__main__":
     main()

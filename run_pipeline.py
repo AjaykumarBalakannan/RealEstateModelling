@@ -1,77 +1,54 @@
 """
-=============================================================
- Sage Ventures – Multifamily Analytics
- MASTER PIPELINE — Runs everything in one command
- Run:  python run_pipeline.py
-=============================================================
+run_pipeline.py
+
+runs all 5 phases in order with one command.
+stops immediately if any phase fails so you know what broke.
+
+run:  python run_pipeline.py
 """
 
 import subprocess
 import sys
 import time
-import os
+
 
 def run(script, label):
-    print(f"\n{'='*55}")
-    print(f"  ▶  {label}")
-    print(f"{'='*55}")
-    start = time.time()
-    result = subprocess.run(
-        [sys.executable, script],
-        capture_output=False
-    )
+    print(f"\n[{label}]")
+    start  = time.time()
+    result = subprocess.run([sys.executable, script])
     elapsed = round(time.time() - start, 1)
-    if result.returncode == 0:
-        print(f"  ✓  Completed in {elapsed}s")
-    else:
-        print(f"  ✗  FAILED — check errors above")
+
+    if result.returncode != 0:
+        print(f"  failed — check errors above")
         sys.exit(1)
 
+    print(f"  done in {elapsed}s")
+
+
 def main():
-    print("\n" + "="*55)
-    print("  SAGE VENTURES — FULL ANALYTICS PIPELINE")
-    print("  Automated End-to-End Run")
-    print("="*55)
-    print(f"  Started at: {time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print("sage ventures — full analytics pipeline")
+    print(f"started: {time.strftime('%Y-%m-%d %H:%M:%S')}")
+    t0 = time.time()
 
-    start_total = time.time()
+    run("generate_data.py",       "1/5 data generation")
+    run("feature_engineering.py", "2/5 feature engineering")
+    run("adhoc_analysis.py",      "3/5 ad hoc analysis")
+    run("excel_report.py",        "4/5 excel report")
+    run("visualize.py",           "5/5 visualizations")
 
-    run("generate_data.py",       "Phase 1 — Data Generation (SQLite + CSVs)")
-    run("feature_engineering.py", "Phase 2 — Feature Engineering (Pandas)")
-    run("adhoc_analysis.py",      "Phase 3 — Ad Hoc Analysis (5 reports)")
-    run("excel_report.py",        "Phase 4 — Excel Report (7 sheets)")
-    run("visualize.py",           "Phase 5 — Visualizations (10 charts)")
-
-    total = round(time.time() - start_total, 1)
-
-    print("\n" + "="*55)
-    print("  PIPELINE COMPLETE ✓")
-    print(f"  Total runtime: {total}s")
-    print("="*55)
+    total = round(time.time() - t0, 1)
+    print(f"\nall done in {total}s")
     print("""
-  Outputs generated:
-  data/
-    ├── sage_ventures.db         SQLite database
-    ├── properties.csv           Raw tables
-    ├── units.csv
-    ├── tenants.csv
-    ├── rent_roll.csv
-    ├── maintenance.csv
-    ├── occupancy_monthly.csv
-    ├── feat_property_kpis.csv   Feature engineered
-    ├── feat_tenants.csv
-    ├── feat_units.csv
-    ├── feat_maintenance.csv
-    └── feat_rent_roll.csv
+outputs:
+  data/sage_ventures.db          sqlite database
+  data/feat_*.csv                feature engineered tables
+  outputs/adhoc/                 5 ad hoc reports
+  outputs/charts/                10 charts (png)
+  outputs/SageVentures_*.xlsx    excel report
 
-  outputs/
-    ├── adhoc/                   5 ad hoc reports
-    ├── charts/                  10 automated charts
-    └── SageVentures_Analytics_Report_YYYYMMDD.xlsx
+next: open power bi desktop and load csvs from data/
     """)
-    print("  Next step: open Power BI Desktop")
-    print("  → load CSVs from data/ folder")
-    print("="*55)
+
 
 if __name__ == "__main__":
     main()
